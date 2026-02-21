@@ -18,6 +18,7 @@ git push -f origin HEAD:gh-pages
 
 REM Reset work-tree so main is clean
 git --work-tree dist reset --hard
+git reset --hard origin/main
 
 echo Deployment complete!
 pause
