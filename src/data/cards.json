@@ -475,12 +475,12 @@
   {
     "id": "1324021",
     "name": "Gleißender Vollmond",
-    "strength": 0,
+    "strength": 3,
     "cost": 0,
     "tags": "Natur",
     "ability": "Generiere in einer verbündeten Reihe für 3 Züge Vollmond.",
     "category": "Spell",
-    "type": "",
+    "type": "bronze",
     "faction": "monster"
   },
   {
@@ -1008,7 +1008,7 @@
     "tags": "Bestie, siege",
     "ability": "Einsatz: Füge einem Gegner Schaden in Höhe der Anzahl Einheiten die du kontrollierst zu.",
     "category": "Unit",
-    "type": "",
+    "type": "gold",
     "faction": "neutral"
   },
   {
@@ -3758,7 +3758,7 @@
     "tags": "Mensch, Soldat, agile",
     "ability": "Zugende: Hat diese Einheit einen Schild, verbessere benachbarte Einheiten um 1.",
     "category": "Unit",
-    "type": "",
+    "type": "bronze",
     "faction": "northern_realms"
   },
   {
