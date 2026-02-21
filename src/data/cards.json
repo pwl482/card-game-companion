@@ -473,14 +473,14 @@
     "faction": "monster"
   },
   {
-    "id": "132402",
+    "id": "1324021",
     "name": "Gleißender Vollmond",
-    "strength": 3,
+    "strength": 0,
     "cost": 0,
     "tags": "Natur",
     "ability": "Generiere in einer verbündeten Reihe für 3 Züge Vollmond.",
     "category": "Spell",
-    "type": "bronze",
+    "type": "",
     "faction": "monster"
   },
   {
@@ -1001,14 +1001,14 @@
     "faction": "neutral"
   },
   {
-    "id": "202397",
+    "id": "2023971",
     "name": "Kicia",
     "strength": 2,
     "cost": 4,
     "tags": "Bestie, siege",
     "ability": "Einsatz: Füge einem Gegner Schaden in Höhe der Anzahl Einheiten die du kontrollierst zu.",
     "category": "Unit",
-    "type": "gold",
+    "type": "",
     "faction": "neutral"
   },
   {
@@ -1309,17 +1309,6 @@
     "faction": "neutral"
   },
   {
-    "id": "203167",
-    "name": "Yennefers Illusion",
-    "strength": 4,
-    "cost": 0,
-    "tags": "Mensch, Magier, Token, agile",
-    "ability": "Passiv: Wenn diese Karte Schaden erleidet, zerstöre sie.",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
     "id": "122216",
     "name": "Carlo Varese",
     "strength": 3,
@@ -1414,17 +1403,6 @@
     "cost": 6,
     "tags": "Mensch, Magier, melee",
     "ability": "Einsatz: Wenn dein Startdeck keine Duplikate enthält, generiere ein Strategem aus dem Strategem Zusatzdeck in dieser Reihe.",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
-    "id": "202566",
-    "name": "Lampen-Djinn",
-    "strength": 5,
-    "cost": 0,
-    "tags": "Token, agile",
-    "ability": "",
     "category": "Unit",
     "type": "gold",
     "faction": "neutral"
@@ -3773,14 +3751,14 @@
     "faction": "northern_realms"
   },
   {
-    "id": "122311",
+    "id": "1223111",
     "name": "Redanien-Anwärter",
     "strength": 4,
     "cost": 1,
     "tags": "Mensch, Soldat, agile",
     "ability": "Zugende: Hat diese Einheit einen Schild, verbessere benachbarte Einheiten um 1.",
     "category": "Unit",
-    "type": "bronze",
+    "type": "",
     "faction": "northern_realms"
   },
   {
