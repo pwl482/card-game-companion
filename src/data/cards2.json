@@ -1,0 +1,233 @@
+[
+  {
+    "id": "1",
+    "name": "Ancient Dragon",
+    "strength": 10,
+    "cost": 12,
+    "tags": "Dragon, Elder",
+    "ability": "Deploy: Destroy the weakest enemy unit.",
+    "type": "gold",
+    "category": "Unit",
+    "faction": "monster"
+  },
+  {
+    "id": "2",
+    "name": "Forest Guard",
+    "strength": 4,
+    "cost": 4,
+    "tags": "Soldier, Elf",
+    "ability": "Boost adjacent units by 2.",
+    "type": "bronze",
+    "category": "Unit",
+    "faction": "nature"
+  },
+  {
+    "id": "3",
+    "name": "Merchant of Souls",
+    "strength": 3,
+    "cost": 5,
+    "tags": "Human, Cursed",
+    "ability": "Draw a card, then discard a card.",
+    "type": "gold",
+    "category": "Unit",
+    "faction": "neutral"
+  },
+  {
+    "id": "4",
+    "name": "Scout",
+    "strength": 2,
+    "cost": 3,
+    "tags": "Soldier",
+    "ability": "Look at the top 3 cards of your deck.",
+    "type": "bronze",
+    "category": "Unit",
+    "faction": "neutral"
+  },
+  {
+    "id": "5",
+    "name": "Wolf Pack",
+    "strength": 3,
+    "cost": 4,
+    "tags": "Beast",
+    "ability": "Summon all copies of Wolf Pack from your deck.",
+    "type": "bronze",
+    "category": "Unit",
+    "faction": "monster"
+  },
+  {
+    "id": "6",
+    "name": "Stone Golem",
+    "strength": 8,
+    "cost": 8,
+    "tags": "Construct",
+    "ability": "Resilient: Stay on board for the next round.",
+    "type": "bronze",
+    "category": "Unit",
+    "faction": "neutral"
+  },
+  {
+    "id": "7",
+    "name": "Phoenix",
+    "strength": 6,
+    "cost": 10,
+    "tags": "Beast, Magical",
+    "ability": "When destroyed, return to hand at the start of next round.",
+    "type": "gold",
+    "category": "Unit",
+    "faction": "nature"
+  },
+  {
+    "id": "8",
+    "name": "Shield Maiden",
+    "strength": 5,
+    "cost": 5,
+    "tags": "Soldier, Human",
+    "ability": "Armor 2. Gain 1 strength whenever an ally is boosted.",
+    "type": "bronze",
+    "category": "Unit",
+    "faction": "monster"
+  },
+  {
+    "id": "11",
+    "name": "Wandering Bard",
+    "strength": 2,
+    "cost": 0,
+    "tags": "Human, Support",
+    "ability": "Play a random bronze special card from your deck.",
+    "type": "bronze",
+    "category": "Unit",
+    "faction": "neutral"
+  },
+  {
+    "id": "10",
+    "name": "Vampire Lord",
+    "strength": 7,
+    "cost": 9,
+    "tags": "Vampire, Undead",
+    "ability": "Drain 3 strength from an enemy unit.",
+    "type": "gold",
+    "category": "Unit",
+    "faction": "monster"
+  },
+  {
+    "id": "20",
+    "name": "Thunderbolt",
+    "strength": 0,
+    "cost": 6,
+    "tags": "Spell, Damage",
+    "ability": "Deal 5 damage to an enemy unit.",
+    "type": "bronze",
+    "category": "Spell",
+    "faction": "neutral"
+  },
+  {
+    "id": "21",
+    "name": "Thunderbolt",
+    "strength": 0,
+    "cost": 0,
+    "tags": "Damage",
+    "ability": "Deal 5 damage to an enemy unit.",
+    "type": "bronze",
+    "category": "Spell",
+    "faction": "neutral"
+  },
+  {
+    "id": "22",
+    "name": "Thunderbolt",
+    "strength": 0,
+    "cost": 0,
+    "tags": "Damage",
+    "ability": "Deal 5 damage to an enemy unit.",
+    "type": "bronze",
+    "category": "Spell",
+    "faction": "neutral"
+  },
+  {
+    "id": "23",
+    "name": "Thunderbolt",
+    "strength": 0,
+    "cost": 0,
+    "tags": "Damage",
+    "ability": "Deal 5 damage to an enemy unit.",
+    "type": "bronze",
+    "category": "Spell",
+    "faction": "neutral"
+  },
+  {
+    "id": "24",
+    "name": "Thunderbolt",
+    "strength": 0,
+    "cost": 0,
+    "tags": "Damage",
+    "ability": "Deal 5 damage to an enemy unit.",
+    "type": "bronze",
+    "category": "Spell",
+    "faction": "neutral"
+  },
+  {
+    "id": "25",
+    "name": "Thunderbolt",
+    "strength": 0,
+    "cost": 0,
+    "tags": "Damage",
+    "ability": "Deal 5 damage to an enemy unit.",
+    "type": "bronze",
+    "category": "Spell",
+    "faction": "neutral"
+  },
+  {
+    "id": "26",
+    "name": "Thunderbolt",
+    "strength": 0,
+    "cost": 0,
+    "tags": "Damage",
+    "ability": "Deal 5 damage to an enemy unit.",
+    "type": "bronze",
+    "category": "Spell",
+    "faction": "neutral"
+  },
+  {
+    "id": "27",
+    "name": "Thunderbolt",
+    "strength": 0,
+    "cost": 0,
+    "tags": "Damage",
+    "ability": "Deal 5 damage to an enemy unit.",
+    "type": "bronze",
+    "category": "Spell",
+    "faction": "nr"
+  },
+  {
+    "id": "29",
+    "name": "Wandering Bard",
+    "strength": 2,
+    "cost": 0,
+    "tags": "Human, Support",
+    "ability": "Play a random bronze special card from your deck.",
+    "type": "bronze",
+    "category": "Unit",
+    "faction": "neutral"
+  },
+  {
+    "id": "30",
+    "name": "Wandering Bard",
+    "strength": 2,
+    "cost": 0,
+    "tags": "Human, Support",
+    "ability": "Play a random bronze special card from your deck.",
+    "type": "bronze",
+    "category": "Unit",
+    "faction": "neutral"
+  },
+  {
+    "id": "28",
+    "name": "Nature's Gift",
+    "strength": 0,
+    "cost": 8,
+    "tags": "Spell, Boost",
+    "ability": "Boost all ally units by 2.",
+    "type": "gold",
+    "category": "Spell",
+    "faction": "nature"
+  }
+]
