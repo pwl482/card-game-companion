@@ -1,39 +1,39 @@
 @echo off
 REM =========================================
-REM Safe deploy to gh-pages using temporary orphan branch
+REM Safe deploy to gh-pages using temp orphan branch
 REM =========================================
 
-REM Switch to main and pull latest changes
+REM Ensure we are on main branch and up to date
 git checkout main
 git pull origin main
 
 REM Build the Vite app
 npm run build
 
-REM Delete previous temp branch if it exists
-git branch -D temp-gh-pages 2>nul
+REM Create a temporary folder for deployment
+set TMP_DIR=%TEMP%\gh-pages-temp
+rmdir /S /Q "%TMP_DIR%"
+mkdir "%TMP_DIR%"
 
-REM Create a temporary orphan branch
-git checkout --orphan temp-gh-pages
+REM Copy dist contents to temp folder
+xcopy /E /I /Y dist\* "%TMP_DIR%\" >nul
 
-REM Remove all files from the index (working tree stays intact)
-git rm -rf . >nul 2>&1
+REM Change to temp folder and initialize orphan branch
+pushd "%TMP_DIR%"
+git init
+git remote add origin https://github.com/pwl482/card-game-companion.git
+git checkout -b gh-pages
 
-REM Copy dist contents into repo index
-xcopy /E /I /Y dist\* . >nul
-
-REM Add all files and commit
 git add .
 git commit -m "Deploy %date% %time%"
+git push -f origin gh-pages
 
-REM Force push to gh-pages
-git push -f origin temp-gh-pages:gh-pages
+REM Return to repo root and clean up
+popd
+rmdir /S /Q "%TMP_DIR%"
 
-REM Switch back to main
+REM Return to main branch just in case
 git checkout main
-
-REM Delete temporary branch
-git branch -D temp-gh-pages
 
 echo Deployment complete!
 pause
