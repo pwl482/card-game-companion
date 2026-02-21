@@ -110,17 +110,6 @@
     "faction": "monster"
   },
   {
-    "id": "202125",
-    "name": "Drohne",
-    "strength": 2,
-    "cost": 0,
-    "tags": "Insektoid, Token, ranged",
-    "ability": "",
-    "category": "Unit",
-    "type": "bronze",
-    "faction": "monster"
-  },
-  {
     "id": "201701",
     "name": "Barbegazi",
     "strength": 6,
@@ -396,17 +385,6 @@
     "faction": "monster"
   },
   {
-    "id": "132403",
-    "name": "Wolfsrudel",
-    "strength": 1,
-    "cost": 0,
-    "tags": "Bestie, Token, agile",
-    "ability": "",
-    "category": "Unit",
-    "type": "bronze",
-    "faction": "monster"
-  },
-  {
     "id": "132205",
     "name": "Morvudd",
     "strength": 6,
@@ -424,17 +402,6 @@
     "cost": 9,
     "tags": "Bestie, agile",
     "ability": "Einsatz: Generiere in der gegenüberliegenden Reihe für 2 Züge Nebel.\nZugende: Ist dort kein Nebel mehr, verwandle diese Karte in Aguara: Wahre Gestalt.",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "monster"
-  },
-  {
-    "id": "200056",
-    "name": "Aguara: Wahre Gestalt",
-    "strength": 7,
-    "cost": 9,
-    "tags": "Bestie, agile",
-    "ability": "Wenn diese Einheit auf dem Schlachtfeld erscheint, generiere Vollmond in ihrer Reihe für 3 Züge\nZugende: Verbessere benachbarte Bestien um 1.",
     "category": "Unit",
     "type": "gold",
     "faction": "monster"
@@ -513,17 +480,6 @@
     "tags": "Natur",
     "ability": "Generiere in einer verbündeten Reihe für 3 Züge Vollmond.",
     "category": "Spell",
-    "type": "bronze",
-    "faction": "monster"
-  },
-  {
-    "id": "132402",
-    "name": "Vollmond",
-    "strength": 3,
-    "cost": 0,
-    "tags": "Segen",
-    "ability": "Zugstart: Verbessere die schwächste Bestie in dieser Reihe um 2.",
-    "category": "Strategem",
     "type": "bronze",
     "faction": "monster"
   },
@@ -635,28 +591,6 @@
     "ability": "Zugende, Sabbat: Generiere auf beiden Seiten dieser Einheit Gernichoras Frucht und verwandle diese Karte in Gernichora (Stärke bleibt gleich).",
     "category": "Unit",
     "type": "gold",
-    "faction": "monster"
-  },
-  {
-    "id": "202994",
-    "name": "Gernichora",
-    "strength": 7,
-    "cost": 7,
-    "tags": "Relikt, agile",
-    "ability": "Zugende: Verwandle diese Karte in Blutige Herrin (Stärke bleibt gleich). >=1 Frucht, Sabbat: Verbessere diese Karte stattdessen für jede verbündete Gernichoras Frucht um 1.",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "monster"
-  },
-  {
-    "id": "202183",
-    "name": "Gernichoras Frucht",
-    "strength": 1,
-    "cost": 0,
-    "tags": "Relikt, Token, agile",
-    "ability": "Gedeihen.",
-    "category": "Unit",
-    "type": "bronze",
     "faction": "monster"
   },
   {
@@ -990,17 +924,6 @@
     "faction": "monster"
   },
   {
-    "id": "132402",
-    "name": "Blutmond",
-    "strength": 3,
-    "cost": 0,
-    "tags": "Gefahr",
-    "ability": "Zugstart: Füge der stärksten nicht verwundeten oder verbesserten Einheit 2 Schaden zu. Wenn keine vorhanden, nimm die stärkste verwundete Einheit oder sonst die stärkste Einheit.",
-    "category": "Strategem",
-    "type": "bronze",
-    "faction": "monster"
-  },
-  {
     "id": "202103",
     "name": "Keltullis",
     "strength": 9,
@@ -1051,17 +974,6 @@
     "cost": 5,
     "tags": "Ogroid, agile",
     "ability": "Wenn diese Einheit auf dem Schlachtfeld erscheint, verbessere benachbarte Einheiten um 1.\nZugstart: Sind >= 3 Einheiten in der Reihe gegenüber, verwandle in Speerspitze.",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "monster"
-  },
-  {
-    "id": "132408",
-    "name": "Speerspitze",
-    "strength": 8,
-    "cost": 5,
-    "tags": "Ogroid, agile",
-    "ability": "Wenn diese Einheit auf dem Schlachtfeld erscheint, füge Gegnern in der Reihe gegenüber 1 Schaden zu.\nZugstart: Sind <= 2 Gegner gegenüber, verwandle in Speerspitze: Schlaf.",
     "category": "Unit",
     "type": "gold",
     "faction": "monster"
@@ -1177,116 +1089,6 @@
     "faction": "neutral"
   },
   {
-    "id": "203173",
-    "name": "Fluch der Völlerei",
-    "strength": 0,
-    "cost": 0,
-    "tags": "",
-    "ability": "Verbessere einen Verbündeten um 2. Erhöhe diesen Wert um die Basisstäke des Ziels.",
-    "category": "Spell",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
-    "id": "203175",
-    "name": "Fluch der Trägheit",
-    "strength": 0,
-    "cost": 0,
-    "tags": "",
-    "ability": "Spiele eine Bronzeeinheit von deiner Hand aus, sieh dir dann die obersten 3 Karten in deinem Deck an und ziehe 1.",
-    "category": "Spell",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
-    "id": "203176",
-    "name": "Fluch des Neids",
-    "strength": 0,
-    "cost": 0,
-    "tags": "",
-    "ability": "Füge allen Gegnern 1 Schaden zu.",
-    "category": "Spell",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
-    "id": "203177",
-    "name": "Fluch des Zorns",
-    "strength": 0,
-    "cost": 0,
-    "tags": "",
-    "ability": "Füge einem Gegner 6 Schaden zu. Todesstoß: Füge den überschüssigen Schaden benachbarten Einheiten zu.",
-    "category": "Spell",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
-    "id": "203178",
-    "name": "Fluch des Stolzes",
-    "strength": 0,
-    "cost": 0,
-    "tags": "",
-    "ability": "Zerstöre einen Gegner mit max. 8 Stärke.",
-    "category": "Spell",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
-    "id": "203179",
-    "name": "Segen der Keuschheit",
-    "strength": 0,
-    "cost": 0,
-    "tags": "",
-    "ability": "Verbessere allen Verbündeten mit Stärke ≤ 3 um 1.",
-    "category": "Spell",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
-    "id": "203180",
-    "name": "Segen der Mäßigung",
-    "strength": 0,
-    "cost": 0,
-    "tags": "",
-    "ability": "Setze die Stärke des schwächsten Verbündeten auf 10.",
-    "category": "Spell",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
-    "id": "203181",
-    "name": "Segen der Mildtätigkeit",
-    "strength": 0,
-    "cost": 0,
-    "tags": "",
-    "ability": "Durchsuche dein Deck nach der Einheit mit den niedrigsten Kosten und spiele sie aus.",
-    "category": "Spell",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
-    "id": "203183",
-    "name": "Segen der Wohlwollens",
-    "strength": 0,
-    "cost": 0,
-    "tags": "",
-    "ability": "Verbessere Verbündete mit gerader Stärke um 1 wenn sie neben einer Einheit mit ungerader Stärke sind - und umgekehrt.",
-    "category": "Spell",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
-    "id": "203185",
-    "name": "Segen der Demut",
-    "strength": 0,
-    "cost": 0,
-    "tags": "",
-    "ability": "Verbessere einen Verbündeten mit Stärke 6 oder mehr um 7.",
-    "category": "Spell",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
     "id": "112106",
     "name": "Triss: Meteoritenregen",
     "strength": 3,
@@ -1370,171 +1172,6 @@
     "cost": 2,
     "tags": "Ogroid, siege",
     "ability": "Einsatz: Verbanne alle Karten auf deiner Hand und ziehe dann ebenso viele Karten.",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
-    "id": "201726",
-    "name": "Shøp: Magier",
-    "strength": 4,
-    "cost": 0,
-    "tags": "Ogroid, Magier, Token, siege",
-    "ability": "Einsatz: Mische die Karte ganz rechts auf den Händen beider Spieler in ihr Deck und lass beide eine Karte ziehen.",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
-    "id": "201727",
-    "name": "Shøp: Magier",
-    "strength": 4,
-    "cost": 0,
-    "tags": "Ogroid, Magier, Token, siege",
-    "ability": "Einsatz: Verschiebe eine andere zufällig gewählte Einheit in die Reihe gegenüber.",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
-    "id": "201728",
-    "name": "Shøp: Magier",
-    "strength": 4,
-    "cost": 0,
-    "tags": "Ogroid, Magier, Token, siege",
-    "ability": "Einsatz: Generiere für 3 Züge in allen Reihen zufällige Reiheneffekte. Verwende dazu ein Deck mit je einer Karte pro Reiheneffekt und ziehe sie.",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
-    "id": "201729",
-    "name": "Shøp: Magier",
-    "strength": 4,
-    "cost": 0,
-    "tags": "Ogroid, Magier, Token, siege",
-    "ability": "Einsatz: Verteile 13 mal 1 Schaden zufällig auf Gegner und andere Verbündete.",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
-    "id": "201730",
-    "name": "Shøp: Magier",
-    "strength": 4,
-    "cost": 0,
-    "tags": "Ogroid, Magier, Token, siege",
-    "ability": "Einsatz: Durchsuche die Decks beider Spieler nach der obersten Einheit und rufe sie auf die jeweilige Seite herbei.",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
-    "id": "201732",
-    "name": "Shøp: Jäger",
-    "strength": 6,
-    "cost": 0,
-    "tags": "Ogroid, Token, ranged",
-    "ability": "Einsatz: Spiele die oberste Karte aus deinem Deck aus.",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
-    "id": "201733",
-    "name": "Shøp: Jäger",
-    "strength": 6,
-    "cost": 0,
-    "tags": "Ogroid, Token, ranged",
-    "ability": "Einsatz: Füge 3 Einheiten in einer gegnerischen Reihe 3 Schaden zu.",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
-    "id": "201734",
-    "name": "Shøp: Jäger",
-    "strength": 6,
-    "cost": 0,
-    "tags": "Ogroid, Token, ranged",
-    "ability": "Einsatz: Entferne einen Reiheneffekt deiner Wahl.",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
-    "id": "201735",
-    "name": "Shøp: Jäger",
-    "strength": 6,
-    "cost": 0,
-    "tags": "Ogroid, Token, ranged",
-    "ability": "Einsatz: Zerstöre einen zufällig gewählten Gegner.",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
-    "id": "201736",
-    "name": "Shøp: Jäger",
-    "strength": 6,
-    "cost": 0,
-    "tags": "Ogroid, Token, ranged",
-    "ability": "Einsatz: Generiere für 4 Züge in einer gegnerischen Reihe einen zufälligen Gefahr Reiheneffekt. Verwende dazu ein Deck mit je einer Karte pro Gefahr Reiheneffekt und ziehe eine.",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
-    "id": "201738",
-    "name": "Shøp: Ritter",
-    "strength": 10,
-    "cost": 0,
-    "tags": "Ogroid, Ritter, Token, melee",
-    "ability": "Einsatz: Füge einem Gegner 4 Schaden zu.",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
-    "id": "201739",
-    "name": "Shøp: Ritter",
-    "strength": 10,
-    "cost": 0,
-    "tags": "Ogroid, Ritter, Token, melee",
-    "ability": "Einsatz: Blockiere eine Einheit.",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
-    "id": "201740",
-    "name": "Shøp: Ritter",
-    "strength": 10,
-    "cost": 0,
-    "tags": "Ogroid, Ritter, Token, melee",
-    "ability": "Einsatz: Verbessere deine schwächste(n) Einheit(en) um 2.",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
-    "id": "201741",
-    "name": "Shøp: Ritter",
-    "strength": 10,
-    "cost": 0,
-    "tags": "Ogroid, Ritter, Token, melee",
-    "ability": "Einsatz: Gib dieser Einheit Zähigkeit.",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
-    "id": "201742",
-    "name": "Shøp: Ritter",
-    "strength": 10,
-    "cost": 0,
-    "tags": "Ogroid, Ritter, Token, melee",
-    "ability": "Einsatz: Verbessere einen Verbündeten um 4.",
     "category": "Unit",
     "type": "gold",
     "faction": "neutral"
@@ -1782,28 +1419,6 @@
     "faction": "neutral"
   },
   {
-    "id": "202498",
-    "name": "Verfluchte Schriftrolle",
-    "strength": 0,
-    "cost": 0,
-    "tags": "Token",
-    "ability": "Aktiv: Durchsuche dein Deck nach einer Karte und ziehe sie, lege dann eine Karte aus deiner Hand unten in dein Deck und mische den Rest.",
-    "category": "Strategem",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
-    "id": "202501",
-    "name": "Magische Lampe",
-    "strength": 0,
-    "cost": 0,
-    "tags": "Token",
-    "ability": "Aktiv: Verwandle diese Karte in ein Lampen-Djinn Token.",
-    "category": "Strategem",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
     "id": "202566",
     "name": "Lampen-Djinn",
     "strength": 5,
@@ -1811,39 +1426,6 @@
     "tags": "Token, agile",
     "ability": "",
     "category": "Unit",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
-    "id": "202502",
-    "name": "Technische Lösung",
-    "strength": 0,
-    "cost": 0,
-    "tags": "Token",
-    "ability": "Aktiv: Verbessere einen Verbündeten um 4 und gib ihm einen Schild.",
-    "category": "Strategem",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
-    "id": "202542",
-    "name": "Halsband",
-    "strength": 0,
-    "cost": 0,
-    "tags": "Token",
-    "ability": "Aktiv: Blockiere einen Gegner und füge ihm 3 Schaden zu.",
-    "category": "Strategem",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
-    "id": "202140",
-    "name": "Taktischer Vorteil",
-    "strength": 0,
-    "cost": 0,
-    "tags": "Token",
-    "ability": "Aktiv: Verbessere einen Verbündeten um 5.",
-    "category": "Strategem",
     "type": "gold",
     "faction": "neutral"
   },
@@ -1903,17 +1485,6 @@
     "faction": "neutral"
   },
   {
-    "id": "200320",
-    "name": "Rinderschutztruppe",
-    "strength": 13,
-    "cost": 0,
-    "tags": "Relikt, Token, agile",
-    "ability": "",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
     "id": "112215",
     "name": "Iris von Everec",
     "strength": 4,
@@ -1943,17 +1514,6 @@
     "tags": "Bestie, siege",
     "ability": "Spielstart: Lege ein Plötze rufen Token neben dein Deck.",
     "category": "Unit",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
-    "id": "112210",
-    "name": "Plötze rufen",
-    "strength": 4,
-    "cost": 0,
-    "tags": "Token",
-    "ability": "Passiv: Wenn du eine Goldkarte ausspielst, durchsuche dein Deck nach Plötze und rufe sie herbei, dann verbanne dieses Token.",
-    "category": "Strategem",
     "type": "gold",
     "faction": "neutral"
   },
@@ -2129,17 +1689,6 @@
     "cost": 4,
     "tags": "Zwerg, Hanse, siege",
     "ability": "Einsatz: Generiere Feldmarschall Duda und spiele ihn aus.",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
-    "id": "112403",
-    "name": "Feldmarschall Duda",
-    "strength": 1,
-    "cost": 0,
-    "tags": "Bestie, Token, agile",
-    "ability": "Einsatz: Verbessere alle Einheiten in dieser Reihe um 1.",
     "category": "Unit",
     "type": "gold",
     "faction": "neutral"
@@ -2508,17 +2057,6 @@
     "faction": "neutral"
   },
   {
-    "id": "201637",
-    "name": "Drachentraum-Nebel",
-    "strength": 0,
-    "cost": 0,
-    "tags": "Gefahr",
-    "ability": "Passiv: Wenn diese Reihe mit einer Bombe oder Geralt: Igni anvisiert wird, füge allen Einheiten in dieser Reihe 3 Schaden zu.",
-    "category": "Strategem",
-    "type": "gold",
-    "faction": "neutral"
-  },
-  {
     "id": "113310",
     "name": "Schwalbe",
     "strength": 0,
@@ -2629,17 +2167,6 @@
     "faction": "neutral"
   },
   {
-    "id": "201749",
-    "name": "Schaum",
-    "strength": 0,
-    "cost": 0,
-    "tags": "Segen",
-    "ability": "Zugstart: Verbessere die stärkste und die schwächste Einheit in dieser Reihe jeweils um 1 (nur eins von beidem bei einer Einheit).",
-    "category": "Strategem",
-    "type": "bronze",
-    "faction": "neutral"
-  },
-  {
     "id": "202203",
     "name": "Sturmwind",
     "strength": 0,
@@ -2662,17 +2189,6 @@
     "faction": "neutral"
   },
   {
-    "id": "202176",
-    "name": "Nebel",
-    "strength": 0,
-    "cost": 0,
-    "tags": "Gefahr",
-    "ability": "Zugstart: Füge der schwächsten Einheit in dieser Reihe 2 Schaden zu.",
-    "category": "Strategem",
-    "type": "bronze",
-    "faction": "neutral"
-  },
-  {
     "id": "113312",
     "name": "Strömender Regen",
     "strength": 0,
@@ -2684,17 +2200,6 @@
     "faction": "neutral"
   },
   {
-    "id": "113312",
-    "name": "Regen",
-    "strength": 0,
-    "cost": 0,
-    "tags": "Gefahr",
-    "ability": "Zugstart: Füge der stärksten und der schwächsten Einheit in dieser Reihe jeweils 1 Schaden zu (nur eins von beidem bei einer Einheit).",
-    "category": "Strategem",
-    "type": "bronze",
-    "faction": "neutral"
-  },
-  {
     "id": "113302",
     "name": "Beißender Frost",
     "strength": 0,
@@ -2702,17 +2207,6 @@
     "tags": "Natur",
     "ability": "Generiere in einer gegnerischen Reihe für 3 Züge Frost.",
     "category": "Spell",
-    "type": "bronze",
-    "faction": "neutral"
-  },
-  {
-    "id": "113302",
-    "name": "Frost",
-    "strength": 0,
-    "cost": 0,
-    "tags": "Gefahr",
-    "ability": "Zugstart: Füge der stärksten Einheit in dieser Reihe 2 Schaden zu.",
-    "category": "Strategem",
     "type": "bronze",
     "faction": "neutral"
   },
@@ -2901,17 +2395,6 @@
     "ability": "Einsatz: Generiere Der Wächter und platziere ihn oben auf dem gegnerischen Deck.",
     "category": "Unit",
     "type": "gold",
-    "faction": "nilfgaard"
-  },
-  {
-    "id": "162401",
-    "name": "Der Wächter",
-    "strength": 3,
-    "cost": 0,
-    "tags": "Konstrukt, Token, agile",
-    "ability": "",
-    "category": "Unit",
-    "type": "bronze",
     "faction": "nilfgaard"
   },
   {
@@ -3454,17 +2937,6 @@
     "faction": "nilfgaard"
   },
   {
-    "id": "162402",
-    "name": "Kuhkadaver",
-    "strength": 1,
-    "cost": 0,
-    "tags": "Bestie, Token, agile",
-    "ability": "Spionage.\nZugende: Zerstöre die schwächste andere Einheit in dieser Reihe und diese Einheit.",
-    "category": "Unit",
-    "type": "bronze",
-    "faction": "nilfgaard"
-  },
-  {
     "id": "200118",
     "name": "Eindringling",
     "strength": 4,
@@ -3894,17 +3366,6 @@
     "faction": "northern_realms"
   },
   {
-    "id": "200073",
-    "name": "Adda: Striege",
-    "strength": 5,
-    "cost": 7,
-    "tags": "Bestie, Verflucht, agile",
-    "ability": "Zugende: Verbessere eine Anzahl anderer Verbündeter in dieser Reihe um 1, entsprechend der Verbesserung dieser Einheit. Füge dann dieser Einheit 1 Schaden zu.",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "northern_realms"
-  },
-  {
     "id": "123201",
     "name": "Verstärkung",
     "strength": 0,
@@ -3966,28 +3427,6 @@
     "cost": 0,
     "tags": "Mensch, Soldat, agile",
     "ability": "Einsatz: Generiere Verdammte linke Flanke und Verdammte rechte Flanke Token auf der jeweiligen Seite dieser Einheit.",
-    "category": "Unit",
-    "type": "bronze",
-    "faction": "northern_realms"
-  },
-  {
-    "id": "202941",
-    "name": "Verdammte linke Flanke",
-    "strength": 1,
-    "cost": 0,
-    "tags": "Mensch, Soldat, Token, agile",
-    "ability": "",
-    "category": "Unit",
-    "type": "bronze",
-    "faction": "northern_realms"
-  },
-  {
-    "id": "202942",
-    "name": "Verdammte rechte Flanke",
-    "strength": 1,
-    "cost": 0,
-    "tags": "Mensch, Soldat, Token, agile",
-    "ability": "",
     "category": "Unit",
     "type": "bronze",
     "faction": "northern_realms"
@@ -4059,17 +3498,6 @@
     "faction": "northern_realms"
   },
   {
-    "id": "202662",
-    "name": "Duny",
-    "strength": 6,
-    "cost": 2,
-    "tags": "Mensch, Ritter, ranged",
-    "ability": "Wenn diese Karte das Schlachtfeld betritt, ziehe 1 + Zähler Karten und mische die selbe Anzahl zurück.\nPassiv: Wenn du eine Karte ziehst, verbessere diese Einheit um 1.",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "northern_realms"
-  },
-  {
     "id": "202252",
     "name": "Vissegerd",
     "strength": 6,
@@ -4121,17 +3549,6 @@
     "tags": "Kriegsführung",
     "ability": "Generiere 2 Freiwilliger Token in einer verbündeten Reihe. Ist in der Reihe eine verbesserte Einheit, verbessere die generierten Freiwilligen um 1.",
     "category": "Spell",
-    "type": "bronze",
-    "faction": "northern_realms"
-  },
-  {
-    "id": "202654",
-    "name": "Freiwilliger",
-    "strength": 2,
-    "cost": 0,
-    "tags": "Mensch, Soldat, Token, agile",
-    "ability": "",
-    "category": "Unit",
     "type": "bronze",
     "faction": "northern_realms"
   },
@@ -4620,28 +4037,6 @@
     "faction": "northern_realms"
   },
   {
-    "id": "122401",
-    "name": "Fehlgeborener",
-    "strength": 4,
-    "cost": 0,
-    "tags": "Erscheinung, Verflucht, Token, ranged",
-    "ability": "Zähigkeit.",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "northern_realms"
-  },
-  {
-    "id": "122402",
-    "name": "Tölpelbold",
-    "strength": 5,
-    "cost": 0,
-    "tags": "Erscheinung, Verflucht, Token, ranged",
-    "ability": "Zugende: Verbessere den schwächsten Verbündeten um 1.",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "northern_realms"
-  },
-  {
     "id": "122201",
     "name": "Rittersporn",
     "strength": 4,
@@ -4829,17 +4224,6 @@
     "faction": "scoiatel"
   },
   {
-    "id": "142306",
-    "name": "Mahakam-Verteidiger",
-    "strength": 6,
-    "cost": 0,
-    "tags": "Zwerg, Soldat, Token, melee",
-    "ability": "Schild.",
-    "category": "Unit",
-    "type": "bronze",
-    "faction": "scoiatel"
-  },
-  {
     "id": "202471",
     "name": "Zoltans Truppe",
     "strength": 0,
@@ -4848,17 +4232,6 @@
     "ability": "Generiere 2 Grobe Zwerge in einer verbündeten Reihe. Erhöhe die Anzahl generierter Grober Zwerge pro Zoltan Einheit in deinem Startdeck um 1.",
     "category": "Spell",
     "type": "gold",
-    "faction": "scoiatel"
-  },
-  {
-    "id": "202477",
-    "name": "Grober Zwerg",
-    "strength": 2,
-    "cost": 0,
-    "tags": "Zwerg, Soldat, Token, agile",
-    "ability": "",
-    "category": "Unit",
-    "type": "bronze",
     "faction": "scoiatel"
   },
   {
@@ -5056,17 +4429,6 @@
     "tags": "Elf, Krieger, melee",
     "ability": "Spielstart: Lege ein Aelirenn rufen Token neben dein Deck.",
     "category": "Unit",
-    "type": "gold",
-    "faction": "scoiatel"
-  },
-  {
-    "id": "142211",
-    "name": "Aelirenn rufen",
-    "strength": 5,
-    "cost": 0,
-    "tags": "Token",
-    "ability": "Zugende: Kontrollierst du mindestens 5 Elf Einheiten, durchsuche dein Deck nach Aelirenn, rufe sie herbei und verbanne dieses Token.",
-    "category": "Strategem",
     "type": "gold",
     "faction": "scoiatel"
   },
@@ -5313,17 +4675,6 @@
     "faction": "scoiatel"
   },
   {
-    "id": "142101",
-    "name": "Saesenthessis",
-    "strength": 10,
-    "cost": 9,
-    "tags": "Drache, agile",
-    "ability": "Immunität.",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "scoiatel"
-  },
-  {
     "id": "142104",
     "name": "Milva",
     "strength": 5,
@@ -5440,17 +4791,6 @@
     "cost": 0,
     "tags": "Mensch, agile",
     "ability": "Zugstart: Verwandle diese Karte in ein Junge Dryade Token.",
-    "category": "Unit",
-    "type": "bronze",
-    "faction": "scoiatel"
-  },
-  {
-    "id": "202682",
-    "name": "Junge Dryade",
-    "strength": 4,
-    "cost": 0,
-    "tags": "Dryade, Token, agile",
-    "ability": "Harmonie.",
     "category": "Unit",
     "type": "bronze",
     "faction": "scoiatel"
@@ -5687,17 +5027,6 @@
     "faction": "scoiatel"
   },
   {
-    "id": "203021",
-    "name": "Saov Ainmhi'dh: Eintracht",
-    "strength": 3,
-    "cost": 2,
-    "tags": "Erscheinung, ranged",
-    "ability": "Passiv, Friedhof: Wenn du einen Zauber ausspielst, erwecke diese Einheit und rufe sie herbei.",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "scoiatel"
-  },
-  {
     "id": "202987",
     "name": "Kugel der Erkenntnis",
     "strength": 0,
@@ -5825,17 +5154,6 @@
     "cost": 6,
     "tags": "Mensch, Magier, agile",
     "ability": "Einsatz: Verwandle einen Gegner in ein Jadefigur Token",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "skellige"
-  },
-  {
-    "id": "200053",
-    "name": "Jadefigur",
-    "strength": 2,
-    "cost": 0,
-    "tags": "Token, agile",
-    "ability": "",
     "category": "Unit",
     "type": "gold",
     "faction": "skellige"
@@ -6006,17 +5324,6 @@
     "faction": "skellige"
   },
   {
-    "id": "113203",
-    "name": "Skellige-Sturm",
-    "strength": 0,
-    "cost": 0,
-    "tags": "Gefahr",
-    "ability": "Zugstart: Füge allen Einheiten in dieser Reihe 1 Schaden zu.",
-    "category": "Strategem",
-    "type": "gold",
-    "faction": "skellige"
-  },
-  {
     "id": "201646",
     "name": "Derran Tuirseach",
     "strength": 4,
@@ -6034,17 +5341,6 @@
     "cost": 6,
     "tags": "Mensch, Pirat, siege",
     "ability": "Einsatz: Generiere Spektralwal und spiele ihn aus.",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "skellige"
-  },
-  {
-    "id": "152201",
-    "name": "Spektralwal",
-    "strength": 3,
-    "cost": 0,
-    "tags": "Erscheinung, Token, agile",
-    "ability": "Spionage.\nZugende: Verschiebe diese Einheit in eine zufällige andere Reihe auf dieser Seite und füge allen anderen Einheiten dort 1 Schaden zu. ",
     "category": "Unit",
     "type": "gold",
     "faction": "skellige"
@@ -6369,56 +5665,12 @@
     "faction": "skellige"
   },
   {
-    "id": "201574",
-    "name": "Wilfred",
-    "strength": 1,
-    "cost": 0,
-    "tags": "Mensch, Token, agile",
-    "ability": "Todeswunsch: Verbessere einen Verbündeten um 3.",
-    "category": "Unit",
-    "type": "bronze",
-    "faction": "skellige"
-  },
-  {
-    "id": "201574",
-    "name": "Wilhelm",
-    "strength": 1,
-    "cost": 0,
-    "tags": "Mensch, Token, agile",
-    "ability": "Todeswunsch: Füge allen Einheiten in der gegenüberliegenden Reihe 1 Schaden zu.",
-    "category": "Unit",
-    "type": "bronze",
-    "faction": "skellige"
-  },
-  {
-    "id": "201574",
-    "name": "Wilmar",
-    "strength": 1,
-    "cost": 0,
-    "tags": "Mensch, Token, agile",
-    "ability": "Spionage.\nTodeswunsch: Verbessere einen Gegner um 5.",
-    "category": "Unit",
-    "type": "bronze",
-    "faction": "skellige"
-  },
-  {
     "id": "202280",
     "name": "Vildkaarl",
     "strength": 5,
     "cost": 3,
     "tags": "Mensch, Kultist, Krieger, melee",
     "ability": "Berserker 3: Verwandle in Meister des Svalblod.",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "skellige"
-  },
-  {
-    "id": "202292",
-    "name": "Meister des Svalblod",
-    "strength": 12,
-    "cost": 3,
-    "tags": "Bestie, melee",
-    "ability": "Aktiv: Zerstöre einen Verbündeten, dann heile diese Einheit vollständig.",
     "category": "Unit",
     "type": "gold",
     "faction": "skellige"
@@ -6501,17 +5753,6 @@
     "faction": "skellige"
   },
   {
-    "id": "202289",
-    "name": "Bären-Monstrum",
-    "strength": 6,
-    "cost": 0,
-    "tags": "Bestie, Kultist, Token, agile",
-    "ability": "",
-    "category": "Unit",
-    "type": "bronze",
-    "faction": "skellige"
-  },
-  {
     "id": "202882",
     "name": "Crach an Craite",
     "strength": 10,
@@ -6520,17 +5761,6 @@
     "ability": "Veteran.\nEinsatz: Generiere ein Ohrenbetäubende Sirene Token in jeder gegnerischen Reihe und füge ihnen 1 Schaden zu.",
     "category": "Leader",
     "type": "gold",
-    "faction": "skellige"
-  },
-  {
-    "id": "202181",
-    "name": "Ohrenbetäubende Sirene",
-    "strength": 2,
-    "cost": 0,
-    "tags": "Bestie, Token, agile",
-    "ability": "",
-    "category": "Unit",
-    "type": "bronze",
     "faction": "skellige"
   },
   {
@@ -6562,17 +5792,6 @@
     "cost": 8,
     "tags": "Mensch, Krieger, agile",
     "ability": "Einsatz: Generiere Herr von Undvik in der gegenüberliegenden Reihe und füge ihm 1 Schaden zu.",
-    "category": "Unit",
-    "type": "gold",
-    "faction": "skellige"
-  },
-  {
-    "id": "200218",
-    "name": "Herr von Undvik",
-    "strength": 6,
-    "cost": 0,
-    "tags": "Ogroid, Token, agile",
-    "ability": "Todeswunsch: verbessere einen gegnerischen Hjalmar an Craite um 10.",
     "category": "Unit",
     "type": "gold",
     "faction": "skellige"
