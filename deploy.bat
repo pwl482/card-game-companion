@@ -1,33 +1,23 @@
 @echo off
 REM ===========================
-REM Clean deploy to gh-pages
+REM Safe deploy to gh-pages using --work-tree
 REM ===========================
 
-REM Make sure we're on main branch
+REM Make sure we are on main branch and up to date
 git checkout main
 git pull origin main
 
 REM Build the app
 npm run build
 
-REM Switch to a temporary branch for deployment
-git branch -D temp-gh-deploy 2>nul
-git checkout --orphan temp-gh-deploy
+REM Add all files from dist to gh-pages branch (force push)
+git --work-tree dist add --all
+git --work-tree dist commit -m "Deploy %date% %time%" 2>nul
 
-REM Remove all files from index (except .git)
-git rm -rf .
-xcopy /E /I /Y dist\* .
+git push -f origin HEAD:gh-pages
 
-REM Commit and push to gh-pages
-git add .
-git commit -m "Deploy %date% %time%"
-git push -f origin temp-gh-deploy:gh-pages
-
-REM Return to main branch
-git checkout main
-
-REM Delete temporary branch
-git branch -D temp-gh-deploy
+REM Reset work-tree so main is clean
+git --work-tree dist reset --hard
 
 echo Deployment complete!
 pause
