@@ -6,7 +6,7 @@
     "cost": 0,
     "tags": "Insektoid, Anführer, agile",
     "ability": "Immunität.\nEinsatz: Verzehre 3 Verbündete.",
-    "type": 0,
+    "type": "Leader",
     "category": "gold",
     "faction": "monster"
   },
@@ -17,7 +17,7 @@
     "cost": 9,
     "tags": "Insektoid, agile",
     "ability": "Todeswunsch: Durchsuche dein Deck nach 2 Todeswunsch oder Gedeihen Bronzeeinheiten und spiele sie aus.",
-    "type": 9,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -28,7 +28,7 @@
     "cost": 6,
     "tags": "Nekrophage, melee",
     "ability": "Einsatz: Verbanne alle Einheiten auf deinem Friedhof und verbessere dann diese Karte für jede davon um 1.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -39,7 +39,7 @@
     "cost": 5,
     "tags": "Insektoid, siege",
     "ability": "Gedeihen.\nPassiv: Wenn das Gedeihen dieser Einheit ausgelöst wird, verbessere alle verbündeten Insektoiden um 1.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -50,7 +50,7 @@
     "cost": 6,
     "tags": "Insektoid, siege",
     "ability": "Einsatz: Verzehre einen Verbündeten.\nPassiv: Gedeihen Fähigkeiten werden durch das Ausspielen dieser Karte bis zu zweimal ausgelöst.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -61,7 +61,7 @@
     "cost": 3,
     "tags": "Insektoid, melee",
     "ability": "Einsatz: Verzehre einen Verbündeten.\nPassiv, Friedhof: Wenn du eine Todeswunsch-Einheit ausspielst, belebe diese Karte wieder, rufe sie herbei und verzehre die Einheit.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -72,7 +72,7 @@
     "cost": 5,
     "tags": "Insektoid, melee",
     "ability": "Passiv: Wenn du einen Insektoiden ausspielst, spiele diese Einheit erneut aus.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -83,7 +83,7 @@
     "cost": 5,
     "tags": "Insektoid, melee",
     "ability": "Todeswunsch: Erwecke diese Karte und rufe sie herbei. Verzehre dann deine schwächste Einheit.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -94,7 +94,7 @@
     "cost": 3,
     "tags": "Insektoid, ranged",
     "ability": "Zugende: Verzehre einen Verbündeten.\nPassiv: Ist die Stärke dieser Einheit > 15, gib ihr Immunität und blockiere sie.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -105,7 +105,7 @@
     "cost": 1,
     "tags": "Insektoid, siege",
     "ability": "Passiv: Wenn du eine Einheit verzehrst, generiere eine Drohne falls du keine kontrollierst oder verbessere sonst diese Karte um 1.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -116,7 +116,7 @@
     "cost": 0,
     "tags": "Insektoid, Token, ranged",
     "ability": "",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -127,7 +127,7 @@
     "cost": 2,
     "tags": "Insektoid, melee",
     "ability": "Aktiv, Zähler 2: Verzehre einen Verbündeten.",
-    "type": 2,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -138,7 +138,7 @@
     "cost": 1,
     "tags": "Insektoid, ranged",
     "ability": "Gedeihen.\nEinsatz: Generiere eine Kopie dieser Einheit in dieser Reihe.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -149,7 +149,7 @@
     "cost": 2,
     "tags": "Nekrophage, melee",
     "ability": "Einsatz: Verbanne eine Bronzeeinheit von deinem Friedhof, durchsuche dein Deck nach einer Kopie von ihr und spiele sie aus.",
-    "type": 2,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -160,7 +160,7 @@
     "cost": 1,
     "tags": "Nekrophage, agile",
     "ability": "Todeswunsch: Füge allen Einheiten in der Reihe gegenüber 1 Schaden zu.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -171,7 +171,7 @@
     "cost": 0,
     "tags": "Insektoid, ranged",
     "ability": "Todeswunsch: Generiere eine Drohne falls du keine kontrollierst oder verbessere sonst eine verbündete Einheit um 2.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -182,7 +182,7 @@
     "cost": 0,
     "tags": "Nekrophage, melee",
     "ability": "Gedeihen.\nEinsatz: Generiere eine Kopie dieser Karte in dieser Reihe.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -193,7 +193,7 @@
     "cost": 0,
     "tags": "Nekrophage, agile",
     "ability": "Gedeihen.\nEinsatz: Verschiebe einen Gegner in diese Reihe gegenüber und füge ihm 2 Schaden zu.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -204,7 +204,7 @@
     "cost": 0,
     "tags": "Elf, Wilde Jagd, Anführer, agile",
     "ability": "Einsatz: Generiere Frost in der gegenüberliegenden Reihe für 3 Züge. Verbessere dann Eredin für jede gegnerische Reihe in der Frost herrscht um 2.",
-    "type": 0,
+    "type": "Leader",
     "category": "gold",
     "faction": "monster"
   },
@@ -215,7 +215,7 @@
     "cost": 6,
     "tags": "Elf, Wilde-Jagd, agile",
     "ability": "Einsatz: Verschiebe bis zu 3 Gegner in diese Reihe gegenüber und generiere Frost in der gegenüberliegenden Reihe für 4 Züge.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -226,7 +226,7 @@
     "cost": 4,
     "tags": "Elf, Wilde-Jagd, ranged",
     "ability": "Einsatz: Durchsuche dein Deck nach einer Wilde-Jagd Karte und spiele sie aus.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -237,7 +237,7 @@
     "cost": 8,
     "tags": "Elf, Wilde-Jagd, agile",
     "ability": "Einsatz: Generiere in einer gegnerischen Reihe für 3 Züge Frost.\nPassiv: Spielst du eine Wilde-Jagd Einheit gegenüber einer Frost Reihe, verbessere sie um 1.",
-    "type": 8,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -248,7 +248,7 @@
     "cost": 6,
     "tags": "Elf, Wilde-Jagd, melee",
     "ability": "Einsatz: Füge einem Gegner Schaden in Höhe der Stärke des stärksten Verbündeten zu. Ist der Gegner in einer Frost Reihe, zerstöre ihn stattdessen.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -259,7 +259,7 @@
     "cost": 4,
     "tags": "Wilde-Jagd",
     "ability": "Echo.\nGeneriere in 2 gegnerischen Reihen für 3 Züge Frost.",
-    "type": 4,
+    "type": "Spell",
     "category": "gold",
     "faction": "monster"
   },
@@ -270,7 +270,7 @@
     "cost": 3,
     "tags": "Bestie, Wilde-Jagd, melee",
     "ability": "Zugende, Dominanz: Verbessere diese Einheit um 1.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -281,7 +281,7 @@
     "cost": 5,
     "tags": "Maschine, Wilde-Jagd, siege",
     "ability": "Einsatz: Verbessere alle verbündeten Wilde-Jagd Einheiten um 1.\nPassiv: Wenn du eine andere Wilde-Jagd Einheit ausspielst, verbessere sie um 1.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -292,7 +292,7 @@
     "cost": 10,
     "tags": "Wilde-Jagd",
     "ability": "Verbessere einen Verbündeten um die Anzahl verbündeter Wilde-Jagd Einheiten. Generiere zudem Frost in 2 gegnerischen Reihen für 3 Züge.",
-    "type": 10,
+    "type": "Spell",
     "category": "gold",
     "faction": "monster"
   },
@@ -303,7 +303,7 @@
     "cost": 1,
     "tags": "Elf, Wilde-Jagd, ranged",
     "ability": "Zugende: Wenn auf dem Schlachtfeld Frost herrscht, verbessere diese Karte um 1.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -314,7 +314,7 @@
     "cost": 2,
     "tags": "Elf, Wilde-Jagd, siege",
     "ability": "Einsatz: Verbessere einen Verbündeten um die ihm gegenüberliegende Dauer von Frost. Dominanz: Zähle alle gegnerischen Reihen.",
-    "type": 2,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -325,7 +325,7 @@
     "cost": 1,
     "tags": "Elf, Wilde-Jagd, agile",
     "ability": "Einsatz: Verschiebe einen Gegner in diese Reihe gegenüber. Wenn die gegnerische Reihe von Frost betroffen ist, füge dem Ziel 2 Schaden zu.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -336,7 +336,7 @@
     "cost": 1,
     "tags": "Bestie, Wilde-Jagd, melee",
     "ability": "Einsatz: Durchsuche dein Deck nach einer Beißender Frost Karte und spiele sie aus.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -347,7 +347,7 @@
     "cost": 1,
     "tags": "Elf, Wilde-Jagd, siege",
     "ability": "Einsatz: Durchsuche dein Deck nach einer Kopie einer anderen Wilde-Jagd Bronze Einheit die du kontrollierst und spiele sie aus.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -358,7 +358,7 @@
     "cost": 1,
     "tags": "Elf, Wilde-Jagd, agile",
     "ability": "Passiv, Dominanz: Erhöhe den Schaden von Frost in der gegenüberliegenden Reihe um 1.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -369,7 +369,7 @@
     "cost": 0,
     "tags": "Elf, Wilde-Jagd, melee",
     "ability": "Einsatz: Füge einem Gegner 2 Schaden zu. Dominanz: Generiere zudem in der Reihe des Ziels für 1 Zug Frost.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -380,7 +380,7 @@
     "cost": 0,
     "tags": "Relikt, Anführer, agile",
     "ability": "Einsatz: Generiere Nebel in einer gegnerischen Reihe für 3 Züge.",
-    "type": 0,
+    "type": "Leader",
     "category": "gold",
     "faction": "monster"
   },
@@ -391,7 +391,7 @@
     "cost": 8,
     "tags": "Relikt, agile",
     "ability": "Einsatz: Generiere 3 Wolfsrudel Token in deiner Nahkampf-Reihe und generiere Nebel in der Waldgeist gegenüber liegenden Reihe für 5 Züge.",
-    "type": 8,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -402,7 +402,7 @@
     "cost": 0,
     "tags": "Bestie, Token, agile",
     "ability": "",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -413,7 +413,7 @@
     "cost": 4,
     "tags": "Relikt, siege",
     "ability": "Einsatz: Verbessere alle verbündeten Bestien um 1.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -424,7 +424,7 @@
     "cost": 9,
     "tags": "Bestie, agile",
     "ability": "Einsatz: Generiere in der gegenüberliegenden Reihe für 2 Züge Nebel.\nZugende: Ist dort kein Nebel mehr, verwandle diese Karte in Aguara: Wahre Gestalt.",
-    "type": 9,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -435,7 +435,7 @@
     "cost": 9,
     "tags": "Bestie, agile",
     "ability": "Wenn diese Einheit auf dem Schlachtfeld erscheint, generiere Vollmond in ihrer Reihe für 3 Züge\nZugende: Verbessere benachbarte Bestien um 1.",
-    "type": 9,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -446,7 +446,7 @@
     "cost": 6,
     "tags": "Bestie, Verflucht, melee",
     "ability": "Einsatz: Generiere in dieser Reihe für 5 Züge Vollmond.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -457,7 +457,7 @@
     "cost": 4,
     "tags": "Bestie, Verflucht, siege",
     "ability": "Einsatz: Verbessere diese Karte pro einzigartiger Bestie auf deinem Friedhof um 2.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -468,7 +468,7 @@
     "cost": 4,
     "tags": "Bestie, Verflucht, melee",
     "ability": "Einsatz: Verzehre eine Einheit mit max. 4 Stärke.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -479,7 +479,7 @@
     "cost": 1,
     "tags": "Bestie, Verflucht, melee",
     "ability": "Einsatz: Generiere 1 Wolfsrudel Token zu jeder Seite dieser Einheit, wenn sie in eine Vollmond Reihe gespielt wurde.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -490,7 +490,7 @@
     "cost": 0,
     "tags": "Bestie, Verflucht, melee",
     "ability": "Einsatz: Verbessere diese Einheit um 3, wenn sie in eine Vollmond Reihe gespielt wurde.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -501,7 +501,7 @@
     "cost": 1,
     "tags": "Bestie, agile",
     "ability": "Einsatz: Durchsuche dein Deck nach einer Gleißender Vollmond Karte und spiele sie aus.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -512,7 +512,7 @@
     "cost": 0,
     "tags": "Natur",
     "ability": "Generiere in einer verbündeten Reihe für 3 Züge Vollmond.",
-    "type": 0,
+    "type": "Spell",
     "category": "bronze",
     "faction": "monster"
   },
@@ -523,7 +523,7 @@
     "cost": 0,
     "tags": "Segen",
     "ability": "Zugstart: Verbessere die schwächste Bestie in dieser Reihe um 2.",
-    "type": 0,
+    "type": "Strategem",
     "category": "bronze",
     "faction": "monster"
   },
@@ -534,7 +534,7 @@
     "cost": 2,
     "tags": "Nekrophage, ranged",
     "ability": "Zugende: Verbessere diese Einheit um 2, wenn Nebel auf dem Schlachtfeld ist.",
-    "type": 2,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -545,7 +545,7 @@
     "cost": 1,
     "tags": "Nekrophage, agile",
     "ability": "Passiv, Hand, Fiedhof: Wenn du Nebel generierst, belebe diese Karte wieder wenn nötig und rufe sie gegenüber dem Ziel herbei. Wenn vorher in Hand, dann ziehe eine Karte.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -556,7 +556,7 @@
     "cost": 1,
     "tags": "Bestie, siege",
     "ability": "Einsatz: Verzehre eine verbündete Bestie. Adrenalin 5: Verbessere alle Bestien in der Reihe der verzehrten Einheit um 1.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -567,7 +567,7 @@
     "cost": 0,
     "tags": "Relikt, Anführer, agile",
     "ability": "Passiv: Wenn du eine Organisch Karte ausspielst, verbessere ein verbündetes Relikt um 2.",
-    "type": 0,
+    "type": "Leader",
     "category": "gold",
     "faction": "monster"
   },
@@ -578,7 +578,7 @@
     "cost": 9,
     "tags": "Relikt, melee",
     "ability": "Rundenende, Sabbat: Gib einer anderen Einheit mit der höchsten Basisstärke auf deiner Seite des Schlachtfelds Zähigkeit.",
-    "type": 9,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -589,7 +589,7 @@
     "cost": 2,
     "tags": "Relikt, melee",
     "ability": "Passiv: Wird dieser Einheit Schaden zugefügt, füge ihr 1 Schaden zu. Spielst du ein Relikt aus, verbessere diese Einheit um 1. Sabbat: Deaktiviere den Schaden der Passiv Fähigkeit.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -600,7 +600,7 @@
     "cost": 7,
     "tags": "Relikt, agile",
     "ability": "Einsatz: Verzehre eine Bronzeeinheit von deinem Friedhof. Durchsuche dann dein Deck nach einer Kopie davon und rufe sie herbei.\nSabbat: Spiele stattdessen die Kopie aus.",
-    "type": 7,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -611,7 +611,7 @@
     "cost": 6,
     "tags": "Relikt, agile",
     "ability": "Einsatz: Verbessere einen Verbündeten um 2.\nPassiv, Sabbat: Verbessere alle Relikte in einer verbündeten Reihe um 1, wenn du eine Organisch Karte ausspielst.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -622,7 +622,7 @@
     "cost": 3,
     "tags": "Relikt, siege",
     "ability": "Einsatz: Durchsuche dein Deck nach einer Organisch Karte und spiele sie aus.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -633,7 +633,7 @@
     "cost": 7,
     "tags": "Relikt, ranged",
     "ability": "Zugende, Sabbat: Generiere auf beiden Seiten dieser Einheit Gernichoras Frucht und verwandle diese Karte in Gernichora (Stärke bleibt gleich).",
-    "type": 7,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -644,7 +644,7 @@
     "cost": 7,
     "tags": "Relikt, agile",
     "ability": "Zugende: Verwandle diese Karte in Blutige Herrin (Stärke bleibt gleich). >=1 Frucht, Sabbat: Verbessere diese Karte stattdessen für jede verbündete Gernichoras Frucht um 1.",
-    "type": 7,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -655,7 +655,7 @@
     "cost": 0,
     "tags": "Relikt, Token, agile",
     "ability": "Gedeihen.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -666,7 +666,7 @@
     "cost": 5,
     "tags": "Relikt, siege",
     "ability": "Einatz: Ergreife einen zufälligen Gegner mit Stärke <= 4.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -677,7 +677,7 @@
     "cost": 6,
     "tags": "Elf, Wilde-Jagd, siege",
     "ability": "Zugende, Sabbat: Duelliere mit einem Gegner mit höherer Stärke als diese Einheit.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -688,7 +688,7 @@
     "cost": 2,
     "tags": "Relikt, siege",
     "ability": "Einsatz: Durchsuche dein Deck nach der Brauerin und der Flüsterin und rufe die Brauerin zur linken dieser Karte und die Flüsterin zur linken der Brauerin herbei.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -699,7 +699,7 @@
     "cost": 2,
     "tags": "Relikt, siege",
     "ability": "Einsatz: Durchsuche dein Deck nach der Flüsterin und der Weberin und rufe die Flüsterin zur linken dieser Karte und die Weberin zur rechten dieser Karte herbei.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -710,7 +710,7 @@
     "cost": 2,
     "tags": "Relikt, siege",
     "ability": "Einsatz: Durchsuche dein Deck nach der Brauerin und der Weberin und rufe die Brauerin zur rechten dieser Karte und die Weberin zur rechten der Brauerin herbei.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -721,7 +721,7 @@
     "cost": 2,
     "tags": "Organisch",
     "ability": "Füge einem Gegner 6 Schaden zu oder verbessere einen Verbündeten um 6.",
-    "type": 2,
+    "type": "Spell",
     "category": "gold",
     "faction": "monster"
   },
@@ -732,7 +732,7 @@
     "cost": 0,
     "tags": "Relikt, agile",
     "ability": "Einsatz: Verbessere diese Einheit für jedes benachbarte Relikt um 2.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -743,7 +743,7 @@
     "cost": 1,
     "tags": "Relikt, melee",
     "ability": "Einsatz: Erwecke einen Bronze Gegner und rufe ihn herbei, erwecke dann einen Bronze Verbündeten mit Kosten <= den gegnerischen Kosten und rufe ihn herbei.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -754,7 +754,7 @@
     "cost": 1,
     "tags": "Relikt, melee",
     "ability": "Passiv: Wenn du ein Relikt ausspielts, verbessere diese Einheit um 1.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -765,7 +765,7 @@
     "cost": 2,
     "tags": "Relikt, siege",
     "ability": "Zugende, Sabbat: Verbessere diese Einheit um 2.",
-    "type": 2,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -776,7 +776,7 @@
     "cost": 0,
     "tags": "Organisch",
     "ability": "Verbanne eine Bronzeeinheit vom gegnerischen Friedhof und verbessere dann einen Verbündeten um die Stärke. Kontrollierst du Gernichora oder Blutige Herrin, zählen auch Goldeinheiten.",
-    "type": 0,
+    "type": "Spell",
     "category": "bronze",
     "faction": "monster"
   },
@@ -787,7 +787,7 @@
     "cost": 4,
     "tags": "Organisch",
     "ability": "Durchsuche dein Deck nach einem Relikt und spiele es aus.",
-    "type": 4,
+    "type": "Spell",
     "category": "gold",
     "faction": "monster"
   },
@@ -798,7 +798,7 @@
     "cost": 0,
     "tags": "Organisch",
     "ability": "Füge einem Gegner 4 Schaden zu und verbessere einen Verbündeten um den überschüssigen Schaden.",
-    "type": 0,
+    "type": "Spell",
     "category": "bronze",
     "faction": "monster"
   },
@@ -809,7 +809,7 @@
     "cost": 0,
     "tags": "Vampir, Anführer, agile",
     "ability": "Einsatz: Entziehe einem Gegner 3 Stärke.",
-    "type": 0,
+    "type": "Leader",
     "category": "gold",
     "faction": "monster"
   },
@@ -820,7 +820,7 @@
     "cost": 6,
     "tags": "Vampir, agile",
     "ability": "Einsatz: Generiere Blutmond in 2 generischen Reihen für 2 Züge. Erhöhe die Dauer um 1 pro benachbartem Vampir.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -831,7 +831,7 @@
     "cost": 7,
     "tags": "Vampir, melee",
     "ability": "Einsatz: Entziehe einem Gegner die Hälfte seiner Stärke.",
-    "type": 7,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -842,7 +842,7 @@
     "cost": 3,
     "tags": "Vampir, ranged",
     "ability": "Einsatz: Generiere Blutmond in einer generischen Reihen für 3 Züge.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -853,7 +853,7 @@
     "cost": 5,
     "tags": "Vampir, siege",
     "ability": "Zugende: Verbessere Orianna pro verwundetem Gegner um 1.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -864,7 +864,7 @@
     "cost": 5,
     "tags": "Vampir, melee",
     "ability": "Einsatz: Generiere Blutmond in einer generischen Reihen für 2 Züge.\nPassiv: Verwundete Gegner unter Blutmond können nicht verbessert werden.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -875,7 +875,7 @@
     "cost": 2,
     "tags": "Vampir, melee",
     "ability": "Einsatz: Füge einem Gegner 1 Schaden zu (oder 3 Schaden in einer Blutmond Reihe). Todesstoß: Verbessere diese Einheit um die Basisstärke des Ziels.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -886,7 +886,7 @@
     "cost": 2,
     "tags": "Vampir, agile",
     "ability": "Einsatz (Fernkampf): Generiere Blutmond in einer generischen Reihen für 2 Züge.\nEinsatz (Belagerung): Läutere eine Einheit.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -897,7 +897,7 @@
     "cost": 5,
     "tags": "Vampir, melee",
     "ability": "Einsatz: Füge einem Gegner 4 Schaden zu. Ist er in einer Blutmond Reihe, füge ihm stattdessen 7 Schaden zu.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -908,7 +908,7 @@
     "cost": 6,
     "tags": "Organisch",
     "ability": "Zerstöre einen Verbündeten und generiere in 2 gegnerischen Reihen Blutmond für Züge in Höhe der Stärke der zerstörten Einheit.",
-    "type": 6,
+    "type": "Spell",
     "category": "gold",
     "faction": "monster"
   },
@@ -919,7 +919,7 @@
     "cost": 2,
     "tags": "Vampir, ranged",
     "ability": "Zugende: Wurde in diesem Zug einem Gegner Stärke entzogen, verbessere diese Einheit um 2.",
-    "type": 2,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -930,7 +930,7 @@
     "cost": 0,
     "tags": "Vampir, melee",
     "ability": "Einsatz: Füge einem Gegner 2 Schaden zu. Ist er unter Blutmond, entziehe stattdessen 2 Stärke.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -941,7 +941,7 @@
     "cost": 1,
     "tags": "Vampir, melee",
     "ability": "Einsatz: Kontrollierst du einen Vampir, Musterung (Bruxa, Garkin).",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -952,7 +952,7 @@
     "cost": 0,
     "tags": "Vampir, melee",
     "ability": "Einsatz: Kontrollierst du einen Vampir, Musterung (Bruxa, Garkin).",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -963,7 +963,7 @@
     "cost": 2,
     "tags": "Vampir, melee",
     "ability": "Passiv: Wenn einem Gegner durch Blutmond Schaden zugefügt wird, verbessere diese Einheit um den Schadenswert.",
-    "type": 2,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -974,7 +974,7 @@
     "cost": 0,
     "tags": "Vampir, melee",
     "ability": "Zugende: Befindet sich Blutmond auf Schlachtfeld, verbessere diese Einheit um 1.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -985,7 +985,7 @@
     "cost": 0,
     "tags": "Vampir, siege",
     "ability": "Einsatz: Füge einem verwundeten Gegner 3 Schaden zu.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -996,7 +996,7 @@
     "cost": 0,
     "tags": "Gefahr",
     "ability": "Zugstart: Füge der stärksten nicht verwundeten oder verbesserten Einheit 2 Schaden zu. Wenn keine vorhanden, nimm die stärkste verwundete Einheit oder sonst die stärkste Einheit.",
-    "type": 0,
+    "type": "Strategem",
     "category": "bronze",
     "faction": "monster"
   },
@@ -1007,7 +1007,7 @@
     "cost": 9,
     "tags": "Drache, melee",
     "ability": "Zugende: Zerstöre die schwächste Einheit auf der Schlachtfeldseite, auf der sich die meisten Einheiten befinden. Bei Unentschieden passiert nichts.",
-    "type": 9,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -1018,7 +1018,7 @@
     "cost": 4,
     "tags": "Nekrophage, melee",
     "ability": "Einsatz: Verzehre eine Einheit von einem der beiden Friedhöfe.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -1029,7 +1029,7 @@
     "cost": 3,
     "tags": "Ogroid, melee",
     "ability": "Todeswunsch: Dein Gegner durchsucht sein Deck nach der stärksten Einheit und ruft sie herbei.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -1040,7 +1040,7 @@
     "cost": 3,
     "tags": "Erscheinung, ranged",
     "ability": "Zugende: Ist die Stärke dieser Einheit < als der höchste Stärkewert auf dem Schlachtfeld, verbessere diese Einheit um 2.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -1051,7 +1051,7 @@
     "cost": 5,
     "tags": "Ogroid, agile",
     "ability": "Wenn diese Einheit auf dem Schlachtfeld erscheint, verbessere benachbarte Einheiten um 1.\nZugstart: Sind >= 3 Einheiten in der Reihe gegenüber, verwandle in Speerspitze.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -1062,7 +1062,7 @@
     "cost": 5,
     "tags": "Ogroid, agile",
     "ability": "Wenn diese Einheit auf dem Schlachtfeld erscheint, füge Gegnern in der Reihe gegenüber 1 Schaden zu.\nZugstart: Sind <= 2 Gegner gegenüber, verwandle in Speerspitze: Schlaf.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "monster"
   },
@@ -1073,7 +1073,7 @@
     "cost": 1,
     "tags": "Erscheinung, ranged",
     "ability": "Zugende: Ist die Stärke dieser Einheit < als der höchste Stärkewert auf dem Schlachtfeld, verbessere diese Einheit um 1.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "monster"
   },
@@ -1084,7 +1084,7 @@
     "cost": 4,
     "tags": "Bestie, siege",
     "ability": "Zugende, Hand: Diese Karte hat eine Chance von 100% - (Anzahl anderer Handkarten * 10)% sich selbst auszuspielen. Wenn ja, dann ziehe eine Karte.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1095,7 +1095,7 @@
     "cost": 4,
     "tags": "Bestie, siege",
     "ability": "Einsatz: Füge einem Gegner Schaden in Höhe der Anzahl Einheiten die du kontrollierst zu.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1106,7 +1106,7 @@
     "cost": 8,
     "tags": "Mensch, Magier, ranged",
     "ability": "Passiv: Wenn du einen Zauber ausspielst, verbessere einen Verbündeten um die Hälfte der Kosten des Zaubers.",
-    "type": 8,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1117,7 +1117,7 @@
     "cost": 4,
     "tags": "Dämon, siege",
     "ability": "Einsatz: Verbessere diese Einheit für jede verbündete Verflucht Einheit um 1.\nPassiv: Wenn du eine Verflucht Einheit ausspielst verbessere diese Einheit um 1.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1128,7 +1128,7 @@
     "cost": 8,
     "tags": "Dämon, siege",
     "ability": "Zugende, Adrenalin 3: Füge einem Gegner Schaden in Höhe der Anzahl verbündeter Verflucht Einheiten zu.",
-    "type": 8,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1139,7 +1139,7 @@
     "cost": 6,
     "tags": "Mensch, Verflucht, Bandit, melee",
     "ability": "Todeswunsch: Erwecke diese Einheit und rufe sie herbei. Die Fähigkeit kann nur 2 mal ausgelöst werden und wird nicht erneuert, wenn diese Einheit das Schlachtfeld verlässt.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1150,7 +1150,7 @@
     "cost": 5,
     "tags": "Elf, Magier, siege",
     "ability": "Einsatz, Gefecht: Dein Gegner durchsucht sein Deck nach der Karte mit den niedrigsten Kosten und du dein Deck nach der Karte mit den höchsten Kosten und ihr ziehst sie jeweils.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1161,7 +1161,7 @@
     "cost": 10,
     "tags": "Alchemie, agile",
     "ability": "Generiere in dieser Reihe für 5 Züge Schaum.",
-    "type": 10,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1172,7 +1172,7 @@
     "cost": 10,
     "tags": "Mensch, Verflucht, Bandit, agile",
     "ability": "Einsatz: Wenn dein Startdeck nur Einheiten enthält, erschaffe jeweils einen Effekt aus Renfris Fluch und Segen Zusatzdecks und führe sie aus.",
-    "type": 10,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1183,7 +1183,7 @@
     "cost": 0,
     "tags": "",
     "ability": "Verbessere einen Verbündeten um 2. Erhöhe diesen Wert um die Basisstäke des Ziels.",
-    "type": 0,
+    "type": "Spell",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1194,7 +1194,7 @@
     "cost": 0,
     "tags": "",
     "ability": "Spiele eine Bronzeeinheit von deiner Hand aus, sieh dir dann die obersten 3 Karten in deinem Deck an und ziehe 1.",
-    "type": 0,
+    "type": "Spell",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1205,7 +1205,7 @@
     "cost": 0,
     "tags": "",
     "ability": "Füge allen Gegnern 1 Schaden zu.",
-    "type": 0,
+    "type": "Spell",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1216,7 +1216,7 @@
     "cost": 0,
     "tags": "",
     "ability": "Füge einem Gegner 6 Schaden zu. Todesstoß: Füge den überschüssigen Schaden benachbarten Einheiten zu.",
-    "type": 0,
+    "type": "Spell",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1227,7 +1227,7 @@
     "cost": 0,
     "tags": "",
     "ability": "Zerstöre einen Gegner mit max. 8 Stärke.",
-    "type": 0,
+    "type": "Spell",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1238,7 +1238,7 @@
     "cost": 0,
     "tags": "",
     "ability": "Verbessere allen Verbündeten mit Stärke ≤ 3 um 1.",
-    "type": 0,
+    "type": "Spell",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1249,7 +1249,7 @@
     "cost": 0,
     "tags": "",
     "ability": "Setze die Stärke des schwächsten Verbündeten auf 10.",
-    "type": 0,
+    "type": "Spell",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1260,7 +1260,7 @@
     "cost": 0,
     "tags": "",
     "ability": "Durchsuche dein Deck nach der Einheit mit den niedrigsten Kosten und spiele sie aus.",
-    "type": 0,
+    "type": "Spell",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1271,7 +1271,7 @@
     "cost": 0,
     "tags": "",
     "ability": "Verbessere Verbündete mit gerader Stärke um 1 wenn sie neben einer Einheit mit ungerader Stärke sind - und umgekehrt.",
-    "type": 0,
+    "type": "Spell",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1282,7 +1282,7 @@
     "cost": 0,
     "tags": "",
     "ability": "Verbessere einen Verbündeten mit Stärke 6 oder mehr um 7.",
-    "type": 0,
+    "type": "Spell",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1293,7 +1293,7 @@
     "cost": 9,
     "tags": "Mensch, Magier, agile",
     "ability": "Einsatz: Füge den Einheiten in einer gegnerischen Reihe Schaden in Höhe der Hälfte ihrer Basisstärke zu oder verbessere alle Verbündeten in einer Reihe um die Hälfte ihrer Basisstärke.",
-    "type": 9,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1304,7 +1304,7 @@
     "cost": 9,
     "tags": "",
     "ability": "Enthält dein Startdeck nur andere Karten mit Kosten <=5, durchsuche dein Deck nach der obersten Einheit, der obersten Sonderkarte und der nächst obersten Karte und spiele alle 3 aus.",
-    "type": 9,
+    "type": "Spell",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1315,7 +1315,7 @@
     "cost": 9,
     "tags": "Drache, melee",
     "ability": "Erblinie.\nTimer 3: Zerstöre die stärkste(n) Einheit(en) auf dem Schlachtfeld (Drachen unter deiner Kontrolle ausgenommen).",
-    "type": 9,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1326,7 +1326,7 @@
     "cost": 8,
     "tags": "Drache, ranged",
     "ability": "Erblinie.\nEinsatz: Durchsuche dein Deck nach einem Drachen, ziehe ihn und lege eine Karte deiner Hand unter dein Deck. Füge pro Punkt Erblinie einem Gegner 1 Schaden zu.",
-    "type": 8,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1337,7 +1337,7 @@
     "cost": 6,
     "tags": "Drache, siege",
     "ability": "Erblinie.\nTimer 3: Füge allen Gegnern 1 Schaden zu.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1348,7 +1348,7 @@
     "cost": 8,
     "tags": "Zauber",
     "ability": "Echo.\nDurchsuche dein Deck nach einer Karte und spiele sie aus.",
-    "type": 8,
+    "type": "Spell",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1359,7 +1359,7 @@
     "cost": 8,
     "tags": "",
     "ability": "Wenn dein Startdeck keine Duplikate enthält, schicke Shøp auf ein Abenteuer und erschaffe und spiele eine Karte aus dem Shøp: Magier, Shøp: Jäger oder Shøp: Ritter Zusatzdeck.",
-    "type": 8,
+    "type": "Spell",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1370,7 +1370,7 @@
     "cost": 2,
     "tags": "Ogroid, siege",
     "ability": "Einsatz: Verbanne alle Karten auf deiner Hand und ziehe dann ebenso viele Karten.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1381,7 +1381,7 @@
     "cost": 0,
     "tags": "Ogroid, Magier, Token, siege",
     "ability": "Einsatz: Mische die Karte ganz rechts auf den Händen beider Spieler in ihr Deck und lass beide eine Karte ziehen.",
-    "type": 0,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1392,7 +1392,7 @@
     "cost": 0,
     "tags": "Ogroid, Magier, Token, siege",
     "ability": "Einsatz: Verschiebe eine andere zufällig gewählte Einheit in die Reihe gegenüber.",
-    "type": 0,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1403,7 +1403,7 @@
     "cost": 0,
     "tags": "Ogroid, Magier, Token, siege",
     "ability": "Einsatz: Generiere für 3 Züge in allen Reihen zufällige Reiheneffekte. Verwende dazu ein Deck mit je einer Karte pro Reiheneffekt und ziehe sie.",
-    "type": 0,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1414,7 +1414,7 @@
     "cost": 0,
     "tags": "Ogroid, Magier, Token, siege",
     "ability": "Einsatz: Verteile 13 mal 1 Schaden zufällig auf Gegner und andere Verbündete.",
-    "type": 0,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1425,7 +1425,7 @@
     "cost": 0,
     "tags": "Ogroid, Magier, Token, siege",
     "ability": "Einsatz: Durchsuche die Decks beider Spieler nach der obersten Einheit und rufe sie auf die jeweilige Seite herbei.",
-    "type": 0,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1436,7 +1436,7 @@
     "cost": 0,
     "tags": "Ogroid, Token, ranged",
     "ability": "Einsatz: Spiele die oberste Karte aus deinem Deck aus.",
-    "type": 0,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1447,7 +1447,7 @@
     "cost": 0,
     "tags": "Ogroid, Token, ranged",
     "ability": "Einsatz: Füge 3 Einheiten in einer gegnerischen Reihe 3 Schaden zu.",
-    "type": 0,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1458,7 +1458,7 @@
     "cost": 0,
     "tags": "Ogroid, Token, ranged",
     "ability": "Einsatz: Entferne einen Reiheneffekt deiner Wahl.",
-    "type": 0,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1469,7 +1469,7 @@
     "cost": 0,
     "tags": "Ogroid, Token, ranged",
     "ability": "Einsatz: Zerstöre einen zufällig gewählten Gegner.",
-    "type": 0,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1480,7 +1480,7 @@
     "cost": 0,
     "tags": "Ogroid, Token, ranged",
     "ability": "Einsatz: Generiere für 4 Züge in einer gegnerischen Reihe einen zufälligen Gefahr Reiheneffekt. Verwende dazu ein Deck mit je einer Karte pro Gefahr Reiheneffekt und ziehe eine.",
-    "type": 0,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1491,7 +1491,7 @@
     "cost": 0,
     "tags": "Ogroid, Ritter, Token, melee",
     "ability": "Einsatz: Füge einem Gegner 4 Schaden zu.",
-    "type": 0,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1502,7 +1502,7 @@
     "cost": 0,
     "tags": "Ogroid, Ritter, Token, melee",
     "ability": "Einsatz: Blockiere eine Einheit.",
-    "type": 0,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1513,7 +1513,7 @@
     "cost": 0,
     "tags": "Ogroid, Ritter, Token, melee",
     "ability": "Einsatz: Verbessere deine schwächste(n) Einheit(en) um 2.",
-    "type": 0,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1524,7 +1524,7 @@
     "cost": 0,
     "tags": "Ogroid, Ritter, Token, melee",
     "ability": "Einsatz: Gib dieser Einheit Zähigkeit.",
-    "type": 0,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1535,7 +1535,7 @@
     "cost": 0,
     "tags": "Ogroid, Ritter, Token, melee",
     "ability": "Einsatz: Verbessere einen Verbündeten um 4.",
-    "type": 0,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1546,7 +1546,7 @@
     "cost": 8,
     "tags": "Hexer, Hanse, melee",
     "ability": "Wanderer.",
-    "type": 8,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1557,7 +1557,7 @@
     "cost": 7,
     "tags": "Vampir, Hanse, siege",
     "ability": "Aen Hanse.\nEinsatz: Füge allen Einheiten in einer gegnerischen Reihe 1 Schaden zu. Todesstoß: Wiederhole die Einsatz-Fähigkeit in derselben Reihe.",
-    "type": 7,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1568,7 +1568,7 @@
     "cost": 6,
     "tags": "Vampir, Hanse, melee",
     "ability": "Aen Hanse.\nAktiv: Entziehe einem Gegner seine Verbesserung.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1579,7 +1579,7 @@
     "cost": 4,
     "tags": "Mensch, Bandit, Hanse, ranged",
     "ability": "Passiv, Hand: Wenn du eine Hanse Einheit spielst, rufe diese Einheit herbei und dann ziehe eine Karte.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1590,7 +1590,7 @@
     "cost": 5,
     "tags": "Mensch, Bandit, Hanse, agile",
     "ability": "Einsatz: Füge einer Einheit 3 Schaden zu.\nPassiv: Wenn du eine andere Hanse Einheit ausspielst, verschiebe diese Einheit in ihre Reihe und füge einem Gegner 1 Schaden zu.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1601,7 +1601,7 @@
     "cost": 4,
     "tags": "Mensch, Ritter, Hanse, agile",
     "ability": "Passiv: Wenn du eine andere Hanse Einheit ausspielst, verbessere sie um 2.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1612,7 +1612,7 @@
     "cost": 7,
     "tags": "Mensch, Hanse, agile",
     "ability": "Aen Hanse.\nEinsatz: Ziehe eine Karte und spiele dann eine Karte aus.",
-    "type": 7,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1623,7 +1623,7 @@
     "cost": 8,
     "tags": "Hexer, Hanse, agile",
     "ability": "Aen Hanse.\nEinsatz: Setze die Stärke von allen Einheiten in dieser und der gegenüberliegenden Reihe zurück.",
-    "type": 8,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1634,7 +1634,7 @@
     "cost": 7,
     "tags": "Relikt, siege",
     "ability": "Einsatz: Beide Spieler durchsuchen ihre Decks nach der Einheit mit entweder den höchsten oder den niedrigsten Kosten und rufen sie herbei.",
-    "type": 7,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1645,7 +1645,7 @@
     "cost": 7,
     "tags": "Drache, ranged",
     "ability": "Erblinie.\nEinsatz: Verbessere diese Karte um die Anzahl Einheiten im gegnerischen Friedhof.",
-    "type": 7,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1656,7 +1656,7 @@
     "cost": 7,
     "tags": "Zauber",
     "ability": "Zerstöre die stärkste(n) Einheit(en).",
-    "type": 7,
+    "type": "Spell",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1667,7 +1667,7 @@
     "cost": 7,
     "tags": "Mensch, Magier, ranged",
     "ability": "Einsatz: Generiere Yennefers Illusion hier.\nPassiv: Beim ersten Mal generieren pro Zug, füge dem schwächsten Gegner Schaden in Höhe der generierten Stärke zu.",
-    "type": 7,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1678,7 +1678,7 @@
     "cost": 0,
     "tags": "Mensch, Magier, Token, agile",
     "ability": "Passiv: Wenn diese Karte Schaden erleidet, zerstöre sie.",
-    "type": 0,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1689,7 +1689,7 @@
     "cost": 6,
     "tags": "Zwerg, melee",
     "ability": "Einsatz: Füge einem Gegner Schaden in Höhe der Anzahl Karte auf deiner Hand zu.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1700,7 +1700,7 @@
     "cost": 6,
     "tags": "Hexer, agile",
     "ability": "Passiv, Deck: Wenn du diese Karte in dein Deck zurück legst, zeige sie deinem Gegner und verbessere einen Verbündeten um 3.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1711,7 +1711,7 @@
     "cost": 6,
     "tags": "Mensch, Hanse, agile",
     "ability": "Aen Hanse.\nEinsatz: Verbessere diese Karte für jede Hanse Karte in deinem Startdeck um 2.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1722,7 +1722,7 @@
     "cost": 6,
     "tags": "Hexer, agile",
     "ability": "Einsatz: Zerstöre einen Gegner mit einer Primärkategorie, die nicht in deinem Startdeck war.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1733,7 +1733,7 @@
     "cost": 6,
     "tags": "Hexer, Hanse, agile",
     "ability": "Aen Hanse.\nEinsatz: Zerstöre einen Gegner mit 9 oder mehr Stärke.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1744,7 +1744,7 @@
     "cost": 8,
     "tags": "Hexer, Hanse, agile",
     "ability": "Aen Hanse.\nEinsatz: Ergreife und blockiere einen Gegner, dessen Stärke maximal der Anzahl Hexer und Hanse Einheiten in dieser Reihe entspricht.",
-    "type": 8,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1755,7 +1755,7 @@
     "cost": 6,
     "tags": "Hexer, Hanse, agile",
     "ability": "Aen Hanse.\nEinsatz: Zerstöre die stärkste(n) Einheit(en) in einer gegnerischen Reihe mit einer Gesamtstärke der Reihe von mindestens 20.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1766,7 +1766,7 @@
     "cost": 6,
     "tags": "Hexer, agile",
     "ability": "Einsatz: Füge einem Gegner und allen seinen Kopien auf der gegnerischen Seite 2 Schaden zu.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1777,7 +1777,7 @@
     "cost": 6,
     "tags": "Mensch, Magier, melee",
     "ability": "Einsatz: Wenn dein Startdeck keine Duplikate enthält, generiere ein Strategem aus dem Strategem Zusatzdeck in dieser Reihe.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1788,7 +1788,7 @@
     "cost": 0,
     "tags": "Token",
     "ability": "Aktiv: Durchsuche dein Deck nach einer Karte und ziehe sie, lege dann eine Karte aus deiner Hand unten in dein Deck und mische den Rest.",
-    "type": 0,
+    "type": "Strategem",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1799,7 +1799,7 @@
     "cost": 0,
     "tags": "Token",
     "ability": "Aktiv: Verwandle diese Karte in ein Lampen-Djinn Token.",
-    "type": 0,
+    "type": "Strategem",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1810,7 +1810,7 @@
     "cost": 0,
     "tags": "Token, agile",
     "ability": "",
-    "type": 0,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1821,7 +1821,7 @@
     "cost": 0,
     "tags": "Token",
     "ability": "Aktiv: Verbessere einen Verbündeten um 4 und gib ihm einen Schild.",
-    "type": 0,
+    "type": "Strategem",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1832,7 +1832,7 @@
     "cost": 0,
     "tags": "Token",
     "ability": "Aktiv: Blockiere einen Gegner und füge ihm 3 Schaden zu.",
-    "type": 0,
+    "type": "Strategem",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1843,7 +1843,7 @@
     "cost": 0,
     "tags": "Token",
     "ability": "Aktiv: Verbessere einen Verbündeten um 5.",
-    "type": 0,
+    "type": "Strategem",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1854,7 +1854,7 @@
     "cost": 6,
     "tags": "Mensch, Magier, ranged",
     "ability": "Einsatz: Erschaffe eine Karte aus den Bronze Sonderkarten auf den Friedhöfen beider Spieler, belebe sie wieder und spiele sie aus.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1865,7 +1865,7 @@
     "cost": 5,
     "tags": "Hexer, agile",
     "ability": "Einsatz: Füge 3 Gegnern 1 Schaden zu.\nRundenende: Nimm diese Einheit zurück auf die Hand, wenn du eine Runde verlierst.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1876,7 +1876,7 @@
     "cost": 5,
     "tags": "Hexer, agile",
     "ability": "Einsatz: Enthält dein Startdeck nur andere Karten mit Kosten <=5 (ausgenommen Goldener Nekker), erhalte Zähigkeit und Schild.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1887,7 +1887,7 @@
     "cost": 5,
     "tags": "Hexer, Hanse, ranged",
     "ability": "Schild, Aen Hanse.\nEinsatz: Durchsuche dein Deck nach einer Hexer Einheit und spiele sie aus.\nAdrenalin 4: Gib der Einheit einen Schild.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1898,7 +1898,7 @@
     "cost": 5,
     "tags": "Bestie, agile",
     "ability": "Todeswunsch: Generiere ein Rinderschutztruppe Token in dieser Reihe.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1909,7 +1909,7 @@
     "cost": 0,
     "tags": "Relikt, Token, agile",
     "ability": "",
-    "type": 0,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1920,7 +1920,7 @@
     "cost": 3,
     "tags": "Mensch, Verflucht, ranged",
     "ability": "Zugende, Friedhof: Verbessere alle Verbündeten um 1 und verbanne diese Karte.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1931,7 +1931,7 @@
     "cost": 5,
     "tags": "Mensch, Verflucht, Bandit, melee",
     "ability": "Passiv: Die Stärke dieser Karte kann nicht mittels anderer Fähigkeiten verändert werden.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1942,7 +1942,7 @@
     "cost": 6,
     "tags": "Bestie, siege",
     "ability": "Spielstart: Lege ein Plötze rufen Token neben dein Deck.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1953,7 +1953,7 @@
     "cost": 0,
     "tags": "Token",
     "ability": "Passiv: Wenn du eine Goldkarte ausspielst, durchsuche dein Deck nach Plötze und rufe sie herbei, dann verbanne dieses Token.",
-    "type": 0,
+    "type": "Strategem",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1964,7 +1964,7 @@
     "cost": 5,
     "tags": "Taktik",
     "ability": "Durchsuche dein Deck nach einer Einheit und spiele sie aus.",
-    "type": 5,
+    "type": "Spell",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1975,7 +1975,7 @@
     "cost": 4,
     "tags": "Mensch, Magier, ranged",
     "ability": "Einsatz: Ziehe bis zu 2 Karten, dann mische dieselbe Kartenzahl in dein Deck.\nPassiv: Wenn du eine Karte ziehst, verbessere diese Karte um 2.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1986,7 +1986,7 @@
     "cost": 5,
     "tags": "Hexer, agile",
     "ability": "Einsatz: Durchsuche dein Deck nach einer Trank oder Bombe Karte und spiele sie aus.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -1997,7 +1997,7 @@
     "cost": 5,
     "tags": "Mensch, Magier, agile",
     "ability": "Einsatz (Nahkampf): Füge allen anderen Einheiten 2 Schaden zu.\nEinsatz (Fernkampf): Verbessere alle anderen Einheiten um 2.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2008,7 +2008,7 @@
     "cost": 5,
     "tags": "Mensch, Magier, agile",
     "ability": "Zugende: Füge dem/den stärksten Gegner(n) 1 Schaden zu.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2019,7 +2019,7 @@
     "cost": 4,
     "tags": "Mensch, Bandit, ranged",
     "ability": "Einsatz: Verbanne eine Karte mit 4 oder weniger Stärke.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2030,7 +2030,7 @@
     "cost": 4,
     "tags": "Mensch, Ritter, melee",
     "ability": "Einsatz: Hast du einen Drachen in der Hand, zerstöre einen Gegner mit 9 oder mehr Stärke.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2041,7 +2041,7 @@
     "cost": 4,
     "tags": "Mensch, Bandit, agile",
     "ability": "Einsatz: Verbessere diese Karte für jede andere Bandit Karte unter deiner Kontrolle um 2.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2052,7 +2052,7 @@
     "cost": 4,
     "tags": "Hexer, Hanse, agile",
     "ability": "Aen Hanse.\nEinsatz: Füge 3 Gegnern 2 Schaden zu und verschiebe sie dann eine Reihe nach hinten.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2063,7 +2063,7 @@
     "cost": 4,
     "tags": "Dämon, siege",
     "ability": "Einsatz: Durchsuche dein Deck nach einer Karte und ziehe sie. Verwirf dann eine zufällige Karte deiner Hand. Hast du Iris von Everec auf der Hand wähle stattdesen was du verwirfst.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2074,7 +2074,7 @@
     "cost": 4,
     "tags": "Relikt, siege",
     "ability": "Einsatz: Durchsuche dein Deck nach einer Echo Karte und spiele sie aus.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2085,7 +2085,7 @@
     "cost": 4,
     "tags": "Taktik",
     "ability": "Durchsuche dein Deck nach der schwächsten Einheit und spiele sie aus.",
-    "type": 4,
+    "type": "Spell",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2096,7 +2096,7 @@
     "cost": 3,
     "tags": "Kriegsführung",
     "ability": "Verbessere 5 benachbarte Einheiten um 2. Verbessere Bronzeeinheiten zusätzlich um 1 für jede benachbarte Goldeinheit.",
-    "type": 3,
+    "type": "Spell",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2107,7 +2107,7 @@
     "cost": 4,
     "tags": "Mensch, Magier, siege",
     "ability": "Einsatz: Durchsuche dein Deck nach der obersten Einheit und füge dann einem Gegner Schaden in Höhe der gefundenen Stärke zu.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2118,7 +2118,7 @@
     "cost": 4,
     "tags": "Mensch, Magier, siege",
     "ability": "Einsatz: Durchsuche dein Deck nach der obersten Einheit und verbessere dann einen Verbündeten um die gefundenen Stärke.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2129,7 +2129,7 @@
     "cost": 4,
     "tags": "Zwerg, Hanse, siege",
     "ability": "Einsatz: Generiere Feldmarschall Duda und spiele ihn aus.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2140,7 +2140,7 @@
     "cost": 0,
     "tags": "Bestie, Token, agile",
     "ability": "Einsatz: Verbessere alle Einheiten in dieser Reihe um 1.",
-    "type": 0,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2151,7 +2151,7 @@
     "cost": 3,
     "tags": "Bestie, Verflucht, agile",
     "ability": "Einsatz: Verschiebe alle Einheiten in der gegenüberliegenden Reihe in zufällige andere Reihen auf ihrer Seite.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2162,7 +2162,7 @@
     "cost": 3,
     "tags": "Hexer, ranged",
     "ability": "Einsatz: Verbessere diese Einheit für jeden anderen Hexer den du kontrollierst um 1.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2173,7 +2173,7 @@
     "cost": 2,
     "tags": "Hexer, agile",
     "ability": "Einsatz, Adrenalin 4: Durchsuche dein Deck nach Vesemir und Eskel und rufe Vesemir zur rechten dieser Karte und Eskel zur rechten von Vesemir herbei.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2184,7 +2184,7 @@
     "cost": 2,
     "tags": "Hexer, agile",
     "ability": "Einsatz, Adrenalin 4: Durchsuche dein Deck nach Eskel und Lambert und rufe Lambert zur linken und Eskel zur rechten dieser Karte herbei.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2195,7 +2195,7 @@
     "cost": 2,
     "tags": "Hexer, agile",
     "ability": "Einsatz, Adrenalin 4: Durchsuche dein Deck nach Vesemir und Lambert und rufe Vesemir zur linken dieser Karte und Lambert zur linken von Vesemir herbei.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2206,7 +2206,7 @@
     "cost": 2,
     "tags": "Hexer, agile",
     "ability": "Zugstart: Wenn keine anderen Hexer in dieser Reihe sind, zerstöre diese Karte.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2217,7 +2217,7 @@
     "cost": 2,
     "tags": "Mensch, Magier, siege",
     "ability": "Einsatz: Blockiere eine Einheit.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2228,7 +2228,7 @@
     "cost": 2,
     "tags": "Relikt, siege",
     "ability": "Passiv: Wenn du eine Sonderkarte ausspielst, füge einem zufälligen Gegner 2 Schaden zu.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2239,7 +2239,7 @@
     "cost": 2,
     "tags": "Relikt, siege",
     "ability": "Passiv: Wenn du eine Sonderkarte ausspielst, verbessere einen Verbündeten um 2.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2250,7 +2250,7 @@
     "cost": 2,
     "tags": "Mensch, Bandit, melee",
     "ability": "Einsatz: Wenn dein Startdeck nur Einheiten enthält, Musterung.",
-    "type": 2,
+    "type": "Unit",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2261,7 +2261,7 @@
     "cost": 2,
     "tags": "Mensch, Magier, Druide, agile",
     "ability": "Einsatz (Nahkampf): Erhöhe die Dauer aller Reiheneffekte um 2.\nEinsatz (Fernkampf): Verringere die Dauer aller Reiheneffekte um 2.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2272,7 +2272,7 @@
     "cost": 1,
     "tags": "Mensch, Verflucht, ranged",
     "ability": "Einsatz: Sieh dir dein Deck von der obersten bis zur untersten Karte an. Du kannst eine Karte nach unten in deinem Deck legen und den Rest mischen.",
-    "type": 1,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2283,7 +2283,7 @@
     "cost": 0,
     "tags": "Bestie, ranged",
     "ability": "Spielstart: Wenn du keine weiteren Karten mit 0 Kosten in deinem Startdeck hast, beginnt diese Karte das Spiel in deiner Fernkampfreihe.",
-    "type": 0,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2294,7 +2294,7 @@
     "cost": 1,
     "tags": "Relikt, melee",
     "ability": "Einsatz: Wähle eine Einheit auf deiner Hand aus und verbessere diese Karte dann um die Anzahl der Einheiten in der Hand mit der gleichen Primärkategorie.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2305,7 +2305,7 @@
     "cost": 0,
     "tags": "Bestie, melee",
     "ability": "",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2316,7 +2316,7 @@
     "cost": 0,
     "tags": "Mensch, Soldat, ranged",
     "ability": "Einsatz: Verschiebe eine Einheit in eine andere Reihe.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2327,7 +2327,7 @@
     "cost": 0,
     "tags": "Relikt, melee",
     "ability": "Einsatz: Verbanne eine Karte vom gegnerischen Friedhof.",
-    "type": 0,
+    "type": "Unit",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2338,7 +2338,7 @@
     "cost": 0,
     "tags": "Mensch, ranged",
     "ability": "Einsatz: Läutere eine Einheit.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2349,7 +2349,7 @@
     "cost": 0,
     "tags": "Mensch, Bandit, siege",
     "ability": "Einsatz: Mische eine Goldkarte von der Hand in dein Deck, durchsuche dein Deck dann nach einer Bronzekarte und ziehe sie. Dann verbessere selbst um 4.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2360,7 +2360,7 @@
     "cost": 0,
     "tags": "Zauber",
     "ability": "Verbessere eine Einheit um 6 und gib ihr Verdammt.",
-    "type": 0,
+    "type": "Spell",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2371,7 +2371,7 @@
     "cost": 1,
     "tags": "Zauber",
     "ability": "Füge einer Einheit 5 Schaden zu.",
-    "type": 1,
+    "type": "Spell",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2382,7 +2382,7 @@
     "cost": 2,
     "tags": "Zauber",
     "ability": "Füge allen Gegnern 1 Schaden zu.",
-    "type": 2,
+    "type": "Spell",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2393,7 +2393,7 @@
     "cost": 2,
     "tags": "Zauber",
     "ability": "Sieh dir die 2 obersten Karten deines Decks an. Spiele eine aus und verbanne die andere.",
-    "type": 2,
+    "type": "Spell",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2404,7 +2404,7 @@
     "cost": 3,
     "tags": "Zauber",
     "ability": "Belebe eine Bronze Einheit wieder und spiele sie aus.",
-    "type": 3,
+    "type": "Spell",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2415,7 +2415,7 @@
     "cost": 3,
     "tags": "Zauber",
     "ability": "Füge einer Einheit 8 Schaden zu.",
-    "type": 3,
+    "type": "Spell",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2426,7 +2426,7 @@
     "cost": 4,
     "tags": "Zauber",
     "ability": "Transferiere bis zu 10 Stärke von der stärksten Einheit zur schwächsten Einheit.",
-    "type": 4,
+    "type": "Spell",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2437,7 +2437,7 @@
     "cost": 4,
     "tags": "Zauber",
     "ability": "Durchsuche dein Deck nach der stärksten Einheit und spiele sie aus.",
-    "type": 4,
+    "type": "Spell",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2448,7 +2448,7 @@
     "cost": 5,
     "tags": "Zauber",
     "ability": "Zerstöre die stärkste Einheit.",
-    "type": 5,
+    "type": "Spell",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2459,7 +2459,7 @@
     "cost": 0,
     "tags": "Bombe",
     "ability": "Füge einer Einheit 3 Schaden zu. Todesstoß: Verschiebe benachbarte Einheiten in eine zufällige andere Reihe.",
-    "type": 0,
+    "type": "Spell",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2470,7 +2470,7 @@
     "cost": 0,
     "tags": "Bombe",
     "ability": "Füge einem Gegner 3 Schaden zu. Todesstoß: Wiederhole die Fähigkeit bei der Einheit zur Rechten mit 1 weniger Schaden zu (endet bei 0 Schaden).",
-    "type": 0,
+    "type": "Spell",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2481,7 +2481,7 @@
     "cost": 1,
     "tags": "Bombe",
     "ability": "Füge einer Einheit 4 Schaden zu. Todesstoß: Verbanne sie.",
-    "type": 1,
+    "type": "Spell",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2492,7 +2492,7 @@
     "cost": 1,
     "tags": "Bombe",
     "ability": "Füge einer Einheit 3 Schaden zu. Todesstoß: Füge den benachbarten Einheiten 3 Schaden zu.",
-    "type": 1,
+    "type": "Spell",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2503,7 +2503,7 @@
     "cost": 4,
     "tags": "Bombe",
     "ability": "Generiere Drachentraum-Nebel in einer gegnerischen Reihe für 4 Züge.",
-    "type": 4,
+    "type": "Spell",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2514,7 +2514,7 @@
     "cost": 0,
     "tags": "Gefahr",
     "ability": "Passiv: Wenn diese Reihe mit einer Bombe oder Geralt: Igni anvisiert wird, füge allen Einheiten in dieser Reihe 3 Schaden zu.",
-    "type": 0,
+    "type": "Strategem",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2525,7 +2525,7 @@
     "cost": 0,
     "tags": "Alchemie, Trank",
     "ability": "Verbessere eine Einheit um 6.",
-    "type": 0,
+    "type": "Spell",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2536,7 +2536,7 @@
     "cost": 0,
     "tags": "Alchemie, Trank",
     "ability": "Verbessere 3 benachbarte Einheiten um 2.",
-    "type": 0,
+    "type": "Spell",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2547,7 +2547,7 @@
     "cost": 2,
     "tags": "Alchemie, Trank",
     "ability": "Setze die Stärke einer Einheit auf 13. Ist die Einheit kein Hexer, füge ihr vorher 6 Schaden zu.",
-    "type": 2,
+    "type": "Spell",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2558,7 +2558,7 @@
     "cost": 3,
     "tags": "Alchemie, Trank",
     "ability": "Passiv, Friedhof: Wenn ein Gegner verbessert wird und du einen Hexer kontrollierst, zerstöre den Gegner und verbanne diese Karte.",
-    "type": 3,
+    "type": "Spell",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2569,7 +2569,7 @@
     "cost": 0,
     "tags": "Hexer, ranged",
     "ability": "Einsatz: Füge einem Gegner 1 Schaden zu. Wenn du eine Bombe auf der Hand hast, erhöhe den Schaden auf 3.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2580,7 +2580,7 @@
     "cost": 1,
     "tags": "Hexer, melee",
     "ability": "Einsatz: Spiele eine Bombe oder einen Trank von deiner Hand aus und ziehe dann eine Karte.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2591,7 +2591,7 @@
     "cost": 1,
     "tags": "Hexer, ranged",
     "ability": "Passiv: Wenn du eine Bombe oder einen Trank ausspielst, füge einem Gegner 1 Schaden zu.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2602,7 +2602,7 @@
     "cost": 1,
     "tags": "Hexer, melee",
     "ability": "Einsatz: Füge dieser Einheit 3 Schaden zu. Hast du einen Trank auf der Hand, füge auch einem Gegner 3 Schaden zu.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2613,7 +2613,7 @@
     "cost": 0,
     "tags": "Alchemie",
     "ability": "Blockiere einen Gegner und füge ihm 3 Schaden zu.",
-    "type": 0,
+    "type": "Spell",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2624,7 +2624,7 @@
     "cost": 0,
     "tags": "Alchemie",
     "ability": "Generiere in einer verbündeten Reihe für 3 Züge Schaum.",
-    "type": 0,
+    "type": "Spell",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2635,7 +2635,7 @@
     "cost": 0,
     "tags": "Segen",
     "ability": "Zugstart: Verbessere die stärkste und die schwächste Einheit in dieser Reihe jeweils um 1 (nur eins von beidem bei einer Einheit).",
-    "type": 0,
+    "type": "Strategem",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2646,7 +2646,7 @@
     "cost": 3,
     "tags": "Natur",
     "ability": "Durchsuche dein Deck nach allen Kopien von entweder Dichter Nebel, Strömender Regen oder Beißender Frost und spiele sie aus.",
-    "type": 3,
+    "type": "Spell",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2657,7 +2657,7 @@
     "cost": 0,
     "tags": "Natur",
     "ability": "Generiere in einer gegnerischen Reihe für 3 Züge Nebel.",
-    "type": 0,
+    "type": "Spell",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2668,7 +2668,7 @@
     "cost": 0,
     "tags": "Gefahr",
     "ability": "Zugstart: Füge der schwächsten Einheit in dieser Reihe 2 Schaden zu.",
-    "type": 0,
+    "type": "Strategem",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2679,7 +2679,7 @@
     "cost": 0,
     "tags": "Natur",
     "ability": "Generiere in einer gegnerischen Reihe für 3 Züge Regen.",
-    "type": 0,
+    "type": "Spell",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2690,7 +2690,7 @@
     "cost": 0,
     "tags": "Gefahr",
     "ability": "Zugstart: Füge der stärksten und der schwächsten Einheit in dieser Reihe jeweils 1 Schaden zu (nur eins von beidem bei einer Einheit).",
-    "type": 0,
+    "type": "Strategem",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2701,7 +2701,7 @@
     "cost": 0,
     "tags": "Natur",
     "ability": "Generiere in einer gegnerischen Reihe für 3 Züge Frost.",
-    "type": 0,
+    "type": "Spell",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2712,7 +2712,7 @@
     "cost": 0,
     "tags": "Gefahr",
     "ability": "Zugstart: Füge der stärksten Einheit in dieser Reihe 2 Schaden zu.",
-    "type": 0,
+    "type": "Strategem",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2723,7 +2723,7 @@
     "cost": 0,
     "tags": "Organisch",
     "ability": "Setze die Stärke einer Einheit zurück.",
-    "type": 0,
+    "type": "Spell",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2734,7 +2734,7 @@
     "cost": 0,
     "tags": "Organisch",
     "ability": "Zerstöre eine Einheit mit 0 Kosten.",
-    "type": 0,
+    "type": "Spell",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2745,7 +2745,7 @@
     "cost": 1,
     "tags": "Organisch",
     "ability": "Verbessere einen Verbündeten um 8, wenn sich keine anderen Einheiten in seiner Reihe befinden.",
-    "type": 1,
+    "type": "Spell",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2756,7 +2756,7 @@
     "cost": 2,
     "tags": "Organisch",
     "ability": "Füge allen Einheiten in einer Reihe 2 Schaden zu.",
-    "type": 2,
+    "type": "Spell",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2767,7 +2767,7 @@
     "cost": 3,
     "tags": "Organisch",
     "ability": "Verbessere alle Verbündeten um 1.",
-    "type": 3,
+    "type": "Spell",
     "category": "bronze",
     "faction": "neutral"
   },
@@ -2778,7 +2778,7 @@
     "cost": 4,
     "tags": "Organisch, Alchemie",
     "ability": "Setze die Stärke eines Gegners auf 1.",
-    "type": 4,
+    "type": "Spell",
     "category": "gold",
     "faction": "neutral"
   },
@@ -2789,7 +2789,7 @@
     "cost": 0,
     "tags": "Mensch, Magier, Anführer, agile",
     "ability": "Passiv: Wenn du ein Konstrukt ausspielst verbessere einen verbündeten Magier um 1 und umgekehrt.",
-    "type": 0,
+    "type": "Leader",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -2800,7 +2800,7 @@
     "cost": 5,
     "tags": "Konstrukt, melee",
     "ability": "Einsatz: Füge 3 benachbarten Gegnern Schaden in Höhe der Anzahl Konstrukte die du in dieser Partie ausgespielt hast zu.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -2811,7 +2811,7 @@
     "cost": 5,
     "tags": "Konstrukt, melee",
     "ability": "Einsatz: Füge einem Gegner 4 Schaden zu, + 1 Schaden pro Konstrukt, das du in dieser Partie ausgespielt hast.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -2822,7 +2822,7 @@
     "cost": 1,
     "tags": "Konstrukt, melee",
     "ability": "Einsatz: Siehe dir die oberste Karte aus dem gegnerischen Deck an und füge dieser Einheit Schaden in Höhe der Stärke zu (oder 4 bei Sonderkarten).",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -2833,7 +2833,7 @@
     "cost": 3,
     "tags": "Konstrukt, melee",
     "ability": "Einsatz: Füge diese Einheit 6 Schaden zu. Verringere den Schaden pro Konstrukt, das du in dieser Partie ausgespielt hast, um 2.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -2844,7 +2844,7 @@
     "cost": 2,
     "tags": "Konstrukt, ranged",
     "ability": "Einsatz: Wenn du bereits ein Konstrukt in dieser Partie ausgespielt hast, generiere einen Imperialer Golem im gegnerischen Friedhof.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -2855,7 +2855,7 @@
     "cost": 8,
     "tags": "Mensch, Magier, agile",
     "ability": "Einsatz: Tausche eine Karte im gegnerischen Friedhof mit einer Karte auf deiner Hand.",
-    "type": 8,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -2866,7 +2866,7 @@
     "cost": 4,
     "tags": "Mensch, Magier, Agent, ranged",
     "ability": "Einsatz: Durchsuche dein Deck nach einer Karte und lege sie ganz unten ins gegnerische Deck. Verbessere diese Einheit um die Kosten der Karte wenn es ein Konstrukt war.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -2877,7 +2877,7 @@
     "cost": 7,
     "tags": "Mensch, Magier, ranged",
     "ability": "Einsatz: Durchsuche das Deck deines Gegners nach einer Einheit (nicht aus seinem Startdeck), mit Kosten <= 5 und spiele sie aus. Verbessere sie pro Punkt unter dem Limit um 1.",
-    "type": 7,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -2888,7 +2888,7 @@
     "cost": 3,
     "tags": "Mensch, Magier, ranged",
     "ability": "Einsatz: Durchsuche das Deck deines Gegners nach einer Einheit (nicht aus seinem Startdeck), mit Kosten <= 2 und spiele sie aus. Verbessere sie pro Punkt unter dem Limit um 1.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -2899,7 +2899,7 @@
     "cost": 3,
     "tags": "Mensch, Magier, melee",
     "ability": "Einsatz: Generiere Der Wächter und platziere ihn oben auf dem gegnerischen Deck.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -2910,7 +2910,7 @@
     "cost": 0,
     "tags": "Konstrukt, Token, agile",
     "ability": "",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -2921,7 +2921,7 @@
     "cost": 3,
     "tags": "Mensch, Magier, siege",
     "ability": "Einsatz: Durchsuche dein Deck nach den obersten drei Bronze Einheiten, erschaffe eine davon, setze ihre Stärke auf 1 und spiele sie aus.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -2932,7 +2932,7 @@
     "cost": 2,
     "tags": "Mensch, Magier, agile",
     "ability": "Einsatz: Füge einem Gegner 2 Schaden zu. Erhöhe die Anzahl der Ziele für jeden benachbarten Magier oder jedes benachbarte Konstrukt um 1.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -2943,7 +2943,7 @@
     "cost": 4,
     "tags": "Mensch, Magier, ranged",
     "ability": "Einsatz: Belebe eine Bronzesonderkarte aus dem gegnerischen Friedhof wieder und spiele sie aus oder verbessere einen Verbündeten um 4.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -2954,7 +2954,7 @@
     "cost": 3,
     "tags": "Mensch, Magier, ranged",
     "ability": "Einsatz: Mische eine Karte aus dem gegnerischen Friedhof zurück ins gegnerische Deck oder aus deinem Friedhof in dein Deck.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -2965,7 +2965,7 @@
     "cost": 3,
     "tags": "Mensch, Magier, siege",
     "ability": "Einsatz: Verbessere alle verbündeten Magier um 1.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -2976,7 +2976,7 @@
     "cost": 2,
     "tags": "Zauber, Konstrukt",
     "ability": "Durchsuche dein Deck nach einem Konstrukt, mit Kosten < der Anzahl verbündeter Magier und rufe es herbei.",
-    "type": 2,
+    "type": "Spell",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -2987,7 +2987,7 @@
     "cost": 2,
     "tags": "Mensch, Magier, melee",
     "ability": "Einsatz: Setze die Stärke dieser Einheit auf die Stärke einer Bronze Einheit im gegnerischen Friedhof.",
-    "type": 2,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -2998,7 +2998,7 @@
     "cost": 0,
     "tags": "Mensch, Magier, ranged",
     "ability": "Passiv: Wenn du eine Karte ins gegnerische Deck tust oder daraus entfernst, verbessere diese Karte um 2.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3009,7 +3009,7 @@
     "cost": 1,
     "tags": "Mensch, Magier, siege",
     "ability": "Einsatz: Kontrollierst du ein Konstrukt, Musterung.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3020,7 +3020,7 @@
     "cost": 0,
     "tags": "Mensch, Magier, siege",
     "ability": "Zugende: Wenn du ein Konstrukt kontrollierst, verbessere diese Einheit um 1.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3031,7 +3031,7 @@
     "cost": 0,
     "tags": "Mensch, Soldat, Anführer, agile",
     "ability": "Einsatz: Ziehe bis zu 3 Karten und verschiebe dann dieselbe Anzahl in beliebiger Reihenfolge nacheinander oben auf dein Deck. Prüfe zwischendurch auf Effekten.",
-    "type": 0,
+    "type": "Leader",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3042,7 +3042,7 @@
     "cost": 6,
     "tags": "Mensch, Agent, ranged",
     "ability": "Passiv, Deck: Wurde diese Karte während deines Zuges oben auf dein Deck verschoben, zeige diese Karte und füge einem Gegner 2 Schaden zu. Beim dritten mal rufe sie auch herbei.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3053,7 +3053,7 @@
     "cost": 5,
     "tags": "Mensch, Soldat, Aristokrat, agile",
     "ability": "Einsatz: Zerstöre eine Einheit, durchsuche das Deck des kontrollierenden Spielers nach der obersten Einheit (für den Gegner nur Bronze) und rufe sie herbei.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3064,7 +3064,7 @@
     "cost": 8,
     "tags": "Mensch, Aristokrat, siege",
     "ability": "Einsatz, Gefecht: Verschiebe einen nicht verdammten Gegner mit maximal 8 Stärke auf die Hand deines Gegners und ziehe dann eine Karte.",
-    "type": 8,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3075,7 +3075,7 @@
     "cost": 5,
     "tags": "Mensch, Magier, ranged",
     "ability": "Einsatz: Sieh dir die oberse Karte deines Decks an. Ist es eine Einheit, verbessere Xarthisius um ihre Stärke und mische die Karte zurück. Ist es eine Sonderkarte, spiele sie aus.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3086,7 +3086,7 @@
     "cost": 6,
     "tags": "Mensch, Soldat, melee",
     "ability": "Einsatz: Gefecht: Dein Gegner zieht eine Karte.\nWenn nicht im Gefecht, füge dieser Karte stattdessen 12 Schaden zu.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3097,7 +3097,7 @@
     "cost": 1,
     "tags": "Mensch, Soldat, melee",
     "ability": "Passiv, Deck: Wurde diese Karte während deines Zuges oben auf dein Deck verschoben, rufe sie herbei.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3108,7 +3108,7 @@
     "cost": 1,
     "tags": "Mensch, Soldat, ranged",
     "ability": "Einsatz: Durchsuche dein Deck und verschiebe eine Karte nach oben, mische nur den Rest.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3119,7 +3119,7 @@
     "cost": 0,
     "tags": "Mensch, Soldat, melee",
     "ability": "Passiv: Wenn du eine Karte ziehst, verbessere diese Karte um 1.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3130,7 +3130,7 @@
     "cost": 0,
     "tags": "Mensch, Agent, agile",
     "ability": "Einsatz (Nahkampf): Sieh dir die obersten 3 Karten im gegnerischen Deck an und verschiebe eine nach oben.\nEinsatz (Fernkampf): Wie im Nahkampf, aber stattdessen in deinem Deck.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3141,7 +3141,7 @@
     "cost": 0,
     "tags": "Mensch, Soldat, siege",
     "ability": "Einsatz: Ziehe eine Karte und verschiebe dann eine Karte aus deiner Hand oben auf dein Deck.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3152,7 +3152,7 @@
     "cost": 0,
     "tags": "Mensch, Soldat, melee",
     "ability": "Spielstart: Generiere eine Kopie dieser Karte in deinem Deck.\nEinsatz: Wenn du einen Soldaten kontrollierst: Musterung",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3163,7 +3163,7 @@
     "cost": 0,
     "tags": "Mensch, Soldat, ranged",
     "ability": "Zugende: Wenn dein Deck weniger Karten als das deines Gegners enthält, verbessere diese Karte um 1.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3174,7 +3174,7 @@
     "cost": 0,
     "tags": "Mensch, Aristokrat, Anführer, agile",
     "ability": "Einsatz: Enthülle bis zu 4 Karten.",
-    "type": 0,
+    "type": "Leader",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3185,7 +3185,7 @@
     "cost": 8,
     "tags": "Mensch, Soldat, melee",
     "ability": "Einsatz: Durchsuche dein Deck nach einer Maschine Karte, ziehe sie und spiele dann eine Bronze Karte von deiner Hand.",
-    "type": 8,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3196,7 +3196,7 @@
     "cost": 6,
     "tags": "Mensch, Soldat, melee",
     "ability": "Einsatz: Enthülle die stärkste Einheit auf der gegnerischen Hand und verbessere diese Einheit um die enthüllte Stärke.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3207,7 +3207,7 @@
     "cost": 6,
     "tags": "Mensch, Soldat, melee",
     "ability": "Einsatz: Enthülle eine deiner Karten und füge einem Gegner Schaden in Höhe der enthüllten Stärke zu.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3218,7 +3218,7 @@
     "cost": 4,
     "tags": "Mensch, Soldat, ranged",
     "ability": "Passiv: Wenn du eine Karte enthüllst, verbessere diese Einheit um 2.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3229,7 +3229,7 @@
     "cost": 6,
     "tags": "Mensch, Soldat, ranged",
     "ability": "Einsatz: Enthülle bis zu 2 eigene Karten und enthülle dann die selbe Anzahl gegnerischer Karten.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3240,7 +3240,7 @@
     "cost": 6,
     "tags": "Maschine, siege",
     "ability": "Einsatz: Füge allen Gegnern in einer Reihe 1 Schaden zu.\nEnthüllt: Aktiviere die Einsatz Fähigkeit.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3251,7 +3251,7 @@
     "cost": 1,
     "tags": "Maschine, siege",
     "ability": "Einsatz: Füge einem Gegner 3 Schaden zu.\nEnthüllt: Aktiviere die Einsatz Fähigkeit.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3262,7 +3262,7 @@
     "cost": 1,
     "tags": "Maschine, siege",
     "ability": "Einsatz: Füge einem zufälligen Gegner 1 Schaden zu.\nPassiv: Wenn du eine Karte enthüllst, aktiviere die Einsatz Fähigkeit.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3273,7 +3273,7 @@
     "cost": 1,
     "tags": "Mensch, Soldat, ranged",
     "ability": "Einsatz: Füge einem Gegner Schaden entsprechend der Anzahl enthüllter Karten zu.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3284,7 +3284,7 @@
     "cost": 1,
     "tags": "Mensch, Soldat, melee",
     "ability": "Enthüllt: Rufe diese Karte von deiner Hand herbei und ziehe dann eine Karte.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3295,7 +3295,7 @@
     "cost": 1,
     "tags": "Mensch, Soldat, melee",
     "ability": "Einsatz: Enthülle eine zufällige Karte auf deiner Hand.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3306,7 +3306,7 @@
     "cost": 1,
     "tags": "Mensch, Soldat, melee",
     "ability": "Passiv: Wenn du eine Karte enthüllst, verbessere diese Einheit um 1.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3317,7 +3317,7 @@
     "cost": 0,
     "tags": "Mensch, Soldat, ranged",
     "ability": "Einsatz: Enthülle bis zu 2 Karten.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3328,7 +3328,7 @@
     "cost": 0,
     "tags": "Mensch, Agent, siege",
     "ability": "Einsatz: Verdecke bis zu 2 Karten.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3339,7 +3339,7 @@
     "cost": 0,
     "tags": "Mensch, Aristokrat, Anführer, agile",
     "ability": "Einsatz: Ergreife bis zu 3 gegnerische Spion Einheiten mit Stärke 1.",
-    "type": 0,
+    "type": "Leader",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3350,7 +3350,7 @@
     "cost": 8,
     "tags": "Mensch, Aristokrat, Agent, ranged",
     "ability": "Einsatz: Generiere eine Eindringling Karte und spiele sie aus.\nPassiv: Wenn ein Gegner auf Spionage erscheint, verbessere diese Einheit um 1.",
-    "type": 8,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3361,7 +3361,7 @@
     "cost": 3,
     "tags": "Mensch, Aristokrat, Agent, ranged",
     "ability": "Spionage.\nEinsatz: Belebe eine Bronze Taktik Karte wieder und spiele sie aus.\nZugende: Verbessere diese Karte um 1. Stärke 8: Diese Karte wechselt die Seite.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3372,7 +3372,7 @@
     "cost": 2,
     "tags": "Mensch, Aristokrat, ranged",
     "ability": "Spionage.\nEinsatz: Durchsuche dein Deck nach den obersten zwei Gold Karten und spiele eine davon aus. Mische die andere zurück.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3383,7 +3383,7 @@
     "cost": 7,
     "tags": "Mensch, Soldat, melee",
     "ability": "Einsatz: Durchsuche dein Deck nach einer Spionage Einheit und spiele sie aus.",
-    "type": 7,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3394,7 +3394,7 @@
     "cost": 8,
     "tags": "Mensch, Aristokrat, ranged",
     "ability": "Einsatz: Spiele eine Soldat- oder Agent- Bronzeeinheit von deiner Hand aus und ziehe dann eine Karte. Gib dann drei Gegnern den Spion Status.",
-    "type": 8,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3405,7 +3405,7 @@
     "cost": 7,
     "tags": "Mensch, Aristokrat, ranged",
     "ability": "Einsatz: Füge einer gegnerischen Spion Einheit Schaden in Höhe der Anzahl verbündeter Aristokraten zu.\nTodesstoß: Spiele die zerstörte Einheit aus, statt sie auf den Friedhof zu tun.",
-    "type": 7,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3416,7 +3416,7 @@
     "cost": 6,
     "tags": "Mensch, Aristokrat, Agent, ranged",
     "ability": "Einsatz: Füge einem Gegner 4 Schaden zu. Verschwörung: Zerstöre ihn stattdessen.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3427,7 +3427,7 @@
     "cost": 6,
     "tags": "Mensch, Agent, agile",
     "ability": "Spionage.\nEinsatz: Durchsuche dein Deck nach der obersten Einheit ohne Spionage und spiele sie aus. Verbessere die ausgespielte Karte um 8.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3438,7 +3438,7 @@
     "cost": 1,
     "tags": "Taktik",
     "ability": "Belebe eine Bronzeeinheit aus dem gegnerischen Friedhof wieder und spiele sie aus.",
-    "type": 1,
+    "type": "Spell",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3449,7 +3449,7 @@
     "cost": 1,
     "tags": "Maschine, siege",
     "ability": "Einsatz: Generiere ein Kuhkadaver Token und spiele es aus.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3460,7 +3460,7 @@
     "cost": 0,
     "tags": "Bestie, Token, agile",
     "ability": "Spionage.\nZugende: Zerstöre die schwächste andere Einheit in dieser Reihe und diese Einheit.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3471,7 +3471,7 @@
     "cost": 0,
     "tags": "Taktik",
     "ability": "Gib einem Gegner den Spion Status und verbessere einen Einheit um 5.",
-    "type": 0,
+    "type": "Spell",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3482,7 +3482,7 @@
     "cost": 1,
     "tags": "Mensch, Soldat, ranged",
     "ability": "Einsatz: Füge einem Gegner 1 Schaden zu.\nPassiv: Wenn ein Gegner auf Spionage erscheint, füge einem Gegner 1 Schaden zu.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3493,7 +3493,7 @@
     "cost": 1,
     "tags": "Mensch, Soldat, melee",
     "ability": "Einsatz: Verbessere diese Einheit um 1 für jeden Gegner auf Spionage.\nPassiv: Wenn ein Gegner auf Spionage erscheint, verbessere diese Einheit um 1.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3504,7 +3504,7 @@
     "cost": 1,
     "tags": "Mensch, Agent, agile",
     "ability": "Spionage.\nEinsatz: Füge der Einheit zur Linken 5 Schaden zu. Erhöhe den Schaden um 1 wenn die andere dem Ziel benachbarte Einheit auch auf Spionage ist.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3515,7 +3515,7 @@
     "cost": 1,
     "tags": "Mensch, Agent, ranged",
     "ability": "Spionage.\nEinsatz: Durchsuche dein Deck nach den obersten 2 Bronzeeinheiten und spiele dann eine davon aus. Mische die andere zurück.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3526,7 +3526,7 @@
     "cost": 0,
     "tags": "Mensch, Agent, melee",
     "ability": "Spionage.\nEinsatz: Verbessere einen Gegner um 7.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3537,7 +3537,7 @@
     "cost": 0,
     "tags": "Mensch, Aristokrat, Anführer, agile",
     "ability": "Einsatz: Verbessere einen Gegner um 2.\nPassiv: Wenn du einen Gegner verbesserst, verbessere einen Verbündeten um 1.",
-    "type": 0,
+    "type": "Leader",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3548,7 +3548,7 @@
     "cost": 6,
     "tags": "Mensch, Verflucht, agile",
     "ability": "Spionage.\nEinsatz: Verbessere einen Gegner entsprechend der Stärkesumme der benachbarten Einheiten dieser Karte.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3559,7 +3559,7 @@
     "cost": 2,
     "tags": "Bestie, agile",
     "ability": "Einsatz: Verbessere benachbarte Ritter um 2.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3570,7 +3570,7 @@
     "cost": 6,
     "tags": "Taktik",
     "ability": "Durchsuche dein Deck nach einem Ritter, spiele ihn aus und verbessere ihn für jeden Ritter unter deiner Kontrolle um 1.",
-    "type": 6,
+    "type": "Spell",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3581,7 +3581,7 @@
     "cost": 9,
     "tags": "Ort",
     "ability": "Setze die Stärke eines Verbündeten auf den Wert des stärksten Gegners. Setze dann die Stärke einer Einheit zurück.",
-    "type": 9,
+    "type": "Spell",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3592,7 +3592,7 @@
     "cost": 5,
     "tags": "Mensch, Verflucht, siege",
     "ability": "Passiv (Belagerung): Wenn ein Gegner während deines Zugs verbessert wird, verbessere diese Karte um denselben Betrag.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3603,7 +3603,7 @@
     "cost": 6,
     "tags": "Mensch, Verflucht, siege",
     "ability": "Einsatz: Tausche die Stärke dieser Karte mit der eines Gegners. Adrenalin 2: Füge einem Gegner stattdessen 4 Schaden zu.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3614,7 +3614,7 @@
     "cost": 4,
     "tags": "Mensch, Soldat, Ritter, ranged",
     "ability": "Passiv: Wenn du einen Ritter ausspielst, verbessere ihn um 1.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3625,7 +3625,7 @@
     "cost": 5,
     "tags": "Mensch, Ritter, ranged",
     "ability": "Einsatz: Wähle einen nicht verbesserten Gegner aus, siehe dir dann die obersten 3 Karten deines Decks an, spiele eine aus und verbessere den Gegner entsprechend der Kosten.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3636,7 +3636,7 @@
     "cost": 3,
     "tags": "Mensch, Ritter, melee",
     "ability": "Einsatz: Verbessere einen Gegner und selbst um 3.\nAktiv: Verbessere diese Karte entsprechend der Verbesserung, die du in diesem Zug zuletzt bei einem Gegner bewirkt hast.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3647,7 +3647,7 @@
     "cost": 4,
     "tags": "Mensch, Ritter, melee",
     "ability": "Einsatz: Verbessere diese Karte um die Anzahl an verbündeten Rittern und verbessere dann diese Einheit und einen Gegner um die Hälfte der Stärke beider Einheiten.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3658,7 +3658,7 @@
     "cost": 6,
     "tags": "Alchemie",
     "ability": "Verbessere einen Gegner und einen Verbündeten um 9.",
-    "type": 6,
+    "type": "Spell",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3669,7 +3669,7 @@
     "cost": 1,
     "tags": "Mensch, Soldat, Ritter, melee",
     "ability": "Einsatz: Verbessere einen Gegner um 2.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3680,7 +3680,7 @@
     "cost": 0,
     "tags": "Mensch, Ritter, ranged",
     "ability": "Einsatz: Verbessere einen Gegner um 1.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3691,7 +3691,7 @@
     "cost": 1,
     "tags": "Mensch, Ritter, melee",
     "ability": "Passiv, Hand: Wenn du einen Gegner verbesserst, rufe diese Karte von deiner Hand herbei und ziehe eine Karte.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3702,7 +3702,7 @@
     "cost": 0,
     "tags": "Taktik",
     "ability": "Verbessere einen Gegner um 3 und dann einen Verbündeten um 9.",
-    "type": 0,
+    "type": "Spell",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3713,7 +3713,7 @@
     "cost": 0,
     "tags": "Taktik",
     "ability": "Entferne den Schild eines Gegners und füge ihm 4 Schaden zu oder gib einem Verbündeten einen Schild und verbessere ihn um 4.",
-    "type": 0,
+    "type": "Spell",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3724,7 +3724,7 @@
     "cost": 0,
     "tags": "Mensch, Soldat, melee",
     "ability": "Passiv: Wenn du einen Gegner verbesserst, verbessere diese Einheit um 1.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "nilfgaard"
   },
@@ -3735,7 +3735,7 @@
     "cost": 6,
     "tags": "Mensch, melee",
     "ability": "Einsatz: Zerstöre einen Gegner mit mindestens 9 Stärke oder zerstöre einen gegnerischen Hexer.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3746,7 +3746,7 @@
     "cost": 3,
     "tags": "Hexer, ranged",
     "ability": "Einsatz: Durchsuche dein Deck nach einer Taktik Karte und spiele sie aus.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3757,7 +3757,7 @@
     "cost": 3,
     "tags": "Hexer, siege",
     "ability": "Einsatz: Wenn du Auckes auf der Hand hast oder kontrollierst, blockiere einen Gegner. Wenn du Serrit auf der Hand hast oder kontrollierst, füge einem Gegner 3 Schaden zu.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3768,7 +3768,7 @@
     "cost": 2,
     "tags": "Hexer, melee",
     "ability": "Einsatz: Füge einem Gegner 2 Schaden zu. Wenn du Auckes auf der Hand hast oder kontrollierst, füge dem Gegner stattdessen 4 Schaden zu.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3779,7 +3779,7 @@
     "cost": 2,
     "tags": "Hexer, ranged",
     "ability": "Einsatz: Blockiere einen Gegner. Wenn du Serrit auf der Hand hast oder kontrollierst, blockiere alle Kopien des Gegners auf der Gegenseite.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3790,7 +3790,7 @@
     "cost": 6,
     "tags": "Taktik",
     "ability": "Echo.\nFüge einem Gegner 3 Schaden zu. Todesstoß: Spiele den Gegner aus, statt ihn auf den Friedhof zu tun. Verschwörung: Löse immer den Todesstoß aus.",
-    "type": 6,
+    "type": "Spell",
     "category": "gold",
     "faction": "nilfgaard"
   },
@@ -3801,7 +3801,7 @@
     "cost": 0,
     "tags": "Mensch, Soldat, Anführer, agile",
     "ability": "Einsatz: Verbessere 3 Verbündete um 1. Verbessere dann diese Einheit um die Anzahl verbesserter Einheiten in einer verbündeten Reihe.",
-    "type": 0,
+    "type": "Leader",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -3812,7 +3812,7 @@
     "cost": 8,
     "tags": "Kriegsführung",
     "ability": "Echo.\nDurchsuche dein Deck nach einer nicht neutralen Einheit mit max. 5 Kosten und spiele sie aus. Verbessere sie pro Punkt unter dem Limit um 1.",
-    "type": 8,
+    "type": "Spell",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -3823,7 +3823,7 @@
     "cost": 8,
     "tags": "Mensch, Soldat, melee",
     "ability": "Einsatz: Füge einem Gegner 2 Schaden zu, generiere ein Blaue-Streifen-Kommando und rufe ihn herbei. Todesstoß: Spiele ihn stattdessen aus.",
-    "type": 8,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -3834,7 +3834,7 @@
     "cost": 3,
     "tags": "Mensch, Soldat, ranged",
     "ability": "Einsatz: Verbessere alle Kopien einer Einheit um 1.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -3845,7 +3845,7 @@
     "cost": 4,
     "tags": "Mensch, Soldat, ranged",
     "ability": "Einsatz: Mische alle Kopien einer Bronzeeinheit von deinem Friedhof in dein Deck.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -3856,7 +3856,7 @@
     "cost": 3,
     "tags": "Mensch, Soldat, ranged",
     "ability": "Passiv: Wann immer du einen anderen Soldaten ausspielst, verbessere ihn um 1.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -3867,7 +3867,7 @@
     "cost": 3,
     "tags": "Mensch, Soldat, ranged",
     "ability": "Einsatz: Durchsuche dein Deck nach einer Kriegsführung Karte und spiele sie aus.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -3878,7 +3878,7 @@
     "cost": 2,
     "tags": "Mensch, Agent, agile",
     "ability": "Einsatz: Ziehe bis zu 2 Karten und mische dann die selbe Anzahl zurück in dein Deck.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -3889,7 +3889,7 @@
     "cost": 7,
     "tags": "Mensch, Verflucht, Aristokrat, agile",
     "ability": "Zugende: Verzehre den Verbündeten zur rechten.\nZugstart: Ist Adda verbessert, verwandle sie in Adda: Striege, ohne die Stärke zu verändern.",
-    "type": 7,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -3900,7 +3900,7 @@
     "cost": 7,
     "tags": "Bestie, Verflucht, agile",
     "ability": "Zugende: Verbessere eine Anzahl anderer Verbündeter in dieser Reihe um 1, entsprechend der Verbesserung dieser Einheit. Füge dann dieser Einheit 1 Schaden zu.",
-    "type": 7,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -3911,7 +3911,7 @@
     "cost": 2,
     "tags": "Kriegsführung",
     "ability": "Wenn du ein Blaue-Streifen-Kommando kontrollierst, generiere einen weiteren und spiele ihn aus.",
-    "type": 2,
+    "type": "Spell",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -3922,7 +3922,7 @@
     "cost": 2,
     "tags": "Mensch, Soldat, melee",
     "ability": "Einsatz: Musterung.\nAktiv: Musterung",
-    "type": 2,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -3933,7 +3933,7 @@
     "cost": 0,
     "tags": "Mensch, Soldat, ranged",
     "ability": "Verdammt.\nEinsatz: Wenn du ein Blaue-Streifen-Kommando kontrollierst, generiere einen weiteren ganz unten in deinem Deck.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -3944,7 +3944,7 @@
     "cost": 1,
     "tags": "Mensch, Soldat, ranged",
     "ability": "Einsatz: Füge einem Gegner Schaden in Höhe der Anzahl verbesserter Einheit in einer verbündeten Reihe zu.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -3955,7 +3955,7 @@
     "cost": 1,
     "tags": "Mensch, Soldat, agile",
     "ability": "Einsatz: Verbessere die 3 Einheit rechts von dieser Einheit um 2.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -3966,7 +3966,7 @@
     "cost": 0,
     "tags": "Mensch, Soldat, agile",
     "ability": "Einsatz: Generiere Verdammte linke Flanke und Verdammte rechte Flanke Token auf der jeweiligen Seite dieser Einheit.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -3977,7 +3977,7 @@
     "cost": 0,
     "tags": "Mensch, Soldat, Token, agile",
     "ability": "",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -3988,7 +3988,7 @@
     "cost": 0,
     "tags": "Mensch, Soldat, Token, agile",
     "ability": "",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -3999,7 +3999,7 @@
     "cost": 0,
     "tags": "Mensch, Soldat, agile",
     "ability": "Einsatz: Verbessere diese Einheit für jede verbesserte Einheit in dieser Reihe um 1.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4010,7 +4010,7 @@
     "cost": 0,
     "tags": "Mensch, Aristokrat, Anführer, agile",
     "ability": "Einsatz: Durchsuche dein Deck nach bis zu zwei nicht neutralen Karten deiner Wahl, ziehe sie und mische dann die selbe Anzahl Karten von deiner Hand ins Deck.",
-    "type": 0,
+    "type": "Leader",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4021,7 +4021,7 @@
     "cost": 10,
     "tags": "Mensch, Aristokrat, siege",
     "ability": "Einsatz: Verbessere einen Verbündeten um 5+X.\nPassiv, Deck: Tust du diese Karte in dein Deck, erhöhe ihren Zähler X um 1, und bei 3, 6, 9, 12 verbessere alle Verbündeten um X / 3.",
-    "type": 10,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4032,7 +4032,7 @@
     "cost": 6,
     "tags": "Mensch, Aristokrat, siege",
     "ability": "Einsatz: Generiere eine Cintrische Königswache und spiele sie aus.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4043,7 +4043,7 @@
     "cost": 3,
     "tags": "Mensch, Aristokrat, ranged",
     "ability": "Einsatz: Durchsuche dein Deck nach den obersten 2 Einheiten, ziehe sie und mische dann die selbe Anzahl Karten von deiner Hand in dein Deck.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4054,7 +4054,7 @@
     "cost": 2,
     "tags": "Mensch, Verflucht, Ritter, ranged",
     "ability": "Zugende: Erhöhe den Zähler auf dieser Karte um 1.\nAktiv: Verwandle diese Karte in Duny und behalte die Stärke und den Zähler.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4065,7 +4065,7 @@
     "cost": 2,
     "tags": "Mensch, Ritter, ranged",
     "ability": "Wenn diese Karte das Schlachtfeld betritt, ziehe 1 + Zähler Karten und mische die selbe Anzahl zurück.\nPassiv: Wenn du eine Karte ziehst, verbessere diese Einheit um 1.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4076,7 +4076,7 @@
     "cost": 3,
     "tags": "Mensch, Soldat, Ritter, melee",
     "ability": "Aktiv: Für jede verbesserten Verbündeten, füge einem Gegner 1 Schaden zu.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4087,7 +4087,7 @@
     "cost": 1,
     "tags": "Mensch, Soldat, melee",
     "ability": "Einsatz: Durchsuche dein Deck nach der obersten Einheit, ziehe sie und mische dann die selbe Anzahl Karten zurück. Adrenalin 4: Ziehe stattdessen die obersten 2 Einheiten.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4098,7 +4098,7 @@
     "cost": 1,
     "tags": "Mensch, Agent, ranged",
     "ability": "Passiv, Hand: Wenn du eine Aristokrat oder Ritter Karte ausspielst, rufe diese Karte von deiner Hand herbei und ziehe dann eine Karte.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4109,7 +4109,7 @@
     "cost": 0,
     "tags": "Kriegsführung",
     "ability": "Nimm eine Cintrische Königswache zurück auf die Hand und spiele sie erneut aus.",
-    "type": 0,
+    "type": "Spell",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4120,7 +4120,7 @@
     "cost": 0,
     "tags": "Kriegsführung",
     "ability": "Generiere 2 Freiwilliger Token in einer verbündeten Reihe. Ist in der Reihe eine verbesserte Einheit, verbessere die generierten Freiwilligen um 1.",
-    "type": 0,
+    "type": "Spell",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4131,7 +4131,7 @@
     "cost": 0,
     "tags": "Mensch, Soldat, Token, agile",
     "ability": "",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4142,7 +4142,7 @@
     "cost": 2,
     "tags": "Mensch, Magier, agile",
     "ability": "Aktiv: Blockiere einen Gegner.",
-    "type": 2,
+    "type": "Leader",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4153,7 +4153,7 @@
     "cost": 0,
     "tags": "Mensch, Magier, Anführer, agile",
     "ability": "Einsatz: Belebe einen Bronze Zauber wieder und spiele ihn aus.",
-    "type": 0,
+    "type": "Leader",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4164,7 +4164,7 @@
     "cost": 4,
     "tags": "Mensch, Magier, ranged",
     "ability": "Einsatz: Durchsuche dein Deck nach einem Zauber und spiele ihn aus.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4175,7 +4175,7 @@
     "cost": 7,
     "tags": "Mensch, Magier, siege",
     "ability": "Zugende: Erhöhe den Zähler X auf dieser Karte um 1.\nAktiv: Belebe X unterschiedliche Bronze Zauber von deinem Friedhof wieder und spiele sie aus.",
-    "type": 7,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4186,7 +4186,7 @@
     "cost": 4,
     "tags": "Mensch, Magier, siege",
     "ability": "Einsatz: Verbessere alle verbündeten Magier um 1.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4197,7 +4197,7 @@
     "cost": 2,
     "tags": "Mensch, Magier, ranged",
     "ability": "Passiv: Wenn du eine Zauber Karte ausspielst, die noch nicht in deinem Friedhof ist, verbessere diese Einheit um 1, ziehe eine Karte und mische eine Karte in dein Deck.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4208,7 +4208,7 @@
     "cost": 2,
     "tags": "Mensch, Magier, agile",
     "ability": "Einsatz: Spiele einen Zauber von deiner Hand und ziehe dann eine Karte.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4219,7 +4219,7 @@
     "cost": 0,
     "tags": "Mensch, Magier, ranged",
     "ability": "Passiv: Wenn du eine andere Magier Karte ausspielst, verbessere diese Einheit um 1.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4230,7 +4230,7 @@
     "cost": 0,
     "tags": "Zauber",
     "ability": "Gib einem Verbündeten einen Schild und verbessere ihn um 5",
-    "type": 0,
+    "type": "Spell",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4241,7 +4241,7 @@
     "cost": 1,
     "tags": "Zauber",
     "ability": "Füge einem Gegner 3 Schaden zu und verbessere einen Verbündeten um die Anzahl deiner Magier.",
-    "type": 1,
+    "type": "Spell",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4252,7 +4252,7 @@
     "cost": 1,
     "tags": "Mensch, Magier, siege",
     "ability": "Passiv: Wenn du eine Zauber Karte ausspielst, die noch nicht in deinem Friedhof ist, verbessere diese Einheit um 2.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4263,7 +4263,7 @@
     "cost": 1,
     "tags": "Mensch, Magier, ranged",
     "ability": "Einsatz: Füge einer Einheit 1 Schaden zu.\nPassiv: Wenn du eine Zauber oder andere Magier Karte ausspielst, füge einer Einheit 1 Schaden zu.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4274,7 +4274,7 @@
     "cost": 0,
     "tags": "Mensch, Soldat, Anführer, agile",
     "ability": "Einsatz: gib 2 Verbündeten einen Schild und verbessere sie um 2.",
-    "type": 0,
+    "type": "Leader",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4285,7 +4285,7 @@
     "cost": 6,
     "tags": "Mensch, siege",
     "ability": "Einsatz: Belebe eine Bronze Mensch Karte wieder, rufe sie herbei und gib ihr einen Schild.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4296,7 +4296,7 @@
     "cost": 8,
     "tags": "Mensch, Agent, siege",
     "ability": "Spionage.\nEinsatz: Durchsuche dein Deck nach den obersten beiden Karten mit Schild im Fähigkeitentext und spiele sie aus.",
-    "type": 8,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4307,7 +4307,7 @@
     "cost": 8,
     "tags": "Mensch, Agent, siege",
     "ability": "Einsatz: Spiele eine Einheit von deiner Hand und gib ihr einen Schild. Ziehe dann eine Karte.",
-    "type": 8,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4318,7 +4318,7 @@
     "cost": 6,
     "tags": "Mensch, Magier, ranged",
     "ability": "Einsatz: Setze die Stärke einer Einheit zurück.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4329,7 +4329,7 @@
     "cost": 7,
     "tags": "Mensch, Magier, ranged",
     "ability": "Einsatz: Füge einem Verbündeten 5, einem 4 und einem 3 Schaden zu. Wähle dann für jedes Ziel einen anderen Gegner und füge ihm den selben Schaden zu.",
-    "type": 7,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4340,7 +4340,7 @@
     "cost": 3,
     "tags": "Mensch, Soldat, Agent, melee",
     "ability": "Schild.\nZugende: Hat diese Einheit einen Schild, verbessere sie um 2.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4351,7 +4351,7 @@
     "cost": 4,
     "tags": "Ogroid, Soldat, melee",
     "ability": "Einsatz: Entferne den Schild von zwei Einheiten und verbessere diese Einheit für jeden entfernten Schild um 4.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4362,7 +4362,7 @@
     "cost": 1,
     "tags": "Mensch, Soldat, agile",
     "ability": "Zugende: Hat diese Einheit einen Schild, verbessere benachbarte Einheiten um 1.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4373,7 +4373,7 @@
     "cost": 1,
     "tags": "Mensch, Soldat, melee",
     "ability": "Schild.\nPassiv: Wenn diese Einheit ihren Schild verliert, verbessere sie um 4.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4384,7 +4384,7 @@
     "cost": 2,
     "tags": "Mensch, Soldat, melee",
     "ability": "Zugende: Hat diese Einheit keinen Schild, verbessere sie um 2 und gib ihr einen Schild.",
-    "type": 2,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4395,7 +4395,7 @@
     "cost": 1,
     "tags": "Mensch, Soldat, ranged",
     "ability": "Schild.\nZugende: Hat diese Einheit einen Schild, füge einem Gegner 1 Schaden zu.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4406,7 +4406,7 @@
     "cost": 0,
     "tags": "Mensch, Soldat, melee",
     "ability": "Aktiv: Gib einem Verbündeten einen Schild.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4417,7 +4417,7 @@
     "cost": 0,
     "tags": "Mensch, Soldat, ranged",
     "ability": "Einsatz: Füge einem Verbündeten 1 Schaden zu, dann Musterung",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4428,7 +4428,7 @@
     "cost": 0,
     "tags": "Mensch, Soldat, melee",
     "ability": "Schild.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4439,7 +4439,7 @@
     "cost": 0,
     "tags": "Mensch, Agent, siege",
     "ability": "Timer 2: Sieh dir die 3 obersten Karten aus deinem Deck an. Du kannst 1 nach oben verschieben und den Timer zurücksetzen.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4450,7 +4450,7 @@
     "cost": 0,
     "tags": "Mensch, Soldat, Anführer, agile",
     "ability": "Einsatz: Führe die Einsatz oder Zugende Fähigkeit von verbündeten Maschine Karten in dieser Reihe aus.",
-    "type": 0,
+    "type": "Leader",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4461,7 +4461,7 @@
     "cost": 10,
     "tags": "Kriegsführung",
     "ability": "Durchsuche dein Deck nach einer Bronze Maschine Karte und spiele sie aus. Führe danach die Einsatz oder Zugende Fähigkeit von bis zu 5 verbündeten Maschine Karten aus.",
-    "type": 10,
+    "type": "Spell",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4472,7 +4472,7 @@
     "cost": 8,
     "tags": "Maschine, agile",
     "ability": "Einsatz: Spiele eine Bronze Einheit aus deiner Hand aus und ziehe dann eine Karte.\nPassiv: Wird ein Soldat oder Magier neben diese Einheit ausgespielt, füge einem Gegner 2 Schaden zu.",
-    "type": 8,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4483,7 +4483,7 @@
     "cost": 4,
     "tags": "Mensch, Magier, agile",
     "ability": "Spionage.\nTodeswunsch: Füge allen Einheiten in dieser Reihe 3 Schaden zu.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4494,7 +4494,7 @@
     "cost": 6,
     "tags": "Maschine, siege",
     "ability": "Zugende: Füge einem Gegner 1 Schaden zu.\nBesatzung: Füge zusätzlich den benachbarten Einheiten 1 Schaden zu.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4505,7 +4505,7 @@
     "cost": 1,
     "tags": "Maschine, siege",
     "ability": "Einsatz: Füge einem Gegner 2 Schaden zu und verschiebe ihn eine Reihe nach hinten.\nBesatzung: Wiederhole die Einsatz Fähigkeit.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4516,7 +4516,7 @@
     "cost": 1,
     "tags": "Maschine, ranged",
     "ability": "Zugende: Verschiebe diese Karte in die andere Reihe aus [Nahkampf, Fernkampf]. Bei Nahkampf, füge dem stärksten Gegner 2 Schaden zu. Besatzung: Wähle stattdessen dein Ziel.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4527,7 +4527,7 @@
     "cost": 1,
     "tags": "Maschine, siege",
     "ability": "Zugende: Füge einem Gegner in der Belagerungs - Reihe 1 Schaden zu.\nBesatzung: Wähle stattdessen das Ziel in allen gegnerischen Reihen.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4538,7 +4538,7 @@
     "cost": 0,
     "tags": "Maschine, siege",
     "ability": "Zugende: Verschiebe diese Einheit eine Reihe nach vorne und verbessere sie beim Verschieben um 1. Besatzung: Verbessere auch ohne Verschieben um 1.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4549,7 +4549,7 @@
     "cost": 1,
     "tags": "Mensch, Soldat, agile",
     "ability": "Passiv, Hand: Wenn du eine Maschine ausspielst, rufe diese Karte von deiner Hand zur linken Seite davon herbei und ziehe dann eine Karte.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4560,7 +4560,7 @@
     "cost": 1,
     "tags": "Mensch, Soldat, agile",
     "ability": "Passiv: Wenn diese Einheit Auslöser einer Besatzung-Fähigkeit ist, verbessere sie um 1.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4571,7 +4571,7 @@
     "cost": 0,
     "tags": "Mensch, Soldat, agile",
     "ability": "Aktiv: Verbessere einen Verbündeten um 2.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4582,7 +4582,7 @@
     "cost": 0,
     "tags": "Maschine, siege",
     "ability": "Einsatz: Füge einem Gegner 2 Schaden zu. Todesstoß: Füge einem weiteren Gegner 1 Schaden zu.\nBesatzung: Erhöhe den Schaden jeweils um 1.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4593,7 +4593,7 @@
     "cost": 10,
     "tags": "Mensch, Aristokrat, siege",
     "ability": "Einsatz: Durchsuche dein Deck nach 3 Karten und Verbanne sie.\nTimer 2: Generiere eine der verbannten Karten, spiele sie aus und setze den Timer zurück.",
-    "type": 10,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4604,7 +4604,7 @@
     "cost": 8,
     "tags": "Mensch, Soldat, ranged",
     "ability": "Einsatz: Generiere einen Haudegen-Jäger und rufe ihn herbei.\nPassiv: Wenn du einen Soldaten generierst, verbessere diese Einheit um 2.",
-    "type": 8,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4615,7 +4615,7 @@
     "cost": 7,
     "tags": "Mensch, Soldat, siege",
     "ability": "Einsatz: Generiere ein Fehlgebohrener oder ein Tölpelbold Token und rufe es herbei.",
-    "type": 7,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4626,7 +4626,7 @@
     "cost": 0,
     "tags": "Erscheinung, Verflucht, Token, ranged",
     "ability": "Zähigkeit.",
-    "type": 0,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4637,7 +4637,7 @@
     "cost": 0,
     "tags": "Erscheinung, Verflucht, Token, ranged",
     "ability": "Zugende: Verbessere den schwächsten Verbündeten um 1.",
-    "type": 0,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4648,7 +4648,7 @@
     "cost": 4,
     "tags": "Mensch, Agent, Hanse, agile",
     "ability": "Aen Hanse.\nZugende: Verbessere die Einheit zur Rechten um 1. Inspiration: Verbessere stattdessen benachbarte Einheiten um 1.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4659,7 +4659,7 @@
     "cost": 3,
     "tags": "Mensch, Agent, agile",
     "ability": "Zugende: Verbessere die Einheit zur Linken um 1. Inspiration: Verbessere stattdessen benachbarte Einheiten um 1.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4670,7 +4670,7 @@
     "cost": 3,
     "tags": "Mensch, siege",
     "ability": "Aktiv, Zähler 4: Verbessere einen Verbündeten um 1.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4681,7 +4681,7 @@
     "cost": 6,
     "tags": "Mensch, Ritter, melee",
     "ability": "Aktiv: Füge einem Gegner 4 Schaden zu. Inspiration: Duelliere dich stattdessen mit dem Gegner.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4692,7 +4692,7 @@
     "cost": 5,
     "tags": "Mensch, Soldat, Aristokrat, agile",
     "ability": "Einsatz: Verringere den Timer pro benachbarter Einheit mit Inspiration - Fähigkeit um 1.\nTimer 3: Verbessere alle Verbündeten um 1 und setze den Timer zurück.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4703,7 +4703,7 @@
     "cost": 4,
     "tags": "Mensch, Soldat, melee",
     "ability": "Zugende: Füge einer Einheit 1 Schaden zu. Inspiration: Füge stattdessen 2 Schaden zu.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4714,7 +4714,7 @@
     "cost": 3,
     "tags": "Mensch, Soldat, Ritter, ranged",
     "ability": "Aktiv, Inspiration: Verbessere alle Verbündeten um 1.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4725,7 +4725,7 @@
     "cost": 6,
     "tags": "Mensch, Soldat, ranged",
     "ability": "Einsatz: Generiere einen Haudegen-Jäger und spiele ihn aus.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4736,7 +4736,7 @@
     "cost": 2,
     "tags": "Mensch, Soldat, melee",
     "ability": "Einsatz: Verbessere diese Einheit um 5.\nPassiv, Friedhof: Wenn du einen Soldaten ausspielst, erwecke diese Einheit und rufe sie herbei.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "northern_realms"
   },
@@ -4747,7 +4747,7 @@
     "cost": 1,
     "tags": "Mensch, Soldat, melee",
     "ability": "Einsatz: Verbessere diese Einheit für jede weitere Haudegen-Jäger oder Haudegen-Späher Einheit unter deiner Kontrolle um 3.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4758,7 +4758,7 @@
     "cost": 1,
     "tags": "Mensch, Soldat, ranged",
     "ability": "Einsatz: Verbessere diese Einheit für jede weitere Haudegen-Jäger oder Haudegen-Späher Einheit unter deiner Kontrolle um 3.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4769,7 +4769,7 @@
     "cost": 1,
     "tags": "Mensch, Soldat, ranged",
     "ability": "Einsatz: Füge einem Gegner 1 Schaden zu.\nPassiv: Wenn du eine Einheit mit Inspiration - Fähigkeit ausspielst, wiederhole die Einsatz - Fähigkeit .",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4780,7 +4780,7 @@
     "cost": 1,
     "tags": "Mensch, Soldat, melee",
     "ability": "Aktiv: Füge einem Gegner 1 Schaden zu. Inspiration: Füge stattdessen 3 Schaden zu.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4791,7 +4791,7 @@
     "cost": 0,
     "tags": "Mensch, Soldat, melee",
     "ability": "Passiv: Wenn diese Einheit verbessert wird, füge einem zufälligen Gegner 1 Schaden zu.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4802,7 +4802,7 @@
     "cost": 0,
     "tags": "Mensch, Soldat, ranged",
     "ability": "Passiv: Verbessere diese Einheit um 1 wenn du eine Einheit mit Inspiration - Fähigkeit ausspielst.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "northern_realms"
   },
@@ -4813,7 +4813,7 @@
     "cost": 0,
     "tags": "Zwerg, Anführer, agile",
     "ability": "Schild.\nPassiv: Wenn du einen Zwerg ausspielst, erhält diese Einheit einen Schild.\nZugende: Füge dieser und einer gegnerischen Einheit 1 Schaden zu.",
-    "type": 0,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -4824,7 +4824,7 @@
     "cost": 6,
     "tags": "Ort",
     "ability": "Wenn du einen Zwerg kontrollierst, generiere einen Mahakam-Verteidiger und rufe ihn herbei. Durchsuche dein Deck nach einer Zwerg Bronzeeinheit und spiele sie aus.",
-    "type": 6,
+    "type": "Spell",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -4835,7 +4835,7 @@
     "cost": 0,
     "tags": "Zwerg, Soldat, Token, melee",
     "ability": "Schild.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -4846,7 +4846,7 @@
     "cost": 2,
     "tags": "Taktik",
     "ability": "Generiere 2 Grobe Zwerge in einer verbündeten Reihe. Erhöhe die Anzahl generierter Grober Zwerge pro Zoltan Einheit in deinem Startdeck um 1.",
-    "type": 2,
+    "type": "Spell",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -4857,7 +4857,7 @@
     "cost": 0,
     "tags": "Zwerg, Soldat, Token, agile",
     "ability": "",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -4868,7 +4868,7 @@
     "cost": 8,
     "tags": "Zwerg, Soldat, Krieger, Hanse, melee",
     "ability": "Einsatz: Füge 2 Gegnern 3 Schaden zu. Generiere einen Groben Zwerg in dieser Reihe pro Einheit, die überlebt hat.",
-    "type": 8,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -4879,7 +4879,7 @@
     "cost": 6,
     "tags": "Zwerg, Soldat, melee",
     "ability": "Aktiv, Zähler 3: Verbessere einen Verbündeten um 2. Wenn es sich dabei um einen Zwerg handelt, gib ihm einen Schild.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -4890,7 +4890,7 @@
     "cost": 6,
     "tags": "Zwerg, Soldat, melee",
     "ability": "Einsatz: Füge einem Gegner für jeden verbündeten Groben Zwerg nacheinander 1 Schaden zu.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -4901,7 +4901,7 @@
     "cost": 5,
     "tags": "Zwerg, Soldat, siege",
     "ability": "Einsatz: Gib dieser Einheit Immunität.\nPassiv: Wenn du einen Zwerg ausspielst, verbessere diese Einheit um 1.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -4912,7 +4912,7 @@
     "cost": 5,
     "tags": "Zwerg, Krieger, siege",
     "ability": "Einsatz: Gib dieser Einheit Zähigkeit.\nPassiv: Wenn du einen Zwerg ausspielst, verbessere diese Einheit um 1.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -4923,7 +4923,7 @@
     "cost": 4,
     "tags": "Zwerg, Soldat, ranged",
     "ability": "Einsatz: Verbessere deine verbündeten Zwerge um 1.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -4934,7 +4934,7 @@
     "cost": 4,
     "tags": "Zwerg, siege",
     "ability": "Spielstart: Lege Eudora neben dein Deck.\nPassiv: Spielst du einen Zoltan, rufe Eudora herbei und verbessere sie pro Zoltan Einheit deines Startdecks um 1.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -4945,7 +4945,7 @@
     "cost": 5,
     "tags": "Zwerg, Hanse, agile",
     "ability": "Zähigkeit, Schild.\nEinsatz: Verbessere benachbarte Zwerge um 2.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -4956,7 +4956,7 @@
     "cost": 2,
     "tags": "Zwerg, Soldat, melee",
     "ability": "Passiv: Wenn du einen Zwerg ausspielst, erhält diese Einheit einen Schild.\nZugende: Hat diese Einheit einen Schild, verbessere sie um 1.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -4967,7 +4967,7 @@
     "cost": 2,
     "tags": "Zwerg, Soldat, siege",
     "ability": "Einsatz: Durchsuche dein Deck nach dem obersten Zwerg und spiele ihn aus.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -4978,7 +4978,7 @@
     "cost": 1,
     "tags": "Zwerg, Bandit, ranged",
     "ability": "Einsatz: Durchsuche dein Deck nach dem obersten Bronze Zwerg und spiele ihn aus.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -4989,7 +4989,7 @@
     "cost": 1,
     "tags": "Zwerg, Krieger, ranged",
     "ability": "Passiv: Wenn sich die Stärke dieser Einheit durch andere Effekte ändert, verbessere diese Einheit um 1 ",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -5000,7 +5000,7 @@
     "cost": 0,
     "tags": "Zwerg, Soldat, melee",
     "ability": "Einsatz: Füge dieser Einheit für jede nicht-Zwerg Einheit auf deiner Hand 1 Schaden zu.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -5011,7 +5011,7 @@
     "cost": 0,
     "tags": "Zwerg, Soldat, melee",
     "ability": "Einsatz: Füge einem Gegner 3 Schaden zu. Wenn er das überlebt, verbessere diese Einheit um 3.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -5022,7 +5022,7 @@
     "cost": 0,
     "tags": "Zwerg, Soldat, agile",
     "ability": "Einsatz: Verbessere diese Einheit um die Anzahl Zwerge in dieser Reihe.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -5033,7 +5033,7 @@
     "cost": 1,
     "tags": "Zwerg, Soldat, agile",
     "ability": "Einsatz: Wenn du einen Zwerg kontrollierst, Musterung.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -5044,7 +5044,7 @@
     "cost": 0,
     "tags": "Elf, Bandit, Anführer, agile",
     "ability": "Einsatz: Nimm eine verbündete Hinterhalt Karte zurück auf die Hand und spiele dann eine Hinterhalt Karte aus.",
-    "type": 0,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5055,7 +5055,7 @@
     "cost": 4,
     "tags": "Elf, Krieger, melee",
     "ability": "Spielstart: Lege ein Aelirenn rufen Token neben dein Deck.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5066,7 +5066,7 @@
     "cost": 0,
     "tags": "Token",
     "ability": "Zugende: Kontrollierst du mindestens 5 Elf Einheiten, durchsuche dein Deck nach Aelirenn, rufe sie herbei und verbanne dieses Token.",
-    "type": 0,
+    "type": "Strategem",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5077,7 +5077,7 @@
     "cost": 9,
     "tags": "Elf, Bandit, agile",
     "ability": "Einsatz: Bei 4+ Hinterhalt Karten im Startdeck, durchsuche dein Deck nach den ersten 2 und spiele sie aus. Bei 6+ Hinterhalt Karten in deinem Startdeck, wähle stattdessen 2.",
-    "type": 9,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5088,7 +5088,7 @@
     "cost": 2,
     "tags": "Elf, Bandit, agile",
     "ability": "Hinterhalt: Wenn du eine Einheit ausspielst, verbessere alle Elf Einheiten in der verbündeten Reihe mit den meisten Einheiten um 1.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5099,7 +5099,7 @@
     "cost": 9,
     "tags": "Elf, Soldat, Bandit, agile",
     "ability": "Einsatz: Ist Riordain neben einer Hinterhalt Karte, durchsuche dein Deck nach einem nicht-Hinterhalt Elf und spiele ihn aus. Wiederhole dies mit vertauschten Kategorien.",
-    "type": 9,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5110,7 +5110,7 @@
     "cost": 5,
     "tags": "Elf, Soldat, Bandit, ranged",
     "ability": "Einsatz: Für jede verbündete Hinterhalt Karte, verbessere diese Einheit um 3.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5121,7 +5121,7 @@
     "cost": 5,
     "tags": "Elf, Bandit, melee",
     "ability": "Einsatz: Zähle die verbündeten Hinterhalt Karten und füge so vielen unterschiedlichen Gegnern 2 Schaden zu.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5132,7 +5132,7 @@
     "cost": 3,
     "tags": "Elf, Bandit, agile",
     "ability": "Hinterhalt: Wenn du eine Einheit ausspielst, füge allen Gegnern in der Reihe mit den meisten Gegnern 2 Schaden zu.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5143,7 +5143,7 @@
     "cost": 4,
     "tags": "Elf, Soldat, Bandit, melee",
     "ability": "Einsatz: Verbessere alle anderen verbündeten Elf Einheiten um 1.\nPassiv: Wenn du eine andere Elf Einheit ausspielst oder aufdeckst, verbessere diese Einheit um 1.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5154,7 +5154,7 @@
     "cost": 4,
     "tags": "Elf, Soldat, Bandit, agile",
     "ability": "Hinterhalt: Wenn dein Gegner passt, verbessere die benachbarten Einheiten um 4.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5165,7 +5165,7 @@
     "cost": 3,
     "tags": "Elf, Soldat, Bandit, agile",
     "ability": "Einsatz: Füge einem Gegner Schaden in Höhe der Anzahl Elf Einheiten in dieser Reihe zu.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5176,7 +5176,7 @@
     "cost": 2,
     "tags": "Elf, Soldat, Bandit, agile",
     "ability": "Hinterhalt: Wenn du eine Einheit ausspielst, blockiere einen Gegner.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5187,7 +5187,7 @@
     "cost": 5,
     "tags": "Elf, Bandit, agile",
     "ability": "Hinterhalt: Ergreife die nächste Einheit mit max. 4 Stärke, die vom Gegner auf seiner Seite ausgespielt wird.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5198,7 +5198,7 @@
     "cost": 6,
     "tags": "Elf, Agent, Bandit, agile",
     "ability": "Hinterhalt: Nachdem dein Gegner eine Sonderkarte ausgespielt hat, zerstöre den Gegner mit der höchsten Stärke.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5209,7 +5209,7 @@
     "cost": 1,
     "tags": "Elf, Soldat, Bandit, agile",
     "ability": "Hinterhalt: Füge der nächsten Einheit, die vom Gegner auf seiner Seite ausgespielt wird, 5 Schaden zu.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -5220,7 +5220,7 @@
     "cost": 1,
     "tags": "Elf, Soldat, ranged",
     "ability": "Einsatz: Füge einem Gegner 3 Schaden zu oder füge 2 Einheiten 1 Schaden zu. Todesstoß: Verbessere diese Einheit um 3.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -5231,7 +5231,7 @@
     "cost": 0,
     "tags": "Elf, Bandit, agile",
     "ability": "Hinterhalt: Decke diese Karte auf, nachdem dein Gegner eine Karte ausgespielt hat.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -5242,7 +5242,7 @@
     "cost": 0,
     "tags": "Elf, Bandit, melee",
     "ability": "Passiv: Wenn eine verbündete Hinterhalt Karte aufgedeckt wird, verbessere diese Einheit um 2.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -5253,7 +5253,7 @@
     "cost": 0,
     "tags": "Elf, Krieger, melee",
     "ability": "Zugende: Hast du diesen Zug eine andere Elf oder Hinterhalt Karte ausgespielt, füge einem Gegner 1 Schaden zu.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -5264,7 +5264,7 @@
     "cost": 0,
     "tags": "Elf, Soldat, Bandit, siege",
     "ability": "Einsatz: Verbessere diese Karte pro verdeckter verbündeter Hinterhalt Karte um 2.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -5275,7 +5275,7 @@
     "cost": 0,
     "tags": "Relikt, Anführer, agile",
     "ability": "Harmonie.",
-    "type": 0,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5286,7 +5286,7 @@
     "cost": 2,
     "tags": "Relikt, agile",
     "ability": "",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5297,7 +5297,7 @@
     "cost": 10,
     "tags": "Drache, Soldat, agile",
     "ability": "Einsatz: Hat dein Startdeck >= 10 Primärkategorien (Pk), durchsuche dein Deck nach den obersten zwei Bronze Einheiten, deren Pk du noch nicht kontrolliert und rufe sie herbei.",
-    "type": 10,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5308,7 +5308,7 @@
     "cost": 9,
     "tags": "Drache, Soldat, agile",
     "ability": "Einsatz: Verbessere den schwächsten Verbündeten jeder Scoiatel Primärkategorie um 2.\nZugstart: Verwandle in Saesenthessis.",
-    "type": 9,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5319,7 +5319,7 @@
     "cost": 9,
     "tags": "Drache, agile",
     "ability": "Immunität.",
-    "type": 9,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5330,7 +5330,7 @@
     "cost": 4,
     "tags": "Mensch, Bandit, Hanse, ranged",
     "ability": "Harmonie\nZugende: Füge einem Gegner 1 Schaden zu. Kontrollierst du nur nicht neutrale oder Hanse Einheiten, füge stattdessen 2 Schaden zu.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5341,7 +5341,7 @@
     "cost": 5,
     "tags": "Dryade, siege",
     "ability": "Harmonie.\nEinsatz: Aktiviere Harmonie bei allen Verbündeten.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5352,7 +5352,7 @@
     "cost": 4,
     "tags": "Dryade, agile",
     "ability": "Einsatz: Durchsuche dein Deck nach einer Harmonie Karte und spiele sie aus.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5363,7 +5363,7 @@
     "cost": 2,
     "tags": "Mensch, Dryade, Krieger, ranged",
     "ability": "Einsatz: Füge einem Gegner Schaden in Höhe der Anzahl verbündeter Harmonie Einheiten zu.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5374,7 +5374,7 @@
     "cost": 3,
     "tags": "Gnom, siege",
     "ability": "Harmonie 2.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5385,7 +5385,7 @@
     "cost": 8,
     "tags": "Ent, agile",
     "ability": "Einsatz: Füge einem Gegner Schaden gemäß der Kartenanzahl zur Linken zu, dann verbessere diese Einheit gemäß der Kartenanzahl zur Rechten.",
-    "type": 8,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5396,7 +5396,7 @@
     "cost": 3,
     "tags": "Gnom, siege",
     "ability": "Harmonie.\nEinsatz: Verbessere diese Karte entsprechend der Anzahl der einzigartigen Primärkategorien der Einheiten unter deiner Kontrolle.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5407,7 +5407,7 @@
     "cost": 1,
     "tags": "Elf, Bandit, melee",
     "ability": "Harmonie.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -5418,7 +5418,7 @@
     "cost": 1,
     "tags": "Dryade, Krieger, ranged",
     "ability": "Harmonie.\nEinsatz: Füge einem Gegner 2 Schaden zu.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -5429,7 +5429,7 @@
     "cost": 0,
     "tags": "Dryade, agile",
     "ability": "Harmonie.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -5440,7 +5440,7 @@
     "cost": 0,
     "tags": "Mensch, agile",
     "ability": "Zugstart: Verwandle diese Karte in ein Junge Dryade Token.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -5451,7 +5451,7 @@
     "cost": 0,
     "tags": "Dryade, Token, agile",
     "ability": "Harmonie.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -5462,7 +5462,7 @@
     "cost": 0,
     "tags": "Ent, melee",
     "ability": "Aktiv: Spiele diese Einheit erneut aus und füge ihr für jedes Mal das diese Einheit bereits ausgespielt wurde 1 Schaden zu. Dieser Wert wird bei neu-ausspielen nicht zurückgesetzt.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -5473,7 +5473,7 @@
     "cost": 0,
     "tags": "Natur",
     "ability": "Läutere einen Verbündeten und verbessere ihn um 3.\nWenn du eine Dryade kontrollierst, verbessere eine weitere Einheit um 3.",
-    "type": 0,
+    "type": "Spell",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -5484,7 +5484,7 @@
     "cost": 0,
     "tags": "Elf, Anführer, agile",
     "ability": "Einsatz: Verschiebe 3 Einheiten in eine andere Reihe, verbessere Verbündete um 2, füge Gegnern 1 Schaden zu.",
-    "type": 0,
+    "type": "Leader",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5495,7 +5495,7 @@
     "cost": 10,
     "tags": "Taktik",
     "ability": "Durchsuche dein Deck nach zwei Bronze Elfen und rufe sie herbei. Verschiebe dann 3 Verbündeten in eine andere Reihe.",
-    "type": 10,
+    "type": "Spell",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5506,7 +5506,7 @@
     "cost": 5,
     "tags": "Elf, Soldat, Bandit, agile",
     "ability": "Einsatz: Verschiebe alle Einheiten in dieser Reihe in zufällige andere verbündete Reihen und verbessere diese Karte für jede so verschobene Karte um 1.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5517,7 +5517,7 @@
     "cost": 9,
     "tags": "Elf, Soldat, Bandit, agile",
     "ability": "Einsatz: Füge 4 Schaden zu.\nPassiv: Wenn du einen Gegner verschiebst, verschiebe diese Einheit ihm gegenüberliegend und füge ihm 1 Schaden zu.",
-    "type": 9,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5528,7 +5528,7 @@
     "cost": 6,
     "tags": "Elf, Soldat, agile",
     "ability": "Einsatz: Verschiebe bis zu 3 Einheiten in diese Reihe auf ihrer Seite, verbessere Verbündete um 2 und füge Gegnern 1 Schaden zu.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5539,7 +5539,7 @@
     "cost": 4,
     "tags": "Elf, siege",
     "ability": "Passiv: Wenn ein Verbündeter verschoben wird, verbessere diese Karte um 1.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5550,7 +5550,7 @@
     "cost": 1,
     "tags": "Elf, Agent, melee",
     "ability": "Einsatz: Musterung.\nPassiv: Wenn diese Einheit verschoben wird, verbessere sie um 2.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -5561,7 +5561,7 @@
     "cost": 1,
     "tags": "Elf, Soldat, ranged",
     "ability": "Einsatz: Füge einem Gegner 2 Schaden zu.\nPassiv: Wenn diese Einheit verschoben wird, füge einem zufälligen Gegner 2 Schaden zu.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -5572,7 +5572,7 @@
     "cost": 1,
     "tags": "Elf, Soldat, agile",
     "ability": "Passiv, Nahkampf: Wenn ein Gegner verschoben wird, füge ihm 1 Schaden zu.\nPassiv, Fernkampf: Wenn eine Verbündeter verschoben wird, verbessere ihn um 1.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -5583,7 +5583,7 @@
     "cost": 1,
     "tags": "Elf, Soldat, agile",
     "ability": "Zugende: Verschiebe diese Einheit in eine zufällige andere verbündete Reihe und füge einer gegenüberliegenden Einheit 1 Schaden zu. Adrenalin 3: Erhöhe den Schaden auf 2.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -5594,7 +5594,7 @@
     "cost": 1,
     "tags": "Elf, Soldat, Agent, agile",
     "ability": "Zugende: Verschiebe einen Gegner ganz nach links in seiner Reihe und füge ihm 1 Schaden, + 1 Schaden für jede Einheit an der er so vorbeigeschoben wurde, zu.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -5605,7 +5605,7 @@
     "cost": 1,
     "tags": "Elf, melee",
     "ability": "Passiv, Hand: Wenn du eine Einheit verschiebst, rufe diese Einheit aus deiner Hand herbei und ziehe eine Karte.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -5616,7 +5616,7 @@
     "cost": 0,
     "tags": "Elf, Soldat, agile",
     "ability": "Einsatz: Verschiebe eine Einheit in diese Reihe auf ihrer Seite. Bei einem Gegner, füge ihm 1 Schaden zu. Bei einem Verbündeten, verbessere ihn um 2.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -5627,7 +5627,7 @@
     "cost": 0,
     "tags": "Elf, Soldat, agile",
     "ability": "Zugende: Verschiebe diese Einheit in dieser Reihe ganz nach rechts und verbessere nur nach dem Verschieben die Einheit links von ihr um 1.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -5638,7 +5638,7 @@
     "cost": 0,
     "tags": "Elf, Magier, Anführer, agile",
     "ability": "Einsatz: Belebe eine Zauber Karte mit maximal 2 Kosten wieder und spiele sie aus. Erhöhe die Begrenzung um 1 für jeden anderen Magier den du kontrollierst.",
-    "type": 0,
+    "type": "Leader",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5649,7 +5649,7 @@
     "cost": 7,
     "tags": "Elf, Magier, ranged",
     "ability": "Einsatz: Durchsuche dein Deck nach einer Bronze Zauber oder Natur Karte, spiele sie aus und belebe sie dann wieder und spiele sie erneut aus.",
-    "type": 7,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5660,7 +5660,7 @@
     "cost": 8,
     "tags": "Elf, Magier, siege",
     "ability": "Einsatz: Durchsuche dein Deck nach allen Kopien einer Bronze Sonderkarte und spiele sie aus.",
-    "type": 8,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5671,7 +5671,7 @@
     "cost": 3,
     "tags": "Elf, Magier, siege",
     "ability": "Einsatz: Verbessere diese Einheit um 1 für jeden Zauber auf deinem Friedhof oder in deiner Verbannung.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5682,7 +5682,7 @@
     "cost": 2,
     "tags": "Zauber",
     "ability": "Verbessere einen Verbündeten um 5. Wenn diese Karte auf deinen Friedhof kommt, verwandle sie in Saov Ainmhi'dh: Eintracht.",
-    "type": 2,
+    "type": "Spell",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5693,7 +5693,7 @@
     "cost": 2,
     "tags": "Erscheinung, ranged",
     "ability": "Passiv, Friedhof: Wenn du einen Zauber ausspielst, erwecke diese Einheit und rufe sie herbei.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5704,7 +5704,7 @@
     "cost": 2,
     "tags": "Zauber",
     "ability": "Verbessere einen Verbündeten um 4.\nPassiv, Friedhof, Zähler 3: Verringere den Zähler um 1, wenn du einen Zauber spielst. Bei 0 belebe diese Karte wieder und spiele sie.",
-    "type": 2,
+    "type": "Spell",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -5715,7 +5715,7 @@
     "cost": 2,
     "tags": "Elf, Magier, melee",
     "ability": "Zugende: Verbessere diese Einheit für jede Karte die du in diesem Zug ausgespielt hast um 1, solange mindestens ein Zauber darunter war.",
-    "type": 2,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -5726,7 +5726,7 @@
     "cost": 1,
     "tags": "Elf, Magier, ranged",
     "ability": "Einsatz: Spiele einen Zauber von deiner Hand und ziehe dann eine Karte.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -5737,7 +5737,7 @@
     "cost": 0,
     "tags": "Elf, Soldat, melee",
     "ability": "Passiv: Wenn du eine Magier Einheit ausspielst, verbessere sie um 1.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -5748,7 +5748,7 @@
     "cost": 0,
     "tags": "Elf, Magier, ranged",
     "ability": "Passiv, Zähler 3: Wenn du eine Soderkarte ausspielst, verringere den Zähler um 1. Bei Zähler 0 verbessere diese Einheit um 6.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "scoiatel"
   },
@@ -5759,7 +5759,7 @@
     "cost": 8,
     "tags": "Dryade, siege",
     "ability": "Immunität.\nSymbiose X, wobei X der Rundenzahl entspricht.",
-    "type": 8,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5770,7 +5770,7 @@
     "cost": 3,
     "tags": "Dryade, ranged",
     "ability": "Einsatz: Verbessere diese Karte um 1 für jede Natur Karte in deinem Startdeck.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5781,7 +5781,7 @@
     "cost": 7,
     "tags": "Natur",
     "ability": "Echo.\nDurchsuche dein Deck nach einer Bronze Natur Karte, belebe eine Bronze Natur Karte wieder und spiele beide aus.",
-    "type": 7,
+    "type": "Spell",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5792,7 +5792,7 @@
     "cost": 7,
     "tags": "Dryade, Nayade, siege",
     "ability": "Symbiose 2.\nEinsatz: Für den Rest des Spiels, ersetze Harmonie im Kartentext deiner Dryaden durch Symbiose.",
-    "type": 7,
+    "type": "Unit",
     "category": "gold",
     "faction": "scoiatel"
   },
@@ -5803,7 +5803,7 @@
     "cost": 0,
     "tags": "Mensch, Druide, Anführer, agile",
     "ability": "Einsatz: Belebe eine Bronze Alchemie Karte wieder und spiele sie aus.",
-    "type": 0,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -5814,7 +5814,7 @@
     "cost": 5,
     "tags": "Mensch, siege",
     "ability": "Einsatz: Belebe eine Skellige Mensch Einheit wieder und rufe sie herbei.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -5825,7 +5825,7 @@
     "cost": 6,
     "tags": "Mensch, Magier, agile",
     "ability": "Einsatz: Verwandle einen Gegner in ein Jadefigur Token",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -5836,7 +5836,7 @@
     "cost": 0,
     "tags": "Token, agile",
     "ability": "",
-    "type": 0,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -5847,7 +5847,7 @@
     "cost": 8,
     "tags": "Ort",
     "ability": "Durchsuche dein Deck nach einer Bronze Druide Karte und spiele sie aus. Belebe dann eine Bronze Alchemie Karte wieder und spiele sie aus.",
-    "type": 8,
+    "type": "Spell",
     "category": "gold",
     "faction": "skellige"
   },
@@ -5858,7 +5858,7 @@
     "cost": 6,
     "tags": "Mensch, Druide, ranged",
     "ability": "Einsatz: Verbessere einen Verbündeten um 4.\nPassiv, Friedhof: Wenn du eine Alchemie Karte spielst, erwecke diese Karte und rufe sie herbei.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -5869,7 +5869,7 @@
     "cost": 4,
     "tags": "Mensch, Druide, siege",
     "ability": "Einsatz: Durchsuche dein Deck nach einer Alchemie Karte und spiele sie aus.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -5880,7 +5880,7 @@
     "cost": 4,
     "tags": "Mensch, Druide, siege",
     "ability": "Passiv: Wenn du eine Alchemie Karte ausspielst, verbessere diese Einheit um 2.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -5891,7 +5891,7 @@
     "cost": 4,
     "tags": "Mensch, Druide, siege",
     "ability": "Einsatz: Verbessere diese Einheit für jeden verbündeten Duiden um 1.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -5902,7 +5902,7 @@
     "cost": 2,
     "tags": "Mensch, Druide, melee",
     "ability": "Einsatz: Du kannst dieser Einheit 3 Schaden zufügen und dann eine Karte aus deinem Deck auf den Friedhof verschieben.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -5913,7 +5913,7 @@
     "cost": 1,
     "tags": "Mensch, Druide, ranged",
     "ability": "Einsatz: Durchsuche dein Deck nach einer Alchemie Karte mit 0 Kosten und spiele sie aus.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -5924,7 +5924,7 @@
     "cost": 1,
     "tags": "Mensch, Druide, ranged",
     "ability": "Passiv: Wenn du eine Alchemie Karte ausspielst, verbessere diese Einheit um 1.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -5935,7 +5935,7 @@
     "cost": 2,
     "tags": "Mensch, siege",
     "ability": "Einsatz: Belebe eine Bronze Skellige Mensch Einheit (nicht Priesterin der Freya) wieder und spiele sie aus.",
-    "type": 2,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -5946,7 +5946,7 @@
     "cost": 1,
     "tags": "Bestie, melee",
     "ability": "Einsatz: Wenn du eine Alchemie Karte im Friedhof hast, Musterung.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -5957,7 +5957,7 @@
     "cost": 0,
     "tags": "Alchemie",
     "ability": "Füge einer Einheit 3 Schaden zu und verbessere sie dann um 9.",
-    "type": 0,
+    "type": "Spell",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -5968,7 +5968,7 @@
     "cost": 2,
     "tags": "Alchemie",
     "ability": "Füge sechsmal einer Einheit 1 Schaden zu.",
-    "type": 2,
+    "type": "Spell",
     "category": "gold",
     "faction": "skellige"
   },
@@ -5979,7 +5979,7 @@
     "cost": 6,
     "tags": "Bestie, siege",
     "ability": "Zugende: Hat diese Einheit keinen Schild, verbessere sie um 2 und gib ihr einen Schild.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -5990,7 +5990,7 @@
     "cost": 0,
     "tags": "Mensch, Krieger, Anführer, agile",
     "ability": "Einsatz: Generiere in einer gegnerischen Reihe für 3 Züge Regen.",
-    "type": 0,
+    "type": "Leader",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6001,7 +6001,7 @@
     "cost": 7,
     "tags": "Mensch, agile",
     "ability": "Einsatz: Generiere Skellige-Sturm in der gegenüberliegenden Reihe für 3 Züge.",
-    "type": 7,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6012,7 +6012,7 @@
     "cost": 0,
     "tags": "Gefahr",
     "ability": "Zugstart: Füge allen Einheiten in dieser Reihe 1 Schaden zu.",
-    "type": 0,
+    "type": "Strategem",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6023,7 +6023,7 @@
     "cost": 6,
     "tags": "Mensch, Krieger, melee",
     "ability": "Passiv (Nahkampf): Wenn ein Gegner Schaden erlitten hat, verbessere diese Einheit für jede Instanz Schaden um 1.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6034,7 +6034,7 @@
     "cost": 6,
     "tags": "Mensch, Pirat, siege",
     "ability": "Einsatz: Generiere Spektralwal und spiele ihn aus.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6045,7 +6045,7 @@
     "cost": 0,
     "tags": "Erscheinung, Token, agile",
     "ability": "Spionage.\nZugende: Verschiebe diese Einheit in eine zufällige andere Reihe auf dieser Seite und füge allen anderen Einheiten dort 1 Schaden zu. ",
-    "type": 0,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6056,7 +6056,7 @@
     "cost": 4,
     "tags": "Mensch, Krieger, siege",
     "ability": "Zugende: Wenn Regen oder Skellige-Sturm auf dem Schlachtfeld ist, verbessere einen Verbündeten um 2.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6067,7 +6067,7 @@
     "cost": 5,
     "tags": "Mensch, Krieger, siege",
     "ability": "Einsatz: Zerstöre einen verwundeten Gegner.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6078,7 +6078,7 @@
     "cost": 2,
     "tags": "Mensch, Krieger, melee",
     "ability": "Einsatz: Füge dieser Karte 6 Schaden zu.\nPassiv: Wenn ein Gegner Schaden erlitten hat, heile diese Einheit für jede Instanz Schaden um 1.",
-    "type": 2,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6089,7 +6089,7 @@
     "cost": 2,
     "tags": "Mensch, Krieger, agile",
     "ability": "Passiv: Wenn ein Gegner in der gegenüberliegenden Reihe Schaden erlitten hat, verbessere diese Einheit für jede Instanz Schaden um 1.",
-    "type": 2,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6100,7 +6100,7 @@
     "cost": 1,
     "tags": "Mensch, Krieger, ranged",
     "ability": "Zugende: Füge einem Gegner 1 Schaden zu.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6111,7 +6111,7 @@
     "cost": 0,
     "tags": "Mensch, Krieger, ranged",
     "ability": "Einsatz: Füge einem Gegner 3 mal 1 Schaden zu.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6122,7 +6122,7 @@
     "cost": 0,
     "tags": "Maschine, Schiff, siege",
     "ability": "Einsatz: Verschiebe einen Gegner in eine andere Reihe und füge ihm dann Schaden in Höhe der Anzahl an Einheiten in der Zielreihe zu.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6133,7 +6133,7 @@
     "cost": 1,
     "tags": "Mensch, siege",
     "ability": "Einsatz: Durchsuche dein Deck nach einer Strömender Regen Karte und spiele sie aus.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6144,7 +6144,7 @@
     "cost": 0,
     "tags": "Mensch, Krieger, Anführer, agile",
     "ability": "Einsatz: Durchsuche dein Deck nach einer Einheit und verwirf sie. Füge dann einem Gegner Schaden in Höhe der verworfenen Kosten zu.",
-    "type": 0,
+    "type": "Leader",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6155,7 +6155,7 @@
     "cost": 3,
     "tags": "Bestie, Verflucht, Pirat, melee",
     "ability": "Passiv, Hand, Deck: Wird diese Einheit verworfen, belebe sie direkt wieder und rufe sie herbei.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6166,7 +6166,7 @@
     "cost": 5,
     "tags": "Mensch, Pirat, melee",
     "ability": "Einsatz: Verbanne eine Einheit auf deinem Friedhof. Füge dann einem Gegner Schaden in Höhe der verbannten Stärke zu.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6177,7 +6177,7 @@
     "cost": 6,
     "tags": "Mensch, Pirat, ranged",
     "ability": "Einsatz: Ziehe bis zu eine Karte. Verwirf dann die selbe Anzahl Karten.\nPassiv: Wenn du eine Karte verwirfst, füge einem Gegner 2 Schaden zu.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6188,7 +6188,7 @@
     "cost": 8,
     "tags": "Mensch, Krieger, Pirat, agile",
     "ability": "Einsatz: Pralle mit einem Gegner zusammen.\nPassiv: Wenn du eine andere Schiff oder Pirat Einheit ausspielst, verbessere sie um 1.",
-    "type": 8,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6199,7 +6199,7 @@
     "cost": 4,
     "tags": "Mensch, Pirat, Verflucht, ranged",
     "ability": "Einsatz: Ziehe bis zu zwei Karten. Verwirf dann die selbe Anzahl Karten.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6210,7 +6210,7 @@
     "cost": 6,
     "tags": "Mensch, Krieger, melee",
     "ability": "Passiv, Friedhof: Wenn du mehr als eine andere Karte in einem Zug wiederbelebst oder erweckst, erwecke diese Karte und rufe sie herbei.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6221,7 +6221,7 @@
     "cost": 6,
     "tags": "Mensch, Krieger, siege",
     "ability": "Einsatz: Generiere eine Drummond-Königinnengarde oder eine Drummond-Schildmaid und rufe sie herbei.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6232,7 +6232,7 @@
     "cost": 2,
     "tags": "Mensch, Krieger, melee",
     "ability": "Einsatz: Ist Jutta an Dimun die stärkste Einheit, füge ihr 6 Schaden zu.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6243,7 +6243,7 @@
     "cost": 1,
     "tags": "Mensch, Pirat, ranged",
     "ability": "Einsatz: Durchsuche dein Deck nach allen Kopien dieser Einheit und verwirf sie.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6254,7 +6254,7 @@
     "cost": 1,
     "tags": "Mensch, Pirat, ranged",
     "ability": "Passiv, Hand, Deck: Wird diese Einheit verworfen, belebe sie direkt wieder und rufe sie herbei.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6265,7 +6265,7 @@
     "cost": 0,
     "tags": "Maschine, Schiff, siege",
     "ability": "Passiv: Wenn du eine Karte verwirfst, verbessere diese Einheit um 1.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6276,7 +6276,7 @@
     "cost": 2,
     "tags": "Mensch, Pirat, agile",
     "ability": "Einsatz: Verbessere diese Karte um die Stärke der letzten Einheit die du diese Runde verworfen hast.",
-    "type": 2,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6287,7 +6287,7 @@
     "cost": 1,
     "tags": "Mensch, Krieger, melee",
     "ability": "Einsatz: Erwecke alle Kopien dieser Karte und rufe sie herbei.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6298,7 +6298,7 @@
     "cost": 0,
     "tags": "Mensch, Pirat, siege",
     "ability": "Einsatz: Ziehe bis zu eine Karte. Verwirf dann die selbe Anzahl Karten.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6309,7 +6309,7 @@
     "cost": 0,
     "tags": "Bestie, Anführer, agile",
     "ability": "Einsatz: Füge allen Einheiten 1 Schaden zu.\nPassiv: Wenn ein Bären-Monstrum Token deine Schlachtfeldseite betritt, wiederhole die Einsatz-Fähigkeit.",
-    "type": 0,
+    "type": "Leader",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6320,7 +6320,7 @@
     "cost": 7,
     "tags": "Mensch, Kultist, Krieger, ranged",
     "ability": "Zugende: Heile einen Verbündeten vollständig und füge einem anderen Verbündeten Schaden in Höhe der geheilten Menge zu.",
-    "type": 7,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6331,7 +6331,7 @@
     "cost": 7,
     "tags": "Mensch, Kultist, Druide, siege",
     "ability": "Einsatz: Durchsuche dein Deck nach einer Kultisten Karte mit 0 Kosten und spiele sie aus.\nPassiv: Wird eine Einheit ausgespielt, schädige sie um die Hälfte ihrer Stärke.",
-    "type": 7,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6342,7 +6342,7 @@
     "cost": 8,
     "tags": "Ort",
     "ability": "Durchsuche dein Deck nach zwei Bronze Kultist Karten und rufe sie herbei.",
-    "type": 8,
+    "type": "Spell",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6353,7 +6353,7 @@
     "cost": 4,
     "tags": "Mensch, Kultist, Krieger, siege",
     "ability": "Einsatz: Schädige einen Verbündeten um die Hälfte, dann schädige einen Gegner gleich viel.\nZugende, Berserker 5: Wiederhole die Einsatz Fähigkeit.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6364,7 +6364,7 @@
     "cost": 3,
     "tags": "Mensch, agile",
     "ability": "Einsatz: Generiere Wilfred zur linken dieser Karte, Wilhelm zur rechten und Wilmar in der gegenüberliegenden Reihe.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6375,7 +6375,7 @@
     "cost": 0,
     "tags": "Mensch, Token, agile",
     "ability": "Todeswunsch: Verbessere einen Verbündeten um 3.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6386,7 +6386,7 @@
     "cost": 0,
     "tags": "Mensch, Token, agile",
     "ability": "Todeswunsch: Füge allen Einheiten in der gegenüberliegenden Reihe 1 Schaden zu.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6397,7 +6397,7 @@
     "cost": 0,
     "tags": "Mensch, Token, agile",
     "ability": "Spionage.\nTodeswunsch: Verbessere einen Gegner um 5.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6408,7 +6408,7 @@
     "cost": 3,
     "tags": "Mensch, Kultist, Krieger, melee",
     "ability": "Berserker 3: Verwandle in Meister des Svalblod.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6419,7 +6419,7 @@
     "cost": 3,
     "tags": "Bestie, melee",
     "ability": "Aktiv: Zerstöre einen Verbündeten, dann heile diese Einheit vollständig.",
-    "type": 3,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6430,7 +6430,7 @@
     "cost": 1,
     "tags": "Alchemie",
     "ability": "Heile einen Verbündeten vollständig und verbessere ihn dann in Höhe der geheilten Menge.",
-    "type": 1,
+    "type": "Spell",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6441,7 +6441,7 @@
     "cost": 1,
     "tags": "Mensch, Kultist, Druide, agile",
     "ability": "Zugende: Füge der Einheit rechts von dieser 1 Schaden zu und verbessere diese Karte dann um 2.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6452,7 +6452,7 @@
     "cost": 0,
     "tags": "Mensch, Kultist, agile",
     "ability": "Zugende: Füge der Einheit rechts von dieser 1 Schaden zu und heile die Einheit zur linken dann um 2.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6463,7 +6463,7 @@
     "cost": 0,
     "tags": "Mensch, Kultist, ranged",
     "ability": "Berserker 2: Verwandle in ein Bären-Monstrum Token.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6474,7 +6474,7 @@
     "cost": 1,
     "tags": "Mensch, Kultist, Krieger, melee",
     "ability": "Einsatz: Füge dieser Einheit 3 Schaden zu.\nBerserker 3: Heile diese Einheit vollständig.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6485,7 +6485,7 @@
     "cost": 0,
     "tags": "Mensch, Kultist, Krieger, melee",
     "ability": "Einsatz: Füge einem Verbündeten 2 Schaden zu, dann füge einem Gegner 3 Schaden zu.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6496,7 +6496,7 @@
     "cost": 0,
     "tags": "Mensch, Kultist, Krieger, melee",
     "ability": "Zugende: Füge einem Gegner und dieser Einheit 1 Schaden zu.\nBerserker 3: Verwandle diese Karte in ein Bären-Monstrum Token.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6507,7 +6507,7 @@
     "cost": 0,
     "tags": "Bestie, Kultist, Token, agile",
     "ability": "",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6518,7 +6518,7 @@
     "cost": 0,
     "tags": "Mensch, Krieger, Anführer, agile",
     "ability": "Veteran.\nEinsatz: Generiere ein Ohrenbetäubende Sirene Token in jeder gegnerischen Reihe und füge ihnen 1 Schaden zu.",
-    "type": 0,
+    "type": "Leader",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6529,7 +6529,7 @@
     "cost": 0,
     "tags": "Bestie, Token, agile",
     "ability": "",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6540,7 +6540,7 @@
     "cost": 8,
     "tags": "Raubzug",
     "ability": "Echo. Füge einem Gegner 2 Schaden zu, durchsuche dein Deck nach einem Bronze Krieger und spiele ihn aus. Blutdurst 3: oder Todesstoß: Ignoriere die Bronze Bedingung.",
-    "type": 8,
+    "type": "Spell",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6551,7 +6551,7 @@
     "cost": 9,
     "tags": "Mensch, Krieger, ranged",
     "ability": "Veteran.\nEinsatz: Belebe eine Krieger-Bronzeeinheit wieder und spiele sie aus.\nPassiv: Wenn du einen Krieger ausspielst, füge einem Gegner 1 Schaden zu.",
-    "type": 9,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6562,7 +6562,7 @@
     "cost": 8,
     "tags": "Mensch, Krieger, agile",
     "ability": "Einsatz: Generiere Herr von Undvik in der gegenüberliegenden Reihe und füge ihm 1 Schaden zu.",
-    "type": 8,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6573,7 +6573,7 @@
     "cost": 0,
     "tags": "Ogroid, Token, agile",
     "ability": "Todeswunsch: verbessere einen gegnerischen Hjalmar an Craite um 10.",
-    "type": 0,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6584,7 +6584,7 @@
     "cost": 5,
     "tags": "Mensch, Krieger, melee",
     "ability": "Einsatz: Füge einem Gegner Schaden in Höhe der doppelten Anzahl beschädigter Gegner zu.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6595,7 +6595,7 @@
     "cost": 7,
     "tags": "Maschine, Schiff, siege",
     "ability": "Einsatz: Füge allen beschädigten Gegnern 1 Schaden zu. Füge danach allen Gegnern 1 Schaden zu.",
-    "type": 7,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6606,7 +6606,7 @@
     "cost": 6,
     "tags": "Mensch, Krieger, melee",
     "ability": "Veteran.\nEinsatz: Setze die Stärke eines Gegners zurück und füge ihm dann 1 Schaden zu.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6617,7 +6617,7 @@
     "cost": 6,
     "tags": "Ogroid, melee",
     "ability": "Einsatz: Duelliere mit einem Gegner.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6628,7 +6628,7 @@
     "cost": 2,
     "tags": "Mensch, ranged",
     "ability": "Einsatz, Blutdurst 1: Blockiere einen Gegner.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6639,7 +6639,7 @@
     "cost": 1,
     "tags": "Maschine, Schiff, siege",
     "ability": "Passiv: Wenn dein Gegner eine Einheit auf seiner Schlachtfeldseite ausspielt, füge ihr 1 Schaden zu.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6650,7 +6650,7 @@
     "cost": 2,
     "tags": "Mensch, Krieger, melee",
     "ability": "Veteran.\nEinsatz: Verbessere diese Einheit für jede beschädigte Einheit um 1.",
-    "type": 2,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6661,7 +6661,7 @@
     "cost": 1,
     "tags": "Mensch, Krieger, melee",
     "ability": "Veteran.\nZugende, Hand, Blutdurst 3: Rufe diese Karte herbei und ziehe eine Karte.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6672,7 +6672,7 @@
     "cost": 0,
     "tags": "Mensch, siege",
     "ability": "Passiv: Wenn du einen Krieger ausspielst, verbessere ihn um 1.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6683,7 +6683,7 @@
     "cost": 0,
     "tags": "Mensch, Krieger, melee",
     "ability": "Einsatz: Füge einem Gegner 1 Schaden zu.\nBlutdurst 2: Erhöhe den Schaden auf 3.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6694,7 +6694,7 @@
     "cost": 1,
     "tags": "Mensch, Krieger, ranged",
     "ability": "Zugende, Blutdurst 1: Verbessere diese Einheit um 1.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6705,7 +6705,7 @@
     "cost": 1,
     "tags": "Mensch, Krieger, melee",
     "ability": "Veteran.\nEinsatz: Füge einem Gegner 2 Schaden zu. Wurde diese Einheit wiederbelebt erhöhe den Schaden auf 4.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6716,7 +6716,7 @@
     "cost": 7,
     "tags": "Mensch, Pirat, ranged",
     "ability": "Einsatz: Tausche deinen Friedhof mit deinem Deck.",
-    "type": 7,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6727,7 +6727,7 @@
     "cost": 5,
     "tags": "Bestie, Verflucht, melee",
     "ability": "Einsatz: Füge einem Gegner Schaden in Höhe seiner halben Stärke zu.\nBlutdurst 3: Füge auch den benachbarten Gegnern Schaden in Höhe ihrer halben Stärke zu.",
-    "type": 5,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6738,7 +6738,7 @@
     "cost": 6,
     "tags": "Bestie, melee",
     "ability": "Einsatz: Füge dieser Einheit 10 Schaden zu. Verringere den Schaden für jede einzigartige Bestie auf deinem Friedhof um 2.",
-    "type": 6,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6749,7 +6749,7 @@
     "cost": 1,
     "tags": "Bestie, melee",
     "ability": "Einsatz: Füge einem Verbündeten 2 Schaden zu.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6760,7 +6760,7 @@
     "cost": 0,
     "tags": "Bestie, melee",
     "ability": "Einsatz: Füge einem Gegner 2 Schaden zu und falls du einen Wilder Bär auf dem Friedhof hast, füge einem weiteren Gegner 2 Schaden zu.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6771,7 +6771,7 @@
     "cost": 0,
     "tags": "Mensch, Krieger, melee",
     "ability": "Einsatz: Verbessere diese Einheit um die Anzahl an einzigartigen verbündeten Bestien.",
-    "type": 0,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   },
@@ -6782,7 +6782,7 @@
     "cost": 2,
     "tags": "Erscheinung, Verflucht, ranged",
     "ability": "Einsatz: Tausche die Stärke dieser Einheit mit der einer beschädigten Einheit.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6793,7 +6793,7 @@
     "cost": 2,
     "tags": "Mensch, Krieger, Verflucht, ranged",
     "ability": "Aktiv: Setze die Stärke eines Gegners auf die Stärke dieser Einheit.",
-    "type": 2,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6804,7 +6804,7 @@
     "cost": 4,
     "tags": "Mensch, Krieger, Verflucht, siege",
     "ability": "Einsatz: Durchsuche dein Deck nach einer Verflucht Einheit und spiele sie aus.",
-    "type": 4,
+    "type": "Unit",
     "category": "gold",
     "faction": "skellige"
   },
@@ -6815,7 +6815,7 @@
     "cost": 1,
     "tags": "Mensch, Krieger, melee",
     "ability": "Passiv: Wenn diese Einheit Schaden bekommt, Musterung.",
-    "type": 1,
+    "type": "Unit",
     "category": "bronze",
     "faction": "skellige"
   }
