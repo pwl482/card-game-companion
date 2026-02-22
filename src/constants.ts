@@ -8,6 +8,7 @@ export const FACTIONS: Faction[] = Array.from(new Set(CARDS.map(c => c.faction))
 export const DECK_SIZE_LIMIT = 26;
 export const COST_LIMIT = 65;
 export const MIN_UNIT_COUNT = 13;
+export const LEADER_COUNT_REQUIRED = 1;
 export const BRONZE_COPY_LIMIT = 2;
 export const GOLD_COPY_LIMIT = 1;
 

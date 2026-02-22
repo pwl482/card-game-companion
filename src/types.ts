@@ -1,5 +1,5 @@
 export type CardType = 'gold' | 'bronze';
-export type CardCategory = 'Unit' | 'Spell';
+export type CardCategory = 'Unit' | 'Spell' | 'Leader';
 export type Faction = 'monster' | 'nilfgaard' | 'northern_realms' | 'scoiatel' | 'skellige' | 'neutral' | string;
 
 export interface Card {

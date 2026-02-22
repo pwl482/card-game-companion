@@ -18,7 +18,8 @@ import {
   Gamepad2,
   X,
   CheckCircle2,
-  AlertCircle
+  AlertCircle,
+  Filter
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Card, Deck, AppView, Faction, CardType } from './types';
@@ -28,6 +29,7 @@ import {
   DECK_SIZE_LIMIT, 
   COST_LIMIT, 
   MIN_UNIT_COUNT,
+  LEADER_COUNT_REQUIRED,
   BRONZE_COPY_LIMIT, 
   GOLD_COPY_LIMIT,
   getCardById 
@@ -59,54 +61,54 @@ const CardDisplay: React.FC<CardDisplayProps> = ({
       layout
       className={`relative p-3 rounded-xl border-2 transition-all ${
         isGold 
-          ? 'bg-amber-50 border-amber-200 shadow-amber-100' 
-          : 'bg-slate-50 border-slate-200 shadow-slate-100'
+          ? 'bg-amber-900/20 border-amber-500/40 shadow-amber-900/10' 
+          : 'bg-wood-800/50 border-wood-700 shadow-black/20'
       }`}
     >
       <div className="flex justify-between items-start mb-1">
         <span className={`text-[10px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded ${
-          isGold ? 'bg-amber-200 text-amber-800' : 'bg-slate-200 text-slate-800'
+          isGold ? 'bg-amber-500/20 text-amber-200' : 'bg-wood-700 text-parchment-300'
         }`}>
           {card.type}
         </span>
-        <span className="font-mono text-sm font-bold text-slate-600">
+        <span className="font-mono text-sm font-bold text-parchment-300">
           Cost: {card.cost}
         </span>
       </div>
       
-      <h3 className="font-bold text-slate-900 leading-tight mb-1">{card.name}</h3>
-      <div className="flex gap-2 text-[11px] text-slate-500 mb-2">
+      <h3 className="font-bold text-parchment-100 leading-tight mb-1">{card.name}</h3>
+      <div className="flex gap-2 text-[11px] text-parchment-300/80 mb-2">
         <span className="font-medium italic">{card.faction}</span>
         <span>•</span>
         <span>{card.tags}</span>
       </div>
 
-      <p className="text-xs text-slate-700 bg-white/50 p-2 rounded border border-slate-100 mb-2">
+      <p className="text-xs text-parchment-200 bg-black/20 p-2 rounded border border-wood-700/50 mb-2">
         {card.ability}
       </p>
 
       <div className="flex items-center justify-between mt-2">
         <div className="flex items-center gap-1">
-          <span className="text-lg font-black text-slate-800">{card.strength}</span>
-          <span className="text-[10px] text-slate-400 uppercase font-bold">STR</span>
+          <span className="text-lg font-black text-parchment-100">{card.strength}</span>
+          <span className="text-[10px] text-parchment-300/50 uppercase font-bold">STR</span>
         </div>
         
         {(onAdd || onRemove) && (
-          <div className="flex items-center gap-3 bg-white rounded-full px-2 py-1 shadow-sm border border-slate-100">
+          <div className="flex items-center gap-3 bg-wood-900 rounded-full px-2 py-1 shadow-inner border border-wood-700">
             {onRemove && (
               <button 
                 onClick={(e) => { e.stopPropagation(); onRemove(); }}
-                className="p-1 text-slate-400 hover:text-red-500 transition-colors"
+                className="p-1 text-parchment-300/60 hover:text-red-400 transition-colors"
               >
                 <Minus size={16} />
               </button>
             )}
-            <span className="font-mono font-bold text-slate-700 min-w-[1ch] text-center">{count}</span>
+            <span className="font-mono font-bold text-parchment-100 min-w-[1ch] text-center">{count}</span>
             {onAdd && (
               <button 
                 onClick={(e) => { e.stopPropagation(); onAdd(); }}
                 disabled={disabled}
-                className={`p-1 transition-colors ${disabled ? 'text-slate-200' : 'text-slate-400 hover:text-emerald-500'}`}
+                className={`p-1 transition-colors ${disabled ? 'text-wood-700' : 'text-parchment-300/60 hover:text-emerald-400'}`}
               >
                 <Plus size={16} />
               </button>
@@ -130,6 +132,7 @@ export default function App() {
   });
   const [otherDeckId, setOtherDeckId] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
+  const [showOnlyInDeck, setShowOnlyInDeck] = useState(false);
   const [trackingDeck, setTrackingDeck] = useState<{ deck: Deck, drawnIndices: Set<number> } | null>(null);
   const [selectedCardId, setSelectedCardId] = useState<string | null>(null);
 
@@ -181,6 +184,13 @@ export default function App() {
     }, 0) || 0;
   }, [activeDeck.cardIds]);
 
+  const leaderCount = useMemo(() => {
+    return activeDeck.cardIds?.reduce((sum, id) => {
+      const card = getCardById(id);
+      return sum + (card?.category === 'Leader' ? 1 : 0);
+    }, 0) || 0;
+  }, [activeDeck.cardIds]);
+
   const filteredCards = useMemo(() => {
     return CARDS.filter(card => {
       const matchesFaction = card.faction === activeDeck.faction || card.faction === 'neutral';
@@ -188,12 +198,16 @@ export default function App() {
         card.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
         card.tags.toLowerCase().includes(searchQuery.toLowerCase()) ||
         card.ability.toLowerCase().includes(searchQuery.toLowerCase());
-      return matchesFaction && matchesSearch;
+      
+      const isInDeck = (currentDeckCounts[card.id] || 0) > 0;
+      const matchesFilter = !showOnlyInDeck || isInDeck;
+
+      return matchesFaction && matchesSearch && matchesFilter;
     }).sort((a, b) => {
       if (b.cost !== a.cost) return b.cost - a.cost;
       return a.name.localeCompare(b.name);
     });
-  }, [activeDeck.faction, searchQuery]);
+  }, [activeDeck.faction, searchQuery, showOnlyInDeck, currentDeckCounts]);
 
   const handleAddCard = (card: Card) => {
     const currentCount = currentDeckCounts[card.id] || 0;
@@ -228,6 +242,7 @@ export default function App() {
 
   const handleSaveDeck = () => {
     if (!activeDeck.name || (activeDeck.cardIds?.length || 0) === 0) return;
+    if (leaderCount !== LEADER_COUNT_REQUIRED) return;
     
     const newDeck: Deck = {
       id: activeDeck.id || Date.now().toString(),
@@ -254,7 +269,14 @@ export default function App() {
   };
 
   const startTracking = (deck: Deck) => {
-    setTrackingDeck({ deck, drawnIndices: new Set() });
+    const initialDrawn = new Set<number>();
+    deck.cardIds.forEach((id, index) => {
+      const card = getCardById(id);
+      if (card?.category === 'Leader') {
+        initialDrawn.add(index);
+      }
+    });
+    setTrackingDeck({ deck, drawnIndices: initialDrawn });
     setView('tracker');
   };
 
@@ -270,19 +292,19 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-100 text-slate-900 font-sans pb-24">
+    <div className="min-h-screen bg-wood-950 text-parchment-100 font-sans pb-24">
       {/* Header */}
-      <header className="bg-white border-b border-slate-200 sticky top-0 z-30 px-4 py-4 shadow-sm">
+      <header className="bg-wood-900 border-b border-wood-800 sticky top-0 z-30 px-4 py-4 shadow-xl shadow-black/20">
         <div className="max-w-md mx-auto flex justify-between items-center">
-          <h1 className="text-xl font-black tracking-tighter text-slate-800 flex items-center gap-2">
-            <Gamepad2 className="text-indigo-600" />
-            COMPANION
+          <h1 className="text-xl font-black tracking-tighter text-parchment-100 flex items-center gap-2">
+            <img src="${import.meta.env.BASE_URL}icon-192.png" alt="Gwent Icon" className="w-8 h-8 object-contain" />
+            GWENT COMPANION
           </h1>
           {view === 'builder' && (
             <button 
               onClick={handleSaveDeck}
-              disabled={!activeDeck.name || totalCost > COST_LIMIT}
-              className="flex items-center gap-2 bg-indigo-600 text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg shadow-indigo-100 disabled:opacity-50 transition-all active:scale-95"
+              disabled={!activeDeck.name || totalCost > COST_LIMIT || leaderCount !== LEADER_COUNT_REQUIRED}
+              className="flex items-center gap-2 bg-emerald-700 text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg shadow-emerald-900/20 disabled:opacity-50 transition-all active:scale-95"
             >
               <Save size={18} />
               {activeDeck.id ? 'Update' : 'Save'}
@@ -292,34 +314,69 @@ export default function App() {
         
         {/* Pinned Stats Bar for Builder */}
         {view === 'builder' && (
-          <div className="max-w-md mx-auto mt-4 pt-4 border-t border-slate-100 flex justify-between items-center">
-            <div className="flex flex-col">
-              <span className="text-[10px] font-bold text-slate-400 uppercase">Cards</span>
-              <span className={`text-lg font-black transition-colors ${
-                (activeDeck.cardIds?.length || 0) === DECK_SIZE_LIMIT 
-                  ? 'text-emerald-600' 
-                  : (activeDeck.cardIds?.length || 0) > DECK_SIZE_LIMIT 
-                    ? 'text-red-600' 
-                    : 'text-amber-500'
-              }`}>
-                {activeDeck.cardIds?.length} / {DECK_SIZE_LIMIT}
-              </span>
+          <div className="max-w-md mx-auto mt-4 pt-4 border-t border-wood-800">
+            <div className="flex justify-between items-center mb-4">
+              <div className="flex flex-col">
+                <span className="text-[10px] font-bold text-parchment-300/60 uppercase">Cards</span>
+                <span className={`text-lg font-black transition-colors ${
+                  (activeDeck.cardIds?.length || 0) === DECK_SIZE_LIMIT 
+                    ? 'text-emerald-400' 
+                    : (activeDeck.cardIds?.length || 0) > DECK_SIZE_LIMIT 
+                      ? 'text-red-400' 
+                      : 'text-amber-400'
+                }`}>
+                  {activeDeck.cardIds?.length} / {DECK_SIZE_LIMIT}
+                </span>
+              </div>
+              <div className="flex flex-col items-center">
+                <span className="text-[10px] font-bold text-parchment-300/60 uppercase">Leader</span>
+                <span className={`text-lg font-black transition-colors ${
+                  leaderCount === LEADER_COUNT_REQUIRED ? 'text-emerald-400' : 'text-amber-400'
+                }`}>
+                  {leaderCount} / {LEADER_COUNT_REQUIRED}
+                </span>
+              </div>
+              <div className="flex flex-col items-center">
+                <span className="text-[10px] font-bold text-parchment-300/60 uppercase">Units</span>
+                <span className={`text-lg font-black transition-colors ${
+                  unitCount >= MIN_UNIT_COUNT ? 'text-emerald-400' : 'text-amber-400'
+                }`}>
+                  {unitCount} / {MIN_UNIT_COUNT}+
+                </span>
+              </div>
+              <div className="flex flex-col items-end">
+                <span className="text-[10px] font-bold text-parchment-300/60 uppercase">Total Cost</span>
+                <span className={`text-lg font-black transition-colors ${
+                  totalCost > COST_LIMIT ? 'text-red-400' : 'text-parchment-100'
+                }`}>
+                  {totalCost} / {COST_LIMIT}
+                </span>
+              </div>
             </div>
-            <div className="flex flex-col items-center">
-              <span className="text-[10px] font-bold text-slate-400 uppercase">Units</span>
-              <span className={`text-lg font-black transition-colors ${
-                unitCount >= MIN_UNIT_COUNT ? 'text-emerald-600' : 'text-amber-500'
-              }`}>
-                {unitCount} / {MIN_UNIT_COUNT}+
-              </span>
-            </div>
-            <div className="flex flex-col items-end">
-              <span className="text-[10px] font-bold text-slate-400 uppercase">Total Cost</span>
-              <span className={`text-lg font-black transition-colors ${
-                totalCost > COST_LIMIT ? 'text-red-600' : 'text-slate-800'
-              }`}>
-                {totalCost} / {COST_LIMIT}
-              </span>
+
+            {/* Search & Filters - Pinned */}
+            <div className="flex gap-2 items-center">
+              <button 
+                onClick={() => setShowOnlyInDeck(!showOnlyInDeck)}
+                className={`p-3 rounded-xl border transition-all ${
+                  showOnlyInDeck 
+                    ? 'bg-emerald-700 border-emerald-600 text-white shadow-md shadow-emerald-900/20' 
+                    : 'bg-wood-800 border-wood-700 text-parchment-300/60'
+                }`}
+                title="Filter: Only cards in deck"
+              >
+                <Filter size={20} />
+              </button>
+              <div className="relative flex-1">
+                <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-parchment-300/40" size={18} />
+                <input 
+                  type="text" 
+                  value={searchQuery}
+                  onChange={e => setSearchQuery(e.target.value)}
+                  placeholder="Search name, tags, ability..."
+                  className="w-full bg-wood-800 border border-wood-700 rounded-xl pl-12 pr-4 py-3 focus:outline-none focus:ring-2 focus:ring-emerald-600 transition-all text-sm text-parchment-100 placeholder:text-parchment-300/30"
+                />
+              </div>
             </div>
           </div>
         )}
@@ -337,25 +394,25 @@ export default function App() {
               className="space-y-6"
             >
               {/* Deck Settings */}
-              <section className="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm space-y-4">
+              <section className="bg-wood-900 p-4 rounded-2xl border border-wood-800 shadow-xl shadow-black/10 space-y-4">
                 <div className="space-y-2">
-                  <label className="text-[10px] font-black uppercase text-slate-400 tracking-widest">Deck Name</label>
+                  <label className="text-[10px] font-black uppercase text-parchment-300/40 tracking-widest">Deck Name</label>
                   <input 
                     type="text" 
                     value={activeDeck.name}
                     onChange={e => setActiveDeck(prev => ({ ...prev, name: e.target.value }))}
                     placeholder="Enter deck name..."
-                    className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-all"
+                    className="w-full bg-wood-800 border border-wood-700 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-emerald-600 transition-all text-parchment-100 placeholder:text-parchment-300/20"
                   />
                 </div>
 
                 <div className="grid grid-cols-2 gap-4">
                   <div className="space-y-2">
-                    <label className="text-[10px] font-black uppercase text-slate-400 tracking-widest">Faction</label>
+                    <label className="text-[10px] font-black uppercase text-parchment-300/40 tracking-widest">Faction</label>
                     <select 
                       value={activeDeck.faction}
                       onChange={e => setActiveDeck(prev => ({ ...prev, faction: e.target.value as Faction, cardIds: [] }))}
-                      className="w-full bg-slate-50 border border-slate-200 rounded-xl px-3 py-3 focus:outline-none font-bold text-slate-700"
+                      className="w-full bg-wood-800 border border-wood-700 rounded-xl px-3 py-3 focus:outline-none font-bold text-parchment-200"
                     >
                       {FACTIONS.map(f => (
                         <option key={f} value={f}>{f.charAt(0).toUpperCase() + f.slice(1)}</option>
@@ -363,11 +420,11 @@ export default function App() {
                     </select>
                   </div>
                   <div className="space-y-2">
-                    <label className="text-[10px] font-black uppercase text-slate-400 tracking-widest">Shared Pool With</label>
+                    <label className="text-[10px] font-black uppercase text-parchment-300/40 tracking-widest">Shared Pool With</label>
                     <select 
                       value={otherDeckId || ''}
                       onChange={e => setOtherDeckId(e.target.value || null)}
-                      className="w-full bg-slate-50 border border-slate-200 rounded-xl px-3 py-3 focus:outline-none text-sm"
+                      className="w-full bg-wood-800 border border-wood-700 rounded-xl px-3 py-3 focus:outline-none text-sm text-parchment-300"
                     >
                       <option value="">None</option>
                       {decks.filter(d => d.id !== activeDeck.id && d.faction !== activeDeck.faction).map(d => (
@@ -377,18 +434,6 @@ export default function App() {
                   </div>
                 </div>
               </section>
-
-              {/* Search & Filters */}
-              <div className="relative">
-                <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400" size={18} />
-                <input 
-                  type="text" 
-                  value={searchQuery}
-                  onChange={e => setSearchQuery(e.target.value)}
-                  placeholder="Search name, tags, ability..."
-                  className="w-full bg-white border border-slate-200 rounded-2xl pl-12 pr-4 py-4 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-all"
-                />
-              </div>
 
               {/* Card List */}
               <div className="grid grid-cols-1 gap-4">
@@ -424,30 +469,30 @@ export default function App() {
               className="space-y-4"
             >
               <div className="flex justify-between items-center mb-2">
-                <h2 className="text-lg font-bold text-slate-700">My Saved Decks</h2>
+                <h2 className="text-lg font-bold text-parchment-200">My Saved Decks</h2>
                 <button 
                   onClick={() => {
                     setActiveDeck({ name: '', faction: 'monster', cardIds: [] });
                     setView('builder');
                   }}
-                  className="p-2 bg-white rounded-full border border-slate-200 text-indigo-600 shadow-sm"
+                  className="p-2 bg-wood-800 rounded-full border border-wood-700 text-emerald-400 shadow-lg"
                 >
                   <Plus size={20} />
                 </button>
               </div>
 
               {decks.length === 0 ? (
-                <div className="text-center py-12 bg-white rounded-3xl border-2 border-dashed border-slate-200">
-                  <Library className="mx-auto text-slate-300 mb-4" size={48} />
-                  <p className="text-slate-500 font-medium">No decks found. Start building!</p>
+                <div className="text-center py-12 bg-wood-900/50 rounded-3xl border-2 border-dashed border-wood-800">
+                  <Library className="mx-auto text-wood-700 mb-4" size={48} />
+                  <p className="text-parchment-300/40 font-medium">No decks found. Start building!</p>
                 </div>
               ) : (
                 decks.map(deck => (
-                  <div key={deck.id} className="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm flex justify-between items-center">
+                  <div key={deck.id} className="bg-wood-900 p-4 rounded-2xl border border-wood-800 shadow-xl shadow-black/10 flex justify-between items-center">
                     <div>
-                      <h3 className="font-black text-slate-800">{deck.name}</h3>
-                      <div className="flex gap-2 text-xs text-slate-500 mt-1">
-                        <span className="font-bold uppercase text-indigo-500">{deck.faction}</span>
+                      <h3 className="font-black text-parchment-100">{deck.name}</h3>
+                      <div className="flex gap-2 text-xs text-parchment-300/60 mt-1">
+                        <span className="font-bold uppercase text-emerald-400">{deck.faction}</span>
                         <span>•</span>
                         <span>{deck.cardIds.length} cards</span>
                       </div>
@@ -455,7 +500,7 @@ export default function App() {
                     <div className="flex gap-2">
                       <button 
                         onClick={() => startTracking(deck)}
-                        className="p-2 text-emerald-600 hover:bg-emerald-50 rounded-xl transition-colors"
+                        className="p-2 text-emerald-400 hover:bg-emerald-900/20 rounded-xl transition-colors"
                       >
                         <Play size={20} />
                       </button>
@@ -464,13 +509,13 @@ export default function App() {
                           setActiveDeck(deck);
                           setView('builder');
                         }}
-                        className="p-2 text-indigo-600 hover:bg-indigo-50 rounded-xl transition-colors"
+                        className="p-2 text-amber-400 hover:bg-amber-900/20 rounded-xl transition-colors"
                       >
                         <LayoutGrid size={20} />
                       </button>
                       <button 
                         onClick={() => handleDeleteDeck(deck.id)}
-                        className="p-2 text-red-400 hover:bg-red-50 rounded-xl transition-colors"
+                        className="p-2 text-red-400 hover:bg-red-900/20 rounded-xl transition-colors"
                       >
                         <Trash2 size={20} />
                       </button>
@@ -491,18 +536,18 @@ export default function App() {
               className="space-y-6"
             >
               <div className="flex items-center gap-4">
-                <button onClick={() => setView('decks')} className="p-2 bg-white rounded-xl border border-slate-200">
+                <button onClick={() => setView('decks')} className="p-2 bg-wood-800 rounded-xl border border-wood-700 text-parchment-200">
                   <ChevronLeft size={20} />
                 </button>
                 <div>
-                  <h2 className="text-lg font-black text-slate-800">{trackingDeck.deck.name}</h2>
-                  <p className="text-xs text-slate-500 uppercase font-bold tracking-wider">Game Companion Mode</p>
+                  <h2 className="text-lg font-black text-parchment-100">{trackingDeck.deck.name}</h2>
+                  <p className="text-xs text-parchment-300/40 uppercase font-bold tracking-wider">Game Companion Mode</p>
                 </div>
               </div>
 
-              <div className="bg-indigo-600 text-white p-6 rounded-3xl shadow-xl shadow-indigo-100 flex justify-between items-center">
+              <div className="bg-emerald-800 text-white p-6 rounded-3xl shadow-2xl shadow-black/40 flex justify-between items-center border border-emerald-700/50">
                 <div>
-                  <p className="text-indigo-200 text-xs font-bold uppercase tracking-widest mb-1">Remaining in Deck</p>
+                  <p className="text-emerald-200 text-xs font-bold uppercase tracking-widest mb-1">Remaining in Deck</p>
                   <span className="text-4xl font-black">
                     {trackingDeck.deck.cardIds.length - trackingDeck.drawnIndices.size}
                   </span>
@@ -510,65 +555,101 @@ export default function App() {
                 <Gamepad2 size={48} className="opacity-20" />
               </div>
 
-              <div className="space-y-3">
-                <h3 className="text-sm font-black text-slate-400 uppercase tracking-widest px-1">Cards in Deck</h3>
-                {trackingDeck.deck.cardIds
-                  .map((id, index) => ({ id, index, card: getCardById(id) }))
-                  .filter(item => item.card)
-                  .sort((a, b) => {
-                    if (b.card!.cost !== a.card!.cost) return b.card!.cost - a.card!.cost;
-                    return a.card!.name.localeCompare(b.card!.name);
-                  })
-                  .map(({ id, index, card }) => {
-                    const isDrawn = trackingDeck.drawnIndices.has(index);
-                    
-                    return (
+              <div className="space-y-6">
+                <div className="space-y-3">
+                  <h3 className="text-sm font-black text-parchment-300/40 uppercase tracking-widest px-1">In Deck</h3>
+                  {trackingDeck.deck.cardIds
+                    .map((id, index) => ({ id, index, card: getCardById(id) }))
+                    .filter(item => item.card && !trackingDeck.drawnIndices.has(item.index))
+                    .sort((a, b) => {
+                      if (b.card!.cost !== a.card!.cost) return b.card!.cost - a.card!.cost;
+                      return a.card!.name.localeCompare(b.card!.name);
+                    })
+                    .map(({ id, index, card }) => (
                       <div 
                         key={`${id}-${index}`}
-                        className={`bg-white p-3 rounded-2xl border border-slate-200 shadow-sm flex justify-between items-center transition-all ${isDrawn ? 'opacity-40 grayscale' : ''}`}
+                        className="bg-wood-900 p-3 rounded-2xl border border-wood-800 shadow-lg flex justify-between items-center transition-all"
                       >
                         <div className="flex items-center gap-3">
                           <div className={`w-8 h-8 rounded-lg flex items-center justify-center font-black text-sm ${
-                            card!.type === 'gold' ? 'bg-amber-100 text-amber-700' : 'bg-slate-100 text-slate-700'
+                            card!.type === 'gold' ? 'bg-amber-900/40 text-amber-200' : 'bg-wood-800 text-parchment-300'
                           }`}>
                             {card!.strength}
                           </div>
                           <div>
-                            <p className="font-bold text-slate-800 text-sm">{card!.name}</p>
+                            <p className="font-bold text-parchment-100 text-sm">{card!.name}</p>
                           </div>
                         </div>
                         <div className="flex items-center gap-2">
                           <button 
                             onClick={() => setSelectedCardId(`${id}-${index}`)}
-                            className="p-1.5 text-slate-400 hover:text-indigo-500 transition-colors bg-slate-50 rounded-lg"
+                            className="p-1.5 text-parchment-300/40 hover:text-emerald-400 transition-colors bg-wood-800 rounded-lg"
                           >
                             <Info size={16} />
                           </button>
                           <button 
                             onClick={() => toggleDrawn(index)}
-                            className={`p-1.5 rounded-lg border-2 transition-all ${
-                              isDrawn 
-                                ? 'bg-emerald-500 border-emerald-500 text-white' 
-                                : 'bg-white border-slate-200 text-slate-300'
-                            }`}
+                            className="p-1.5 rounded-lg border-2 transition-all bg-wood-800 border-wood-700 text-parchment-300/20"
                           >
                             <CheckCircle2 size={16} />
                           </button>
                         </div>
                       </div>
-                    );
-                  })}
+                    ))}
+                </div>
+
+                <div className="space-y-3">
+                  <h3 className="text-sm font-black text-parchment-300/40 uppercase tracking-widest px-1">Drawn / Out of Deck</h3>
+                  {trackingDeck.deck.cardIds
+                    .map((id, index) => ({ id, index, card: getCardById(id) }))
+                    .filter(item => item.card && trackingDeck.drawnIndices.has(item.index))
+                    .sort((a, b) => {
+                      if (b.card!.cost !== a.card!.cost) return b.card!.cost - a.card!.cost;
+                      return a.card!.name.localeCompare(b.card!.name);
+                    })
+                    .map(({ id, index, card }) => (
+                      <div 
+                        key={`${id}-${index}`}
+                        className="bg-wood-950 p-3 rounded-2xl border border-wood-900 shadow-sm flex justify-between items-center transition-all opacity-40 grayscale"
+                      >
+                        <div className="flex items-center gap-3">
+                          <div className={`w-8 h-8 rounded-lg flex items-center justify-center font-black text-sm ${
+                            card!.type === 'gold' ? 'bg-amber-900/20 text-amber-400/50' : 'bg-wood-900 text-parchment-300/50'
+                          }`}>
+                            {card!.strength}
+                          </div>
+                          <div>
+                            <p className="font-bold text-parchment-300/50 text-sm">{card!.name}</p>
+                          </div>
+                        </div>
+                        <div className="flex items-center gap-2">
+                          <button 
+                            onClick={() => setSelectedCardId(`${id}-${index}`)}
+                            className="p-1.5 text-parchment-300/20 hover:text-emerald-400 transition-colors bg-wood-900 rounded-lg"
+                          >
+                            <Info size={16} />
+                          </button>
+                          <button 
+                            onClick={() => toggleDrawn(index)}
+                            className="p-1.5 rounded-lg border-2 transition-all bg-emerald-700 border-emerald-600 text-white"
+                          >
+                            <CheckCircle2 size={16} />
+                          </button>
+                        </div>
+                      </div>
+                    ))}
+                </div>
               </div>
               
               {/* Floating Detail Overlay */}
               <AnimatePresence>
                 {selectedCardId && view === 'tracker' && (
-                  <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/40 backdrop-blur-sm">
+                  <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-md">
                     <motion.div 
                       initial={{ opacity: 0, scale: 0.9 }}
                       animate={{ opacity: 1, scale: 1 }}
                       exit={{ opacity: 0, scale: 0.9 }}
-                      className="w-full max-w-sm bg-white p-6 rounded-3xl shadow-2xl border border-slate-200 relative"
+                      className="w-full max-w-sm bg-wood-900 p-6 rounded-3xl shadow-2xl border border-wood-700 relative"
                     >
                       {(() => {
                         const cardId = selectedCardId.split('-')[0];
@@ -578,27 +659,27 @@ export default function App() {
                           <>
                             <div className="flex justify-between items-start mb-4">
                               <div>
-                                <h4 className="text-2xl font-black text-slate-800">{card.name}</h4>
-                                <p className="text-indigo-600 font-bold text-sm uppercase tracking-widest">{card.faction} • {card.tags}</p>
+                                <h4 className="text-2xl font-black text-parchment-100">{card.name}</h4>
+                                <p className="text-emerald-400 font-bold text-sm uppercase tracking-widest">{card.faction} • {card.tags}</p>
                               </div>
                               <button 
                                 onClick={() => setSelectedCardId(null)} 
-                                className="p-2 bg-slate-100 rounded-full hover:bg-slate-200 transition-colors"
+                                className="p-2 bg-wood-800 rounded-full hover:bg-wood-700 transition-colors text-parchment-300"
                               >
                                 <X size={20} />
                               </button>
                             </div>
-                            <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100 mb-6">
-                              <p className="text-slate-700 leading-relaxed font-medium">{card.ability}</p>
+                            <div className="bg-black/20 p-4 rounded-2xl border border-wood-800 mb-6">
+                              <p className="text-parchment-200 leading-relaxed font-medium">{card.ability}</p>
                             </div>
                             <div className="grid grid-cols-2 gap-4">
-                              <div className="bg-slate-50 p-3 rounded-xl text-center">
-                                <p className="text-[10px] font-black text-slate-400 uppercase mb-1">Strength</p>
-                                <p className="text-xl font-black text-slate-800">{card.strength}</p>
+                              <div className="bg-wood-800 p-3 rounded-xl text-center border border-wood-700">
+                                <p className="text-[10px] font-black text-parchment-300/40 uppercase mb-1">Strength</p>
+                                <p className="text-xl font-black text-parchment-100">{card.strength}</p>
                               </div>
-                              <div className="bg-slate-50 p-3 rounded-xl text-center">
-                                <p className="text-[10px] font-black text-slate-400 uppercase mb-1">Cost</p>
-                                <p className="text-xl font-black text-slate-800">{card.cost}</p>
+                              <div className="bg-wood-800 p-3 rounded-xl text-center border border-wood-700">
+                                <p className="text-[10px] font-black text-parchment-300/40 uppercase mb-1">Cost</p>
+                                <p className="text-xl font-black text-parchment-100">{card.cost}</p>
                               </div>
                             </div>
                           </>
@@ -612,10 +693,10 @@ export default function App() {
               {trackingDeck.drawnIndices.size === trackingDeck.deck.cardIds.length && (
                 <div className="text-center py-12">
                   <CheckCircle2 className="mx-auto text-emerald-500 mb-4" size={48} />
-                  <p className="text-slate-800 font-black text-xl">Deck Empty!</p>
+                  <p className="text-parchment-100 font-black text-xl">Deck Empty!</p>
                   <button 
-                    onClick={() => setTrackingDeck({ deck: trackingDeck.deck, drawnIndices: new Set() })}
-                    className="mt-4 text-indigo-600 font-bold"
+                    onClick={() => startTracking(trackingDeck.deck)}
+                    className="mt-4 text-emerald-400 font-bold"
                   >
                     Reset Tracker
                   </button>
@@ -627,18 +708,18 @@ export default function App() {
       </main>
 
       {/* Bottom Navigation */}
-      <nav className="fixed bottom-0 inset-x-0 bg-white border-t border-slate-200 px-6 py-3 pb-8 z-40 shadow-[0_-4px_12px_rgba(0,0,0,0.05)]">
+      <nav className="fixed bottom-0 inset-x-0 bg-wood-900 border-t border-wood-800 px-6 py-3 pb-8 z-40 shadow-[0_-4px_24px_rgba(0,0,0,0.4)]">
         <div className="max-w-md mx-auto flex justify-between items-center">
           <button 
             onClick={() => setView('builder')}
-            className={`flex flex-col items-center gap-1 transition-colors ${view === 'builder' ? 'text-indigo-600' : 'text-slate-400'}`}
+            className={`flex flex-col items-center gap-1 transition-colors ${view === 'builder' ? 'text-emerald-400' : 'text-parchment-300/30'}`}
           >
             <LayoutGrid size={24} />
             <span className="text-[10px] font-black uppercase tracking-widest">Builder</span>
           </button>
           <button 
             onClick={() => setView('decks')}
-            className={`flex flex-col items-center gap-1 transition-colors ${view === 'decks' ? 'text-indigo-600' : 'text-slate-400'}`}
+            className={`flex flex-col items-center gap-1 transition-colors ${view === 'decks' ? 'text-emerald-400' : 'text-parchment-300/30'}`}
           >
             <Library size={24} />
             <span className="text-[10px] font-black uppercase tracking-widest">Decks</span>
@@ -648,7 +729,7 @@ export default function App() {
               if (trackingDeck) setView('tracker');
               else setView('decks');
             }}
-            className={`flex flex-col items-center gap-1 transition-colors ${view === 'tracker' ? 'text-indigo-600' : 'text-slate-400'}`}
+            className={`flex flex-col items-center gap-1 transition-colors ${view === 'tracker' ? 'text-emerald-400' : 'text-parchment-300/30'}`}
           >
             <Gamepad2 size={24} />
             <span className="text-[10px] font-black uppercase tracking-widest">Tracker</span>
