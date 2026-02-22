@@ -34,6 +34,7 @@ import {
   GOLD_COPY_LIMIT,
   getCardById 
 } from './constants';
+import icon from "./assets/icon-192.png";
 
 // --- Components ---
 
@@ -297,7 +298,7 @@ export default function App() {
       <header className="bg-wood-900 border-b border-wood-800 sticky top-0 z-30 px-4 py-4 shadow-xl shadow-black/20">
         <div className="max-w-md mx-auto flex justify-between items-center">
           <h1 className="text-xl font-black tracking-tighter text-parchment-100 flex items-center gap-2">
-            <img src="${import.meta.env.BASE_URL}icon-192.png" alt="Gwent Icon" className="w-8 h-8 object-contain" />
+            <img src={icon} alt="Gwent Icon" className="w-8 h-8 object-contain" />
             GWENT COMPANION
           </h1>
           {view === 'builder' && (
